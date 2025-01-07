@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dependency xmlns="http://www.daimler.com/DIVeDependency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeDependency.xsd">
+    <GlobalParameter parameter="aGrv" subspecies="" name="drv_aGrv" description="accln due to gravity" dimension="1" minimum="9.8067" maximum="9.8067" unit="m/sec^2"/>
+    <LocalParameter name="mass_gcw_kg" description="Vehicle and trailer mass" dimension="1" minimum="0" maximum="260000" unit="kg" subspecies="" globalName="mec_massVehicle_kg"/>
+    <LocalParameter name="rdyn" description="Dynamic wheel radius" dimension="1" minimum="0" maximum="1000" unit="mm" subspecies="" globalName="mec_rWheelDriven"/>
+    <LocalParameter name="coefReRollgVeh" description="fRollCoeff over all axes" dimension="1" minimum="0" maximum="1000" unit="-" subspecies="" globalName="mec_fRollCoeffOverall"/>
+    <LocalParameter name="aeroCdA_m2" description="Vehicle frontal area" dimension="1" minimum="1" maximum="15" unit="m^2" subspecies="" globalName="mec_veh_aeroCdA_m2"/>
+    <LocalParameter name="gearration" description="vehicle gear ration" dimension="1" minimum="0" maximum="30" unit="-" subspecies="" globalName="mec_iDiffAxle"/>
+    <LocalParameter name="aeroRhoAirDensity_kgpm3" description="Air density rho" dimension="1" minimum="0" maximum="1000" unit="kg/m^3" subspecies="" globalName="mec_veh_aeroRhoAirDensity_kgpm3"/>
+    <LocalParameter name="vehPara.cpc_e_Nm_max" description="max. engine torque" dimension=":,:" minimum="" maximum="" unit="Nm" subspecies="" globalName="cpc_e_Nm_max"/>
+    <LocalParameter name="vehPara.tcm_iGrFwrd" description="Ratio of forward gears" dimension="1,16" minimum="0" maximum="20" unit="-" subspecies="" globalName="tcm_iGrFwrd"/>
+    <LocalParameter name="vehPara.mec_axle_config" description="(1): number of all wheels (2): number of driven wheels" dimension="1,2" minimum="1" maximum="8" unit="-" subspecies="" globalName="mec_axleConfig"/>
+    <LocalParameter name="vehPara.ebs_zSoll_dx_yAxis_nom" description="Nominal Deceleration Set Value [-]" dimension="1,:" minimum="" maximum="" unit="-" subspecies="" globalName="ebs_zSoll_dx_yAxis_nom"/>
+    <LocalParameter name="vehPara.ebs_zSoll_dx_xAxis_nom" description="Nominal InputShaft Displacement [-]" dimension="1,:" minimum="" maximum="" unit="-" subspecies="" globalName="ebs_zSoll_dx_xAxis_nom"/>
+    <LocalParameter name="vehPara.axleiDiff" description="Axle ratio" dimension="1" minimum="0" maximum="10" unit="-" subspecies="" globalName="mec_iDiffAxle"/>
+	<LocalParameter name="vehPara.rpm_EM" description="E-Motor loss- Speed Breakpoint Data" dimension=":,:" minimum="0" maximum="20000" unit="rpm" subspecies="" globalName="hvs_emot_nTab_1stD"/>
+    <LocalParameter name="vehPara.Nm_EM" description="Maximum E-Motor Torque Table Data" dimension=":,:" minimum="-1000" maximum="1000" unit="Nm" subspecies="" globalName="hvs_emot_trqMaxRow"/>
+   
+	</Dependency>	

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SupportSet xmlns="http://www.daimler.com/DIVeSupport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v090\XMLSchemes\DIVeSupport.xsd" name="instrumentFcn" type="" family="sil" species="mcm" context="ctrl" level="family" specificationVersion="0.9.0" supportSetVersion="1" description="">
+    <SupportFile name="msfcn_deadend.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="OutputMVA.mdl" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="slcInstrument.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="slcInstrumentListParse.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsBusSelectorCleanup.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsEcuInstrumentPrepare.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsFrameCopy.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsFrameInfo.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="xCMFrameSwitcher.m" executeAtInit="0" copyToRunDirectory="0"/>
+</SupportSet>

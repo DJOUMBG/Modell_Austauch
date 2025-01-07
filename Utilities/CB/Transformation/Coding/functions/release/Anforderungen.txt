@@ -1,0 +1,33 @@
+VORAUSSETZUNG:
+    Alle Funktionen müssen return terminiert sein! Wenn nicht => Fehlermeldung (muss das letzte Wort in Datei sein)
+
+ZIEL:
+    Release-Umgebung mit folgendem Aufbau:
+        Oberste Ebene: Alle vorgegebenen Main-Skripts
+        Unterordner "source": 
+
+    Überarbeitung Main-Skripts:
+        addpath und rmpath von "source"
+
+    Unterorder "source":
+        Alle Linked pcodes der Main-Funktionen oder additional pcodes
+
+    Help Txt-File:
+        Text-File mit der Funktionsbeschreibung aller pcodes (vermutlich nur von denen aus functions und objects)
+            => Output von Option help
+
+
+INPUT Release Build:
+    - Liste der Main-Funktionen (müssen m-Files sein, absoluter Pfad, müssen function sein => kann das Matlab prüfen?)
+    - Liste der Main-Skripts (müssen m-Files sein, absoluter Pfad, keine function oder object => kann das Matlab prüfen?)
+    - Liste der Search-Paths (absoluter Pfad)
+    - Liste von Files, die nicht gelinked oder in Release kopiert werden sollen
+
+
+PROGRAMM:
+    - Auf absolute Pfade prüfen
+    - Prüfen, ob jeweilige Funktionen keine Syntax-Fehler enthalten => Befehl Matlab
+	- matlabPathRestoreSet verwenden, um Pfade zu entfernen und wieder hinzuzufügen
+	- Dafür sorgen, dass alle Funktionen mit "return" anstatt "end" enden
+    - Ordner erst erstellen und dann Files kopieren, wenn erfolgreich
+    - Liste der benötigten Produkte erstellen

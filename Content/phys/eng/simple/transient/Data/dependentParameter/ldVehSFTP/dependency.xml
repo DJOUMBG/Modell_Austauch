@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dependency xmlns="http://www.daimler.com/DIVeDependency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeDependency.xsd">
+    <GlobalParameter parameter="Setpoint_fuelledMode_z_Torque_Nm" subspecies="" name="eng_Setpoint_fuelledMode_z_Torque_Nm" description="Vector of engine map drag torque values" dimension="21,22" minimum="-5000" maximum="5000" unit="Nm"/>
+    <GlobalParameter parameter="Setpoint_fuelledMode_x_NMOTW_rpm" subspecies="" name="eng_Setpoint_fuelledMode_x_NMOTW_rpm" description="Breakpoint vector of engine map velocity values (drag torque values)" dimension="1,22" minimum="0" maximum="3900" unit="rpm"/>
+    <GlobalParameter parameter="Setpoint_fuelledMode_z_Mfuel_mgstr" subspecies="" name="eng_Setpoint_fuelledMode_z_Mfuel_mgstr" description="Stationary fuel map for standard engine conditions (TMH-Mode MDEG/HDEP)" dimension="21,22" minimum="0" maximum="1000" unit="mg/stroke"/>
+</Dependency>

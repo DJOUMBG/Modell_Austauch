@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dependency xmlns="http://www.daimler.com/DIVeDependency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeDependency.xsd">
+    <GlobalParameter parameter="name" subspecies="road" name="env_RoadName" description="road name" dimension="char" minimum="" maximum="" unit=""/>
+    </Dependency>

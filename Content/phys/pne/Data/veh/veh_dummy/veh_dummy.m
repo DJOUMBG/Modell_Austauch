@@ -1,0 +1,13 @@
+axleLoadTractor_kg=[5000.0,5000.0,0.0,0.0]; % [kg] Axle Loads Tractor
+axleLoadTrailer_kg=[5000.0,0.0,0.0]; % [kg] Axle Loads Trailer
+AxleSpringType=[0.0,0.0,0.0,0.0]; % Axle spring types of tractor 0->undefined, 1->air, 2->steel
+pAppCyl_Tractor=[0.29999999999999999,0.29999999999999999,0.0,0.0]; % [bar] pAppCyl Tractor Axles [A1, A2, A3, A4] [bar]
+pAppCyl_Trailer=[0.0,0.0,0.0]; % [bar] pAppCyl Trailer Axles [TA1, TA2, TA3] [bar]
+rdynTractor=[500.0,500.0,1000.0,1000.0]; % [mm] Tractor rDyn
+rdynTrailer=[1000.0,1000.0,1000.0]; % [mm] Trailer rDyn
+stepSize=0.01; % [s]  step size [s]
+T1_APCV=0.015; % [s] Time Constant for Outlet Pressure Build Up APCV
+T1_CMAX=0.015; % [s] Time Constant for Outlet Pressure Build Up CMAX
+axleLoadTrailer02_kg=[0.0,0.0,0.0,0.0,0.0,0.0]; % [kg] Axle Loads Trailer02
+pAppCyl_Trailer02=[0.0,0.0,0.0,0.0,0.0,0.0]; % [bar] application pressure of trailer axles [A1, A2, A3, A4, A5, A6]  [bar]
+rdynTrailer02=[1000.0,1000.0,1000.0,1000.0,1000.0,1000.0]; % [mm] Trailer02 rDyn

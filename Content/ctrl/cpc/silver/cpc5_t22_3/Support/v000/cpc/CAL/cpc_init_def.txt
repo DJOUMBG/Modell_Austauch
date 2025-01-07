@@ -1,0 +1,18 @@
+// Structure Version xxxx, used in CPC xx.x
+cal_o_AgModulState_u8
+cal_o_AgStructVersNr_u32
+cal_o_AgActGrpNr_u32
+
+cal_g_AgMbs1_u8
+cal_g_AgMbs2_u8
+cal_g_AgMbs3_u8
+cal_g_AgMbs4_u8
+cal_g_AgMbs5_u8
+cal_g_AgMbs6_u8
+cal_g_AgMbs7_u8
+cal_g_AgMbs8_u8
+cal_g_AgMbs9_u8
+cal_g_AgMbs10_u8
+cal_g_AgMbs11_u8
+cal_g_AgMbs12_u8
+cal_g_AgMbs13_u8

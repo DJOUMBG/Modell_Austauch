@@ -1,0 +1,10 @@
+Wheel files werden hier hin installiert:
+    %SILVER_HOME%\common\ext-tools\python3\lib\site-packages
+
+
+Geprueft kann dies Ueber die Konsole werden:
+    %SILVER_HOME%\common\ext-tools\python3.python.exe -m pip show {Paketname}
+
+    Fuer numpy z.B.:
+    %SILVER_HOME%\common\ext-tools\python3.python.exe -m pip show numpy
+    

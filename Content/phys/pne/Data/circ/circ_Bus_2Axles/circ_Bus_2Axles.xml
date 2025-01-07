@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.daimler.com/DIVeData" classType="circ" context="phys" dataSetVersion="1.0" description="Pneumatic System, brakes right and left per axle with dynamics" family="" level="species" name="circ_Bus_2Axles" reference="circ_dummy" species="pne" specificationVersion="1.0.0" type="" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd">
+  <DataFile copyToRunDirectory="0" executeAtInit="0" isStandard="1" name="circ_Bus_2Axles.m"/>
+</DataSet>

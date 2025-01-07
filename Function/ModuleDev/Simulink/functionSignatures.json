@@ -1,0 +1,18 @@
+{
+  "dstXmlDataSet":
+  {
+     "inputs":
+     [
+        {"name":"sPath", "type":"filepath"}
+     ]
+  },
+
+  "dmdModuleTest":
+  {
+     "inputs":
+     [
+        {"name":"sFileXml", "type":"filepath"},
+	    {"name":"sModelSet", "kind":"flag", "display":"", "type":["char", "choices={'open','sfcn_w32_R2010bSP1','sfcn_w64_R2014a','sfcn_w64_R2016a','sfcn_w64_R2017b','fmu10','fmu20','silver_dll_32','silver_dll_64'}"], "default":"'open'"}
+     ]
+  }
+}

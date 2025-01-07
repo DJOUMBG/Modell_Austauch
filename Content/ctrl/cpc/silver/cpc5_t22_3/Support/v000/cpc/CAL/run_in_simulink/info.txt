@@ -1,0 +1,3 @@
+Simulink to run CAL module
+
+Not needed any more, because complete CPC is simulated at the initialisation to get CAL paramter

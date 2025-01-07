@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dependency xmlns="http://www.daimler.com/DIVeDependency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeDependency.xsd">
+    <GlobalParameter parameter="iGrBwrd" subspecies="" name="tcm_iGrBwrd" description="Ratio of reverse gears" dimension="1,4" minimum="-20" maximum="0" unit="-"/>
+    <GlobalParameter parameter="iGrFwrd" subspecies="" name="tcm_iGrFwrd" description="Ratio of forward gears" dimension="1,16" minimum="0" maximum="20" unit="-"/>
+    <GlobalParameter parameter="y_ret_M_max" subspecies="" name="tcm_y_ret_M_max" description="Vector of retarder full-load torque values for automatic transmissions voith or zf" dimension=":,1" minimum="0" maximum="5000" unit="Nm"/>
+    <GlobalParameter parameter="x_ret_GW_rpm" subspecies="" name="tcm_x_ret_GW_rpm" description="Breakpoint vector of retarder velocity values for automatic transmissions voith or zf" dimension=":,1" minimum="0" maximum="10000" unit="rpm"/>
+    <LocalParameter name="DIWA_BB_ParValues" description="Automatic Transmission Voith Diwa special parameter" dimension="18,1" minimum="-100000" maximum="100000" unit="-" subspecies="" globalName="mec_tx_DIWA_BB_ParValues"/>
+</Dependency>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SupportSet xmlns="http://www.daimler.com/DIVeSupport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeSupport.xsd" name="subspecies" type="generic_ATvoithNXT" family="pointmass" species="mec" context="phys" level="type" specificationVersion="1.0.0" supportSetVersion="1" description="">
+    <SupportFile name="mec_subspecies.m" executeAtInit="0" copyToRunDirectory="0"/>
+</SupportSet>

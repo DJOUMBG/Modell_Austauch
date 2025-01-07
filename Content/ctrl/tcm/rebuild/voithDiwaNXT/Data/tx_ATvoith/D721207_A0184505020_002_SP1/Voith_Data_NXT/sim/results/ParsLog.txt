@@ -1,0 +1,97 @@
+EOL Parametrierungen und DS - Werte
+Für die Simulation werden gesetzte EOL Parameter verwendet
+Bei Option AccLim via EOL == 1 werden die EOL Parameter angesetzt 
+
+--------------------------------------------------------
+Parameterdatenbasis C:\Users\gorashe\Documents\Daten\Projekte\Daimler_CompactHybrid\PEP-SiL\Daimler_Server_VOITH
+--------------------------------------------------------
+--------------------------------------------------------
+Sachnummer für Getriebe-Baumuster D722.110
+Sachnummer Steuerung E300.1  A.020.450.50.10
+Verwendete Hex-File E300.1-D5.13.10.0S-01747101.hex
+Verwendetes Voith Getriebebaumuster VOITH D 884.6 Diff.4
+--------------------------------------------------------
+
+--------------------------------------------------------
+SP_SEL_Gewaehltes_Schaltprg_[1_GND-2_OPEN-3_HIGH(24V)] 2_OPEN
+--------------------------------------------------------
+
+
+
+--------------------------------------------------------
+Selected_SP_Number im SP [1_GND-2_OPEN-3_HIGH(24V)]    6
+--------------------------------------------------------
+
+
+--------------------------------------------------------
+EOL_SP_SETUP_AT_SP_SEL_HIGH_SensoTopSlider    20
+EOL_SP_SETUP_AT_SP_SEL_OPEN_SensoTopSlider    20
+EOL_SP_SETUP_AT_SP_SEL_LOW_SensoTopSlider    20
+--------------------------------------------------------
+DATENSATZ / ST_SLIDER_SCALING_(1) - HIGH   100
+DATENSATZ / ST_SLIDER_SCALING_(2) - OPEN   100
+DATENSATZ / ST_SLIDER_SCALING_(3) - LOW   100
+--------------------------------------------------------
+
+
+--------------------------------------------------------
+AccLim via EOL    1
+--------------------------------------------------------
+
+
+--------------------------------------------------------
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+EOL_ACC_MAX_AT_VEHICLE_SPEED_ 500.00
+--------------------------------------------------------
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 140.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 100.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 75.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 50.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 40.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 35.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 35.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 35.00
+DATENSATZ / ACC_MAX_AT_VEHICLE_SPEED_ 35.00
+--------------------------------------------------------
+
+--------------------------------------------------------
+EOL_VEHICLE_AXLE_GEAR_RATIO_ 5270.00
+--------------------------------------------------------
+--------------------------------------------------------
+DATENSATZ / VEHICLE_AXLE_GEAR_RATIO_ 6866.00
+--------------------------------------------------------
+
+--------------------------------------------------------
+EOL_VEHICLE_TYRE_RADIUS_DYNAMIC_ 0.466
+--------------------------------------------------------
+--------------------------------------------------------
+DATENSATZ / VEHICLE_TYRE_RADIUS_DYNAMIC_ 0.506
+--------------------------------------------------------
+
+--------------------------------------------------------
+----------------   Aux - Parameter  --------------------
+--------------------------------------------------------
+VoithData.DS.aux.dt_ANS 0.50
+VoithData.DS.aux.RelSMR 0.00
+--------------------------------------------------------
+VoithData.DS.aux.shift_time 0.70
+VoithData.DS.aux.actSE_delay 0.40
+VoithData.DS.aux.actSE_off 0.01
+VoithData.DS.aux.actSE_start 0.40
+--------------------------------------------------------
+VoithData.DS.aux.i_Winkel 1.00
+VoithData.DS.aux.eta_Axle 0.95
+VoithData.DS.aux.eta_TR_mean 0.94
+VoithData.DS.aux.eta_Winkel 1.00
+--------------------------------------------------------
+VoithData.DS.aux.fR 0.007
+VoithData.DS.aux.rho_Air 1.21
+--------------------------------------------------------
+

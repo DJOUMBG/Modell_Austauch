@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module xmlns="http://www.daimler.com/DIVeModule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeModule.xsd" name="v0" type="common" family="ld" species="log" context="pltm" specificationVersion="1.0.0" moduleVersion="1.0" maxCosimStepsize="0.01" description="">
+    <Implementation>
+        <ModelSet type="open" executionTool="Simulink_w64_R2014a" authoringTool="Simulink_w64_R2014a" executionToolUpwardCompatible="1">
+            <ModelFile name="log_ld_common_v0.slx" isMain="1" copyToRunDirectory="0"/>
+        </ModelSet>
+        <SupportSet name="DIVeRules" level="family">
+            <SupportFile name="ILD.m" executeAtInit="1" copyToRunDirectory="0"/>
+        </SupportSet>
+    </Implementation>
+    <Interface>
+        <DataSet className="initIO" classType="initIO" level="type" isSubspecies="0" reference="std"/>
+        <DataSet className="logcfg" classType="logcfg" level="family" isSubspecies="0" reference="sigLogCfg_default"/>
+        <Inport name="drv_simulationEnd_sta" type="info" unit="-" sna="" minPhysicalRange="0" maxPhysicalRange="1" signalLabel="simulation end status (driver)" manualDescription="0 simulation end not reached, 1 simulation end reached" autoDescription="" responsibleTeam="FCDP Fuel Consumption and Driving Performance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="" connectorType="" connectorOrientation="" quantity="" moduleSpecies="drv" moduleSubspecies="" characteristic="" functionalChain="" chainPosition="" index="1"/>
+        <Parameter name="drv_simulationEnd_sta" index="" unit="-" size="1" description="0 simulation end not reached, 1 simulation end reached" className="initIO"/>
+    </Interface>
+</Module>

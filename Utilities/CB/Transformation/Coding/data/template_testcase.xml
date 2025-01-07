@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="template_testcase" specificationVersion="0.9.1" description="Dummy modules for time frame checking of co-simulation approach. s-function version for fast Silver SimTech testing." creator="rohrere" lastSave="05-Mar-2024 08:36:01" source="DIVeONE" validationState="1" systemClass="Vehicle" systemApplication="Other" focus="DIVeCBdev" market="Other" performance="fast" project="DIVeCBdev" useAutoInitOrder="1" freeTag="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v110\XMLSchemes\DIVeConfiguration.xsd" xmlns="http://www.daimler.com/DIVeConfiguration">
+    <ModuleSetup name="eng" initOrder="">
+        <Module context="phys" species="eng" family="dummy" type="time" variant="std" modelSet="sfcn_w64_R2016a" versionId="42446" workState="1" maxCosimStepsize="0.01" solverType="FixedStep01" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="42446" workState="1" />
+    </ModuleSetup>
+    <ModuleSetup name="env" initOrder="">
+        <Module context="bdry" species="env" family="dummy" type="time" variant="std" modelSet="sfcn_w64_R2016a" versionId="42443" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="42443" workState="0" />
+        <SupportSet name="dummy" level="type" versionId="1133" />
+    </ModuleSetup>
+    <ModuleSetup name="log" initOrder="">
+        <Module context="pltm" species="log" family="common" type="signal" variant="std" modelSet="sfcn_w64_R2014a" versionId="45875" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="33757" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef01" variant="all" versionId="33757" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef02" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef03" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef04" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef05" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef06" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef07" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef08" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef09" variant="none" versionId="118237" workState="0" />
+        <DataSet level="family" classType="signalRef" className="signalRef10" variant="none" versionId="118237" workState="0" />
+        <SupportSet name="subspecies" level="family" versionId="33757" />
+    </ModuleSetup>
+    <ModuleSetup name="mcm" initOrder="">
+        <Module context="ctrl" species="mcm" family="dummy" type="time" variant="std" modelSet="sfcn_w64_R2016a" versionId="42445" workState="1" maxCosimStepsize="0.01" solverType="FixedStep01" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="42445" workState="1" />
+    </ModuleSetup>
+    <MasterSolver maxCosimStepsize="0.01" solverType="FixedStep01" timeEnd="15" />
+    <Interface>
+        <LogSetup sampleTime="0.01" sampleType="MAT" />
+        <Logging name="eng_dummy_time" unit="s" modelRef="eng" />
+        <Logging name="env_dummy_time" unit="s" modelRef="env" />
+        <Logging name="env_dummy_timeOfPhys" unit="s" modelRef="env" />
+        <Logging name="mcm_dummy_time" unit="s" modelRef="mcm" />
+    </Interface>
+</Configuration>

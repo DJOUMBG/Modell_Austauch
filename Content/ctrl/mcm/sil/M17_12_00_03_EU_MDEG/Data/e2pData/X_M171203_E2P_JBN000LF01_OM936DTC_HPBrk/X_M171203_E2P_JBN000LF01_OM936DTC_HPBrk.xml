@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd" classType="e2pData" reference="X_M1711051_E2P_JBN000LF00_OM936DTC" name="X_M171203_E2P_JBN000LF01_OM936DTC_HPBrk" type="M17_12_00_03_EU_MDEG" family="sil" species="mcm" context="ctrl" level="type" specificationVersion="1.0.0" dataSetVersion="1" description="">
+    <DataFile name="X_M171203_E2P_JBN000LF01.dcm" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+</DataSet>

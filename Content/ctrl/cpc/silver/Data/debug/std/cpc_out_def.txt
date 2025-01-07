@@ -1,0 +1,26 @@
+# Last value of signal, output is usually alphabetically sorted
+cal_o_AgModulState_u8
+cal_o_AgStructVersNr_u32
+cal_o_AgActGrpNr_u32
+cal_m_EnCal_u8
+cal_g_AgAutoNeuReqActv_u1
+diag_s_ErrAgDatasetNotComp_u1
+ptconf_g_ErrPtcEepDatPos_u8
+ptconf_g_SysStat_u8
+itpm_m_VehParCheck_u8
+itpm_m_VehParCheckDiag_u16
+itpm_m_MainEna_u8
+itpm_m_MainDiag_u16
+itpm_m_ObsEna_u8
+itpm_m_ObsDiag_u32
+itpm_m_VerEna_u8
+itpm_m_VerEnaDiag_u32
+itpm_m_ObsSel_u8
+itpm_m_ObsStat_u8
+itpm_m_AuxEna_u8
+itpm_m_AuxDiag_u16
+itpm_m_AuxVehMassEna_u8
+itpm_m_AuxVehMassDiag_u16
+itpm_m_AuxVehMassResetDiag_u8
+itpm_m_AuxRoadGradEna_u8
+itpm_m_AuxRoadGradDiag_u16

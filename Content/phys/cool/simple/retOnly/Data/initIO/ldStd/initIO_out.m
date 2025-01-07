@@ -1,0 +1,21 @@
+%% Outports:
+cool_Retarder_torque = 0; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+cool_AirConsumpRet_mdot = 0; %kg/s minAbsoluteRange:  maxAbsoluteRange: 
+cool_Ret_maxTorque = 3000; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+cool_Ret_torque_Cval = 0; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerOutlet_mdot = 0; %kg/s minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerOutlet_Temperature = 20; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerOutlet_massfracH2O = 0; %kg/kg minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerOutlet_pressure = 1000; %mbar minAbsoluteRange:  maxAbsoluteRange: 
+cool_CoolantEngineIn_Temperature = 90; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_CoolantEngineOut_Temperature = 90; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainPump_torque = 0; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainFan_torque = 0; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+cool_T_ct_eng_in = 90; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_T_ct_eng_out = 90; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_thermostat_lift = 0; %mm minAbsoluteRange:  maxAbsoluteRange: 
+cool_T_ct_RetOut = 90; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_T2N_CAC = 20; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_fan_speed = 150; %rpm minAbsoluteRange:  maxAbsoluteRange: 
+cool_wp_speed = 500; %rpm minAbsoluteRange:  maxAbsoluteRange: 
+cool_FanReference_angVel = 0; %rad/s minAbsoluteRange: -10000 maxAbsoluteRange: 10000

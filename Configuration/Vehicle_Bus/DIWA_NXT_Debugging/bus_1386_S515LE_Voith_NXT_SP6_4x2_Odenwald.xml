@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="bus_1386_S515LE_Voith_NXT_SP6_4x2_Odenwald" specificationVersion="" description="" creator="djoumbg" lastSave="04-Nov-2024 12:54:20" source="DIVeONE" validationState="0" systemClass="Vehicle" systemApplication="Bus" focus="FC" market="EU" performance="unknown" project="DIWA_NXT_Debugging" useAutoInitOrder="1" freeTag="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v110\XMLSchemes\DIVeConfiguration.xsd" xmlns="http://www.daimler.com/DIVeConfiguration">
+    <ModuleSetup name="acm" initOrder="">
+        <Module context="ctrl" species="acm" family="lookup" type="generic" variant="relay" modelSet="open" versionId="31011" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="31011" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="cool" initOrder="">
+        <Module context="phys" species="cool" family="simple" type="retOnly" variant="std" modelSet="sfcn_w64_R2016a" versionId="124379" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="1752" workState="0" />
+        <DataSet level="species" classType="dependentParameter" className="dependentParameter" variant="ICE" versionId="124379" workState="0" />
+        <DataSet level="family" classType="fan" className="fan" variant="fan_idle_losses_SFTP_MDEG" versionId="1750" workState="0" />
+        <DataSet level="family" classType="ret" className="ret" variant="noRet" versionId="21579" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="cpcAux" initOrder="">
+        <Module context="ctrl" species="cpcAux" family="silver" type="cpc5" variant="v0" modelSet="open" versionId="199567" workState="0" maxCosimStepsize="0.1" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="sna" versionId="197761" workState="0" />
+        <DataSet level="species" classType="dependentParameter" className="dependentParameter" variant="std" versionId="12827" workState="0" />
+        <DataSet level="type" classType="main" className="main" variant="dummy" versionId="38030" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="eats" initOrder="">
+        <Module context="phys" species="eats" family="dpSimple" type="generic" variant="std" modelSet="open" versionId="127435" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="114776" workState="0" />
+        <DataSet level="type" classType="OBD" className="OBD" variant="Basis" versionId="25241" workState="0" />
+        <DataSet level="type" classType="gain" className="gain" variant="dummy" versionId="2353" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="ebs" initOrder="">
+        <Module context="ctrl" species="ebs" family="rebuild" type="generic" variant="std" modelSet="sfcn_w64_R2016a" versionId="134988" workState="0" maxCosimStepsize="0.01" solverType="FixedStep01" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="134988" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="std" versionId="100667" workState="0" />
+        <DataSet level="type" classType="main" className="main" variant="bus_ebs" versionId="47773" workState="0" />
+        <DataSet level="type" classType="solverSettings" className="solverSettings" variant="std" versionId="85202" workState="0" />
+        <DataSet level="type" classType="veh" className="veh" variant="veh_dummy" versionId="100667" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="eng" initOrder="">
+        <Module context="phys" species="eng" family="simple" type="transient" variant="std" modelSet="open" versionId="206145" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="114705" workState="0" />
+        <DataSet level="type" classType="TM1FuelMap" className="TM1FuelMap" variant="noTM1FuelMap" versionId="701" workState="0" />
+        <DataSet level="type" classType="dMFueldT2N" className="dMFueldT2N" variant="noT2NCorrection" versionId="702" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="ldVehSFTP" versionId="703" workState="0" />
+        <DataSet level="type" classType="mainData" className="mainData" variant="OM936DTCEU6e_Oil35" versionId="23754" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="env2p" initOrder="">
+        <Module context="phys" species="env2p" family="eng" type="std" variant="std" modelSet="open" versionId="114783" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="114777" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="log" initOrder="">
+        <Module context="pltm" species="log" family="ld" type="common" variant="v0" modelSet="open" versionId="2955" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="3792" workState="0" />
+        <DataSet level="family" classType="logcfg" className="logcfg" variant="sigLogCfg_all_10ms" versionId="2953" workState="0" />
+        <SupportSet name="DIVeRules" level="family" versionId="2954" />
+    </ModuleSetup>
+    <ModuleSetup name="mcm" initOrder="">
+        <Module context="ctrl" species="mcm" family="sil" type="M17_12_00_03_EU_MDEG" variant="TenMs" modelSet="sfcn_w64_R2014a" versionId="61507" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="61507" workState="0" />
+        <DataSet level="type" classType="initEcu" className="initEcu" variant="basic" versionId="61507" workState="0" />
+        <DataSet level="type" classType="e2pData" className="e2pData" variant="X_M171203_E2P_JBN000LF01_OM936DTC_HPBrk" versionId="20413" workState="0" />
+        <DataSet level="type" classType="mainData" className="mainData" variant="X_M171203_JBN155LF240_OM936DTCEU6_260kW_Ldyn" versionId="31794" workState="0" />
+        <DataSet level="type" classType="instrument" className="instrument" variant="none" versionId="25662" workState="0" />
+        <DataSet level="family" classType="MVA" className="MVA" variant="off" versionId="41869" workState="0" />
+        <DataSet level="family" classType="MARC" className="MARC" variant="off" versionId="41869" workState="0" />
+        <DataSet level="species" classType="dependentParameter" className="dependentParameter" variant="ldVehSFTP" versionId="79211" workState="0" />
+        <SupportSet name="init" level="family" versionId="156527" />
+        <SupportSet name="instrumentFcn" level="family" versionId="154091" />
+        <SupportSet name="extraDATA" level="type" versionId="9431" />
+        <SupportSet name="instrument" level="type" versionId="71200" />
+        <SupportSet name="zGlobalParameter" level="species" versionId="128431" />
+    </ModuleSetup>
+    <ModuleSetup name="mec" initOrder="">
+        <Module context="phys" species="mec" family="pointmass" type="generic_ATvoithNXT" variant="std" modelSet="open" versionId="192815" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="85142" workState="0" />
+        <DataSet level="family" classType="aero" className="aero" variant="bus_eu_citaro_4p18" versionId="35057" workState="0" />
+        <DataSet level="family" classType="axle" className="axle1" variant="Frontaxle_nonDriven_noAxleLoss" versionId="13878" workState="0" />
+        <DataSet level="family" classType="axle" className="axle2" variant="RO440_5875_80_1305_notForFE" versionId="34297" workState="0" />
+        <DataSet level="family" classType="axle" className="axle3" variant="noAxle" versionId="13878" workState="0" />
+        <DataSet level="family" classType="axle" className="axle4" variant="noAxle" versionId="13878" workState="0" />
+        <DataSet level="family" classType="axle" className="trailerAxle1" variant="noAxle" versionId="13878" workState="0" />
+        <DataSet level="family" classType="axle" className="trailerAxle2" variant="noAxle" versionId="13878" workState="0" />
+        <DataSet level="family" classType="axle" className="trailerAxle3" variant="noAxle" versionId="13878" workState="0" />
+        <DataSet level="family" classType="brk" className="brk1" variant="brk_std" versionId="35035" workState="0" />
+        <DataSet level="family" classType="brk" className="brk2" variant="brk_std" versionId="35035" workState="0" />
+        <DataSet level="family" classType="brk" className="brk3" variant="noBrk" versionId="35035" workState="0" />
+        <DataSet level="family" classType="brk" className="brk4" variant="noBrk" versionId="35035" workState="0" />
+        <DataSet level="family" classType="brk" className="trailerBrk1" variant="noBrk" versionId="35035" workState="0" />
+        <DataSet level="family" classType="brk" className="trailerBrk2" variant="noBrk" versionId="35035" workState="0" />
+        <DataSet level="family" classType="brk" className="trailerBrk3" variant="noBrk" versionId="35035" workState="0" />
+        <DataSet level="family" classType="eng" className="eng" variant="OM936" versionId="35182" workState="0" />
+        <DataSet level="family" classType="mass" className="mass" variant="m15t1" versionId="85142" workState="0" />
+        <DataSet level="family" classType="massLoad" className="massLoad" variant="bus_br_XBC_4x2" versionId="100672" workState="0" />
+        <DataSet level="family" classType="ret" className="ret" variant="noRet" versionId="137871" workState="0" />
+        <DataSet level="family" classType="sht" className="shtF" variant="noSht" versionId="548" workState="0" />
+        <DataSet level="family" classType="sht" className="shtR" variant="DANA_D120_2045_OM936_45" versionId="822" workState="0" />
+        <DataSet level="type" classType="solverSettings" className="solverSettings" variant="stepSize1ms" versionId="17312" workState="0" />
+        <DataSet level="family" classType="tfc" className="tfc" variant="noTfc" versionId="10171" workState="0" />
+        <DataSet level="family" classType="wheel" className="trailerWheel1" variant="noWheel" versionId="11924" workState="0" />
+        <DataSet level="family" classType="wheel" className="trailerWheel2" variant="noWheel" versionId="11924" workState="0" />
+        <DataSet level="family" classType="wheel" className="trailerWheel3" variant="noWheel" versionId="11924" workState="0" />
+        <DataSet level="family" classType="wheel" className="wheel1" variant="ES_275_70R22p5_5p70" versionId="11924" workState="0" />
+        <DataSet level="family" classType="wheel" className="wheel2" variant="ET_275_70R22p5_5p70" versionId="11924" workState="0" />
+        <DataSet level="family" classType="wheel" className="wheel3" variant="noWheel" versionId="11924" workState="0" />
+        <DataSet level="family" classType="wheel" className="wheel4" variant="noWheel" versionId="11924" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="std" versionId="192815" workState="0" />
+        <DataSet level="family" classType="mecConsumers" className="mecConsumers" variant="Bus_3p0kW_RKM_AlternatorHD10P" versionId="35402" workState="0" />
+        <DataSet level="type" classType="tx_ATvoith" className="tx_ATvoith" variant="D721207_A0184505020_002_SP1" versionId="103929" workState="0" />
+        <SupportSet name="subspecies" level="type" versionId="85142" />
+        <SupportSet name="transferGlobalParameters" level="type" versionId="192815" />
+        <SupportSet name="init_ATvoith" level="type" versionId="96808" />
+    </ModuleSetup>
+    <ModuleSetup name="pne" initOrder="">
+        <Module context="phys" species="pne" family="pne3d" type="generic" variant="std" modelSet="sfcn_w64_R2016a" versionId="160874" workState="0" maxCosimStepsize="0.01" solverType="FixedStep01" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="160874" workState="0" />
+        <DataSet level="species" classType="auxil" className="auxil" variant="noAuxil" versionId="12269" workState="0" />
+        <DataSet level="species" classType="brk" className="brk1" variant="SN7" versionId="47773" workState="0" />
+        <DataSet level="species" classType="brk" className="brk2" variant="SN7" versionId="47773" workState="0" />
+        <DataSet level="species" classType="brk" className="brk3" variant="noBrk" versionId="47773" workState="0" />
+        <DataSet level="species" classType="brk" className="brk4" variant="noBrk" versionId="47773" workState="0" />
+        <DataSet level="species" classType="brk" className="brkTrailer1" variant="noBrk" versionId="47773" workState="0" />
+        <DataSet level="species" classType="brk" className="brkTrailer2" variant="noBrk" versionId="47773" workState="0" />
+        <DataSet level="species" classType="brk" className="brkTrailer3" variant="noBrk" versionId="47773" workState="0" />
+        <DataSet level="species" classType="circ" className="circ" variant="circ_Bus_2Axles" versionId="91222" workState="0" />
+        <DataSet level="species" classType="circTrlr" className="circTrlr" variant="circTrlr_noTrlr" versionId="85202" workState="0" />
+        <DataSet level="species" classType="com" className="com" variant="VT490" versionId="36758" workState="0" />
+        <DataSet level="species" classType="cyl" className="cyl1" variant="Disc_Type20_Knorr" versionId="31484" workState="0" />
+        <DataSet level="species" classType="cyl" className="cyl2" variant="Disc_Type20_24_Knorr" versionId="31484" workState="0" />
+        <DataSet level="species" classType="cyl" className="cyl3" variant="noCyl" versionId="31484" workState="0" />
+        <DataSet level="species" classType="cyl" className="cyl4" variant="noCyl" versionId="31484" workState="0" />
+        <DataSet level="species" classType="cyl" className="cylTrailer1" variant="noCyl" versionId="31484" workState="0" />
+        <DataSet level="species" classType="cyl" className="cylTrailer2" variant="noCyl" versionId="31484" workState="0" />
+        <DataSet level="species" classType="cyl" className="cylTrailer3" variant="noCyl" versionId="31484" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="std" versionId="85202" workState="0" />
+        <DataSet level="species" classType="initialTemperatures" className="initialTemperatures" variant="default" versionId="31484" workState="0" />
+        <DataSet level="species" classType="pro" className="pro" variant="SORT_air_compressor_idling" versionId="31484" workState="0" />
+        <DataSet level="type" classType="solverSettings" className="solverSettings" variant="std" versionId="86880" workState="0" />
+        <DataSet level="species" classType="susp" className="susp1" variant="noSusp" versionId="31484" workState="0" />
+        <DataSet level="species" classType="susp" className="susp2" variant="noSusp" versionId="31484" workState="0" />
+        <DataSet level="species" classType="susp" className="susp3" variant="noSusp" versionId="31484" workState="0" />
+        <DataSet level="species" classType="susp" className="susp4" variant="noSusp" versionId="31484" workState="0" />
+        <DataSet level="species" classType="veh" className="veh" variant="veh_dummy" versionId="93733" workState="0" />
+        <SupportSet name="suspParameterInit" level="family" versionId="85202" />
+    </ModuleSetup>
+    <ModuleSetup name="pneAux" initOrder="">
+        <Module context="ctrl" species="pneAux" family="rebuild" type="generic" variant="std" modelSet="sfcn_w64_R2016a" versionId="150205" workState="0" maxCosimStepsize="0.01" solverType="FixedStep01" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="139048" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="std" versionId="85202" workState="0" />
+        <DataSet level="type" classType="main" className="main" variant="no_pneAux" versionId="76942" workState="0" />
+        <DataSet level="type" classType="solverSettings" className="solverSettings" variant="std" versionId="85202" workState="0" />
+        <DataSet level="type" classType="veh" className="veh" variant="veh_dummy" versionId="150205" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="simInfo" initOrder="">
+        <Module context="pltm" species="simInfo" family="ld" type="common" variant="v0" modelSet="open" versionId="40374" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="12061" workState="0" />
+        <DataSet level="type" classType="solverSettings" className="solverSettings" variant="solver_default_1ms_only_ldyn" versionId="11376" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="tcm" initOrder="">
+        <Module context="ctrl" species="tcm" family="rebuild" type="voithDiwaNXT" variant="DIWA_NXT" modelSet="open" versionId="192815" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="90117" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="std" versionId="63749" workState="0" />
+        <DataSet level="type" classType="tx_ATvoith" className="tx_ATvoith" variant="D721207_A0184505020_002_SP1" versionId="103929" workState="0" />
+        <SupportSet name="init_ATvoith" level="type" versionId="20385" />
+    </ModuleSetup>
+    <ModuleSetup name="eess" initOrder="">
+        <Module context="phys" species="eess" family="SuperCap" type="mhs" variant="std" modelSet="open" versionId="23742" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="23742" workState="0" />
+        <DataSet level="type" classType="main" className="main" variant="std" versionId="23742" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="hvs" initOrder="">
+        <Module context="phys" species="hvs" family="mapBased" type="chy" variant="std" modelSet="open" versionId="22571" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="18319" workState="0" />
+        <DataSet level="species" classType="aux_power_selector" className="aux_power_selector" variant="std" versionId="22562" workState="0" />
+        <DataSet level="species" classType="drvEmot" className="drvEmot" variant="Melko_eMot_SClass_CitaroHybrid" versionId="172262" workState="0" />
+        <SupportSet name="hvs_library_Support" level="species" versionId="106139" />
+    </ModuleSetup>
+    <ModuleSetup name="chyc" initOrder="">
+        <Module context="ctrl" species="chyc" family="rebuild" type="chyc_20170830" variant="std" modelSet="open" versionId="4766" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="std" versionId="4766" workState="0" />
+        <DataSet level="type" classType="main" className="main" variant="std" versionId="4766" workState="0" />
+    </ModuleSetup>
+    <ModuleSetup name="env" initOrder="">
+        <Module context="bdry" species="env" family="roadair" type="time" variant="airConst" modelSet="open" versionId="38667" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="23423" workState="0" />
+        <DataSet level="species" classType="road_time" className="road_time" variant="1386_NXT_20240507_080441" versionId="179453" workState="0" />
+        <DataSet level="type" classType="Num_Cycle_Repetition" className="Num_Cycle_Repetition" variant="No_Repetition" versionId="23284" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="ldVehSFTP" versionId="23284" workState="0" />
+        <SupportSet name="CyclePreprocessing" level="type" versionId="38667" />
+    </ModuleSetup>
+    <ModuleSetup name="cpc" initOrder="">
+        <Module context="ctrl" species="cpc" family="silver" type="cpc5_t22_3" variant="v0" modelSet="open" versionId="107510" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="sna" versionId="42566" workState="0" />
+        <DataSet level="species" classType="aero" className="aero" variant="dummy" versionId="11406" workState="0" />
+        <DataSet level="species" classType="axle" className="axle" variant="RO440" versionId="12463" workState="0" />
+        <DataSet level="species" classType="clt" className="clt" variant="noClutch" versionId="11406" workState="0" />
+        <DataSet level="species" classType="eng" className="eng" variant="std" versionId="12642" workState="0" />
+        <DataSet level="species" classType="prg" className="prg" variant="Standard" versionId="123980" workState="0" />
+        <DataSet level="species" classType="ret" className="ret" variant="retVoithDIWA" versionId="11406" workState="0" />
+        <DataSet level="species" classType="tfc" className="tfc" variant="noTfc" versionId="11406" workState="0" />
+        <DataSet level="species" classType="tx" className="tx" variant="VoithDIWA_NXT" versionId="71457" workState="0" />
+        <DataSet level="species" classType="veh" className="veh" variant="SetraComfort" versionId="11406" workState="0" />
+        <DataSet level="species" classType="wheel" className="wheel" variant="rrc_0050" versionId="11406" workState="0" />
+        <DataSet level="family" classType="debug" className="debug" variant="std" versionId="13250" workState="0" />
+        <DataSet level="family" classType="depPar" className="depPar" variant="cpc5" versionId="89764" workState="0" />
+        <DataSet level="family" classType="dependentParameter" className="dependentParameter" variant="cpc5" versionId="89764" workState="0" />
+        <DataSet level="type" classType="cds" className="cds" variant="std" versionId="63083" workState="0" />
+        <DataSet level="type" classType="eep" className="eep" variant="std" versionId="42566" workState="0" />
+        <DataSet level="type" classType="init" className="init" variant="std" versionId="143493" workState="0" />
+        <SupportSet name="cpc5" level="species" versionId="40372" />
+        <SupportSet name="v0" level="species" versionId="104838" />
+        <SupportSet name="v00" level="family" versionId="109331" />
+        <SupportSet name="v000" level="type" versionId="133041" />
+    </ModuleSetup>
+    <ModuleSetup name="drv" initOrder="">
+        <Module context="human" species="drv" family="ld_time" type="timeRunner" variant="std" modelSet="open" versionId="38617" workState="0" maxCosimStepsize="0.01" solverType="" />
+        <DataSet level="type" classType="initIO" className="initIO" variant="ldStd" versionId="57103" workState="0" />
+        <DataSet level="type" classType="dependentParameter" className="dependentParameter" variant="std" versionId="27947" workState="0" />
+        <DataSet level="type" classType="main" className="main" variant="route" versionId="23299" workState="0" />
+        <DataSet level="type" classType="veh" className="veh" variant="default" versionId="29231" workState="0" />
+        <SupportSet name="init_driver" level="type" versionId="36952" />
+    </ModuleSetup>
+    <MasterSolver maxCosimStepsize="0.001" solverType="FixedStep01" timeEnd="inf" />
+    <Interface>
+        <LogSetup sampleTime="0.01" sampleType="LDYN" />
+    </Interface>
+</Configuration>

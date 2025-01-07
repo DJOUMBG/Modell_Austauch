@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.daimler.com/DIVeData" classType="main" context="ctrl" dataSetVersion="1.0" description="EBS Prototype" family="rebuild" level="type" name="bus_ebs" reference="ebs_dummy" species="ebs" specificationVersion="1.0.0" type="generic" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd">
+  <DataFile copyToRunDirectory="0" executeAtInit="0" isStandard="1" name="bus_ebs.m"/>
+</DataSet>

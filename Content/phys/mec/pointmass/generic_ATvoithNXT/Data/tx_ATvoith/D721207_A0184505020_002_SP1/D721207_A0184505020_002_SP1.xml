@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classType="tx_ATvoith" context="phys" dataSetVersion="1" description="NXT" family="pointmass" level="type" name="D721208_A0184484810_002_SP1" reference="D721207_A0184505020_002_SP1" species="mec" specificationVersion="1.0.0" type="generic_ATvoithNXT" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd">
+    <DataFile name="DIWA_BB_Par_NXT.mat" executeAtInit="0" copyToRunDirectory="0" isStandard="0"/>
+    <DataFile name="txParsDefault.m" executeAtInit="0" copyToRunDirectory="0" isStandard="1"/>
+</DataSet>

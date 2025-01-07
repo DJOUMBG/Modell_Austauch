@@ -1,0 +1,25 @@
+%% Inports:
+cool_Retarder_angPos = 0; %rad minAbsoluteRange:  maxAbsoluteRange: 
+cool_Retarder_angVel = 0; %rad/s minAbsoluteRange:  maxAbsoluteRange: 
+cool_Retarder_angAcc = 0; %rad/s^2 minAbsoluteRange:  maxAbsoluteRange: 
+cool_AirConsumpRet_Temperature = 0; %°C minAbsoluteRange:  maxAbsoluteRange: 
+cool_AirConsumpRet_pressure = 8500; %mbar minAbsoluteRange:  maxAbsoluteRange: 
+cool_AirConsumpRet_massfracH2O = 0; %kg/kg minAbsoluteRange:  maxAbsoluteRange: 
+rcm_Ret_Torque_Requested = 0; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+cool_VehVelReferenceCool_velocity = 0; %m/s minAbsoluteRange:  maxAbsoluteRange: 
+mcm_fan_spd_req = 0; %rpm minAbsoluteRange:  maxAbsoluteRange: 
+cpc_thm_blindpos = 0; %- minAbsoluteRange:  maxAbsoluteRange: 
+cool_EngHeatRejection_power = 0; %kW minAbsoluteRange:  maxAbsoluteRange: 
+env_Temperature = 20; %°C minAbsoluteRange:  maxAbsoluteRange: 
+mcm_trq_act_eff = 0; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainFan_angPos = 0; %rad minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainFan_angVel = 83.78; %rad/s minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainFan_angAcc = 0; %rad/s^2 minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainPump_angPos = 0; %rad minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainPump_angVel = 83.78; %rad/s minAbsoluteRange:  maxAbsoluteRange: 
+cool_MainPump_angAcc = 0; %rad/s^2 minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerInlet_massfracH2O = 0; %kg/kg minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerInlet_mdot = 0; %kg/s minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerInlet_pressure = 1000; %mbar minAbsoluteRange:  maxAbsoluteRange: 
+cool_CaCoolerInlet_Temperature = 20; %°C minAbsoluteRange:  maxAbsoluteRange: 
+mcm_cwp_spd_req = 0; %rpm minAbsoluteRange:  maxAbsoluteRange: 

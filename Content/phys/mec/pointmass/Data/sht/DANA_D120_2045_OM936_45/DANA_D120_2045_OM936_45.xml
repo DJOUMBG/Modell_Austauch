@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.daimler.com/DIVeData" type="" specificationVersion="0.9.1" species="mec" reference="sht_dummy" name="DANA_D120_2045_OM936_45" level="family" family="pointmass" description="GWB 2045  Euro6 Gelenkzug D120 mm&#10;A 628 410 65 06&#10;data sent by Tobias Hess (DANA) 22.6.2015 via Gero Eggers" dataSetVersion="1.0" context="phys" classType="sht" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v090\XMLSchemes\DIVeData.xsd">
+  <DataFile name="DANA_D120_2045_OM936_45.m" executeAtInit="0" copyToRunDirectory="0" isStandard="1"/>
+</DataSet>

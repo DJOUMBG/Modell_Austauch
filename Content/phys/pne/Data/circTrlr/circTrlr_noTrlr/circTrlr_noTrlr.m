@@ -1,0 +1,9 @@
+brkCircuitTrailer=[0,0,0]; % [-] Brake Circuit Configuration Trailer [TA1, TA2, TA3] (0-Dummy, 1-Front, 2-Rear)
+flagTrailerABS=0; % [-] Trailer ABS Config (0 - none, 1- ABS, 2 - EBS (incl. ABS))
+flagTrailerControlActive=[0.0,1.0,2.0,3.0,4.0,5.0,0.0,0.0,0.0,0.0,0.0]; % [-] Trailer Control Active / Trailer can brake (0 - no, 1- yes ALB lower limit, 2- yes ALB normal, 3- yes ALB upper limit , 4 - yes without ALB)
+speedSensorPosnTrailer=[0,0,0]; % [-] Trailer Speed Sensor Axle Position [0-false,1-true] {A1,A2,A3}
+t_asymp75_Trlr=[0.25,0.25,0.25]; % [-] Pressure Rise Time to 75% of asymptodic pressure value in [s] [TA1, TA2, TA3]
+T_pipe_Trailer_RV_Front=0.04; % [-] Time Constant (PT1) Pipe TCV - Relais Valve Trailer Front Axle in [s]
+T_pipe_Trailer_RV_Front_Rear=0.04; % [-] Time Constant (PT1) Pipe Relais Valve Trailer Front to Rear Axle in [s]
+t_release10_Trlr=[0.40999999999999998,0.40999999999999998,0.40999999999999998]; % [-] Pressure Release Time from 100% to 10% of asymptodic pressure value in [s] [TA1, TA2, TA3]
+VTrailer=0.0; % [dm^3] Volume Tank Trailer [dm^3]

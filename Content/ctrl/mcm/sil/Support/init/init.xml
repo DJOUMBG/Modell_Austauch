@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SupportSet xmlns="http://www.daimler.com/DIVeSupport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeSupport.xsd" name="init" type="" family="sil" species="mcm" context="ctrl" level="family" specificationVersion="1.0.0" supportSetVersion="1" description=" ">
+    <SupportFile name="ATF_Template.xlsx" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="DataModel.txt" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="Formeln.txt" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="Quantities.txt" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="Units.txt" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="dcmRead.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="funcall.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsATFDefParse.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsATFWrite.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsSilDcmCorrection.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsMVAExcelWrite.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsMvaTransfer.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsPostProcessMemoryProtection.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsUniread.p" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsUnireadMVACorrection.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="spsUxxWrite.m" executeAtInit="0" copyToRunDirectory="0"/>
+    <SupportFile name="xcm_sil_Support_init.m" executeAtInit="1" copyToRunDirectory="0"/>
+</SupportSet>

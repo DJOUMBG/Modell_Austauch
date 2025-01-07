@@ -1,0 +1,47 @@
+2.0
+736672.6739004629
+CollectionName: env2p_eng_std_Data_initIO
+BranchName: AutoUpdate2
+BranchVersion:     0
+CheckinDateStringUTC: 08-Dec-2016 16:10:25
+DateId:           1481213425
+***specific***DIVeLDYN*** 
+--------------------------
+SourceDate     : 12/08/2016 16:10:25
+Source         : DIVe val
+DIVeID         : 2.0_1481213425(1.1)
+FolderChecksum : A928BBFD4A3056884810FBBE56CBCB1C
+Type           : Data
+
+xCollection information 
+----------------------- 
+CollectionName            : env2p_eng_std_Data_initIO
+CollectionRootDirectory   : 
+BranchName                : AutoUpdate2
+ClassificationName        : Data
+ClassificationPath        : DIVe.Content.Common.phys.env2p.eng.std.Data
+BranchVersion             :     0
+Time                      :           1481213425
+
+DIVe Version 
+------------ 
+2.0
+736672.6739004629
+CheckinDateStringUTC      : 08-Dec-2016 16:10:25
+DateId                    :           1481213425
+
+SYSDM Version History 
+----------------------
+   DIVe validated (Trunk) |                      DIVe |                      Date
+------------------------- | ------------------------- | -------------------------
+                          |         AutoUpdate2 Ver 0 |         16/12/08 16:10:25 <--
+------------------------- | ------------------------- | -------------------------
+              trunk Ver 1 |                           |         16/12/08 16:10:23
+------------------------- | ------------------------- | -------------------------
+                          |         AutoUpdate1 Ver 1 |         16/12/08 15:52:47
+------------------------- | ------------------------- | -------------------------
+              trunk Ver 0 |                           |         16/12/08 15:52:06
+------------------------- | ------------------------- | -------------------------
+                          |         AutoUpdate1 Ver 0 |         16/12/08 15:52:06
+------------------------- | ------------------------- | -------------------------
+***specific***DIVeLDYN*** 

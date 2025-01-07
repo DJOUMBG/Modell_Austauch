@@ -1,0 +1,194 @@
+//////////////////
+// I/O Defaults //
+//////////////////
+
+/* to prevent TCM rebuild crash because of bad SNA handling */
+ag_g_ReqGearDsp_u8 = 0;
+
+/* Coolant Level Sensor */
+sal_i_AiAi01Volt_u16 = 1000*0.001; // Coolant Level Sensor actual value: 3V
+sal_i_Sai01Volt_u16 = 5000*0.001; // Coolant Level Sensor actual supply: 5V
+sal_i_Sai01ActStat_u2 = 1; // Coolant Level Sensor actual status: active
+
+/* Air filter pressure switch */
+sal_i_AiAi02Volt_u16 = 2000*0.001; // Coolant Level Sensor actual value: 2V
+sal_i_Sai02Volt_u16 = 5000*0.001; // Air filter pressure switch actual supply: 5V
+sal_i_Sai02ActStat_u2 = 1;
+
+/* Ambient Air Temperature sensor */
+sal_i_AiAi03Volt_u16 = 2500*0.001; // Ambient Air Temperature sensor actual value: 2,5V
+
+/* Gearbox Oil Temperature Sensor */
+sal_i_AiAi04Volt_u16 = 1500*0.001; // Gearbox Oil Temperature Sensor actual value: 1,5V
+
+/* Expansion Tank Pressure Sensor */
+sal_i_AiAi05Volt_u16 = 2000*0.001; // Coolant Level Sensor actual value: 2V -> 1500mbar
+sal_i_Sai03Volt_u16 = 5000*0.001; // Expansion Tank Pressure Sensor actual supply: 5V
+sal_i_Sai03ActStat_u2 = 1;
+
+
+/* Neutral sensor */
+sal_i_AiAi06Volt_u16 = 1500*0.001; // Coolant Level Sensor actual value: 1,5V -> not neutral
+
+/* KL15 TODO*/
+sal_i_AiKl15Volt_u16 = 24000*0.001;
+sal_i_IgnStat_u2 = 1;
+cdi_g_ScaIgnStat_u4 = 2;
+
+/* KL30 TODO*/
+sal_i_AiKl30SsrVolt_u16 = 24000*0.001;
+sal_i_AiKl30Volt_u16 = 24000*0.001;
+sal_i_DeltaCpcLocOverVolt_u16 = 30000*0.001;
+sal_i_DeltaCpcLocUnderVolt_u16 = 20000*0.001;
+
+/* Clutch closed status */
+sal_i_Di01Switch_u2 = 0; //TODO: what does this mean?
+
+/* Clutch open status */
+sal_i_Di02Switch_u2 = 1;
+
+/* Neutral switch */
+sal_i_Di03Switch_u2 = 1;
+
+/* Reverse switch */
+sal_i_Di04Switch_u2 = 0;
+
+/* Split low */
+sal_i_Di05Switch_u2 = 0;
+
+/* Split high */
+sal_i_Di06Switch_u2 = 1;
+
+/* Air condition switch */
+sal_i_Di07Switch_u2 = 0;
+
+/* ExpTankInletValve, actual state */
+sal_i_DoHpHs01ActStat_u2 = 1;
+
+/* ExpTankOutletValve, actual state */
+sal_i_DoHpHs02ActStat_u2 = 1;
+
+/* Split Control valve 1 on HP_DOH_03, actual state */
+sal_i_DoHpHs03ActStat_u2 = 1;
+
+/* Split Control valve 2 on HP_DOH_04, actual state */
+sal_i_DoHpHs04ActStat_u2 = 1;
+
+/* CPS Shift boost valve on HP_DOH_05, actual state */
+sal_i_DoHpHs05ActStat_u2 = 0;
+
+
+// 
+sal_i_DoHpLs01ActStat_u2 = 1;
+sal_i_DoHpLs02ActStat_u2 = 1;
+sal_i_DoHpLs03ActStat_u2 = 1;
+sal_i_DoLpHs01ActStat_u2 = 1;
+sal_i_DoLpHs02ActStat_u2 = 1;
+sal_i_DoLpHs03ActStat_u2 = 1;
+sal_i_DoLpLs01ActStat_u2 = 1;
+sal_i_DoLpLs02ActStat_u2 = 1;
+
+// Ground states
+sal_i_Gai01ActStat_u2 = 1;
+sal_i_Gai02ActStat_u2 = 1;
+sal_i_Gai03ActStat_u2 = 1;
+
+///////////////////////////////
+// BASE SOFTWARE DEFINITIONS //
+///////////////////////////////
+cdi_g_CpcDbkVar_u8 = 0; // ISO
+cdi_g_CpcHwBattVoltSel_u8 = 1; // 24V
+cdi_g_CpcHwRelVar_u8 = 10; // D-Sample
+cdi_g_CpcHwVar_u8 = 1; // EXTENDED
+cdi_g_CpcSysVar_u8 = 1; // 1: SYS_CPC5_EURO, 0: SYS_CPC5_AMT
+cdi_g_CpcTargetType_u8 = 11; // CPC5
+
+
+///////////////////
+// PMC2 Defaults //
+///////////////////
+
+pmc2_p_VehConf.IfaceChkCrcMc_u32 = 0;
+pmc2_p_VehConf.CplIfaceChkCrcMc_u32 = 4294967295;
+pmc2_p_VehConfRam.IfaceChkCrcMc_u32 = 0;
+
+cdi_a_CalRam.GvcTransType_u4 = 2;
+
+///////////////
+// Constants //
+///////////////
+bs_i_ABSStat_u2 = 0; // ch_ABS_Actv2_Stat
+bs_i_DspAbsOff_u2 = 1; // ch_ABS_FullyOp_Stat
+bs_i_AscBrkStat_u2 = 0; // ch_ATC_BrkCtrl_Stat
+bs_i_AscEngStat_u2 = 0; // ch_ATC_EngCtrl_Stat
+bs_i_AscStatLamp_u2 = 0; // ch_ATC_InfoSgl_Stat
+bs_i_AccelYCval_u16 = 0; // ch_Accel_Y_Cval
+sam_i_SlAutoManSwitch_u2 = 0; // ch_AutoManSw_Rq_SAM
+bs_i_CpcComfAccessStat_u2 = 0; // ch_BS_CSCPC_Acc_Stat
+bs_i_CpcComfIfaceStat_u2 = 0; // ch_BS_CSCPC_Intf_Stat
+bs_i_CpcComfReqPerfStat_u2 = 0; // ch_BS_CSCPC_RqPerf_Stat
+bs_i_ReqCSPerfStat_u2 = 0; // ch_BS_CS_RqPerf2_Stat
+bs_i_ExtDecModeCcan_u2 = 0; // ch_BS_SS_RqPerf_Stat
+bs_i_LockTend_u2 = 0; // ch_BlockTend_Stat
+ccan_i_RetDirectSw_u2 = 0; // ch_CDC_Sw_Rq
+dcmd_i_DoorLatchDrvrStatCcan_u2 = 0; // ch_DrLchD_Stat_DCMD
+msf_i_EcoRollSwitchCcan_u2 = 0; // ch_EcoRollMdSw_Rq
+icuc_i_EcoRollSwitchCcan_u2 = 0; // ch_EcoRollMd_Rq_ICUC
+sca_i_EngCrkCcan_u2 = 0; // ch_EngCrk_Stat
+icuc_i_EngIdleSpdDecCcan_u2 = 0; // ch_EngIdleSpdDec_Rq
+icuc_i_EngIdleSpdIncCcan_u2 = 0; // ch_EngIdleSpdInc_Rq
+msf_i_XssSwitchStatCcan_u2 = 0; // ch_EngStSpSw_Rq
+psm_i_ReqEngStartStatCcan_u2 = 0; // ch_EngStrtr_Rq_PSM
+sch_i_FuelLvl_u8 = 80; // ch_FuelLvl_Cval
+cgw_i_AltDriveSysCcan_u4 = 0; // ch_GVC_AlternativeDriveSys
+cgw_i_CcFuncStat_u4 = 3; // ch_GVC_CC_Func
+icuc_i_SysIdCcan_u2 = 1; // ch_GVC_SysMsg_ICUC
+cgw_i_IppcSysMsgCcan_u2 = 1; // ch_GVC_SysMsg_IPPC
+icuc_i_IgnSwRedStatVcan_u2 = 0; // ch_IgnSwRed_Stat_ICUC
+icuc_i_GvcTimeOffsetMinuteCcan_u8 = 0; // ch_LocalMinuteOffset_Cval_ICUC
+ccan_i_OffboardTesterStat_u2 = 0; // ch_Offboard_Tester_Stat
+ccan_i_PkBrkStatSch_u2 = 0; // ch_PkBrk_Stat_SCH
+sam_i_RetConfMaxLeverPos_u4 = 5; // ch_RetSwMaxPos_Stat_SAM
+bs_i_SrcAddrCtrlDevBrkCtrl_u8 = 255; // ch_SrcAdrBrkCtrlDev_Cval
+msf_i_StWSw12RqVcan_u2 = 0; // ch_StW_Sw12_Rq
+bs_i_WheelCalFrontLeft_u8 = 0; // ch_TyreCorrLtFA_Cval
+bs_i_WheelCalRearLeft_u8 = 0; // ch_TyreCorrLtRA_Cval
+bs_i_WheelCalFrontRight_u8 = 0; // ch_TyreCorrRtFA_Cval
+bs_i_WheelCalRearRight_u8 = 0; // ch_TyreCorrRtRA_Cval
+bs_i_XbrAccelLim_u8 = -2; // ch_XBR_AccelLim_Stat_BS
+// cdi_g_CcEnStat_u2 = 1; // cpcAux_cc_enable
+sil_i_ApKdFlag_u1 = 0; // cpcAux_kickdown
+mcm_i_IntakeTempPtcan_u8 = 20; // pt_BoostTemp_Cval_PT
+mcm_i_OilPresPtcan_u8 = 5; // pt_EngOilPress_Cval_MCM
+mr_i_SnaStat_u1 = 0; // pt_EngSNA_Stat_MCM
+tcm_i_InhbtXssTcmPtcan_u2 = 0; // pt_EngStSpInhbt_Rq_TCM
+mr_i_FanStat_u4 = 1; // pt_Fan_Stat_PT
+mcm_i_FuelPresPtcan_u8 = 5; // pt_FuelPress_Cval_PT
+mcm_i_FuelTempPtcan_u8 = 20; // pt_FuelTemp_Cval_PT
+mr_i_ThmParamIdx_u8 = 2; // pt_IdxThermoMgt_Cval_PT
+tcm_i_LrnStat_u2 = 0; // pt_LrnInProc_Stat_PT
+tcm_i_ClutchCurvTrq_u8 = 5100; // pt_MaxActlClutchTrq_Cval_PT
+tcm_i_MaxSpeed_u16 = 10485.6; // pt_MaxEngSpd_Rq_PT
+tcm_i_NeuAv_u2 = 1; // pt_Neu_Stat_PT
+mr_i_OilTemp_u8 = 100; // pt_OilTemp_Cval_PT
+tcm_i_OverSpeedWarn_u2 = 0; // pt_OverSpdWarn_Stat_TCM
+tcm_i_BackwGear10Av_u2 = 2; // pt_RevGr10_Stat_PT
+tcm_i_BackwGear11Av_u2 = 2; // pt_RevGr11_Stat_PT
+tcm_i_BackwGear12Av_u2 = 2; // pt_RevGr12_Stat_PT
+tcm_i_BackwGear13Av_u2 = 2; // pt_RevGr13_Stat_PT
+tcm_i_BackwGear14Av_u2 = 2; // pt_RevGr14_Stat_PT
+tcm_i_BackwGear15Av_u2 = 2; // pt_RevGr15_Stat_PT
+tcm_i_BackwGear16Av_u2 = 2; // pt_RevGr16_Stat_PT
+tcm_i_BackwGear1Av_u2 = 1; // pt_RevGr1_Stat_PT
+tcm_i_BackwGear5Av_u2 = 2; // pt_RevGr5_Stat_PT
+tcm_i_BackwGear6Av_u2 = 2; // pt_RevGr6_Stat_PT
+tcm_i_BackwGear7Av_u2 = 2; // pt_RevGr7_Stat_PT
+tcm_i_BackwGear8Av_u2 = 2; // pt_RevGr8_Stat_PT
+tcm_i_BackwGear9Av_u2 = 2; // pt_RevGr9_Stat_PT
+rs_i_RevShiftReq_u2 = 0; // pt_RevShift_Rq_PT
+tcm_i_RockOutMdStatPTCAN_u2 = 0; // pt_RockOutMd_Stat_PT
+tcm_i_SavePTStateAtv_u2 = 0; // pt_SecStat_Stat_PT
+mr_i_ThmParamValue_u8 = 2; // pt_ThermoMgtPara_Cval_PT
+tcm_i_InterPosPTCAN_u2 = 0; // pt_TransIntPos_PT
+tcm_i_EmgMdStatVcan_u2 = 0; // pt_TxEmgMd_Stat
+tcm_i_GboxOilTempPtcan_u16 = 80; // pt_TxOilTemp_Cval_TCM

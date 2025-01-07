@@ -1,0 +1,3230 @@
+* DAMOS format
+* Created by MARC V 7.3.0.629
+* Creation Date        : 15.04.2021 21:46:43
+* General Configuration: MCM2.1_M17.12.0.3_MDEG_Diagnostics_RAM_LFv1
+* ECU-Configuration    : MCM2_M17.12.0.3_MDEG_EURO_RAM_e2p_xcp_long.kkf
+* Dataset name         : X_M171203_E2P_JBN000LF01
+* Dataset timestamp    : 02.03.2021 12:51:14
+
+KONSERVIERUNG_FORMAT 2.0
+
+FUNKTIONEN
+	FKT AM_VCP "" ""
+	FKT APP_CODE "" ""
+	FKT ASL "" ""
+	FKT CAL_ID "" ""
+	FKT CCF "" ""
+	FKT CCS "" ""
+	FKT CSA "" ""
+	FKT DBG_E2P "" ""
+	FKT Default "" ""
+	FKT DIAG_PARTNER_ID "" ""
+	FKT DPF "" ""
+	FKT DRIVER_INDUCEMENT "" ""
+	FKT DSL "" ""
+	FKT DTC_TEST "" ""
+	FKT E_TRIM "" ""
+	FKT E2P_ATTRIB "" ""
+	FKT E2P_SENSORS_1 "" ""
+	FKT E2P_SENSORS_2 "" ""
+	FKT EAF "" ""
+	FKT EBM "" ""
+	FKT ECM2 "" ""
+	FKT EGCP "" ""
+	FKT EGR "" ""
+	FKT ENG_SERVICE_INFO "" ""
+	FKT ENGINE_ID "" ""
+	FKT ENGINE_PROD "" ""
+	FKT EOL_TDC "" ""
+	FKT EPF "" ""
+	FKT ESC "" ""
+	FKT EVOBUS "" ""
+	FKT FAN "" ""
+	FKT FIS "" ""
+	FKT IS2 "" ""
+	FKT ISC "" ""
+	FKT ISP_OIL "" ""
+	FKT MU_SNA "" ""
+	FKT NOL "" ""
+	FKT OBD "" ""
+	FKT OBD_EEPROM "" ""
+	FKT OIL "" ""
+	FKT OPC "" ""
+	FKT PAR "" ""
+	FKT PIR "" ""
+	FKT PROTO "" ""
+	FKT PTO "" ""
+	FKT PTO_CONFIG "" ""
+	FKT PVH "" ""
+	FKT RC4 "" ""
+	FKT RPG "" ""
+	FKT RPR "" ""
+	FKT SCL "" ""
+	FKT SCM "" ""
+	FKT SP "" ""
+	FKT SPI "" ""
+	FKT SWINDI "" ""
+	FKT SYSTEM "" ""
+	FKT TBF "" ""
+	FKT TMC "" ""
+	FKT tmw "" ""
+	FKT VEHICLE_PAR_1 "" ""
+	FKT VIN "" ""
+	FKT VNT "" ""
+	FKT WFB "" ""
+	FKT WIF "" ""
+END
+
+
+FESTWERT e2p_write_e_trim_block_to_eeprom
+	LANGNAME "e2p_write_e_trim_block_to_eeprom"
+	FUNKTION "Default"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK e_trim_table.e_trim_basic.e2p_etc_time_nozzle_begin_trim 8
+	LANGNAME "e_trim_table.e_trim_basic.e2p_etc_time_nozzle_begin_trim"
+	FUNKTION "E_TRIM"
+	EINHEIT_W "ms"
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_esa_fis_func_ena_bf
+	LANGNAME "par2_table.par2_basic.e2p_esa_fis_func_ena_bf"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_esa_fis_func_ena_bf_veh
+	LANGNAME "par2_table.par2_basic.e2p_esa_fis_func_ena_bf_veh"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_fis_eng_fuel_type
+	LANGNAME "par2_table.par2_basic.e2p_fis_eng_fuel_type"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	4	
+END
+
+FESTWERT par2_table.par2_basic.e2p_fis_wdm_type_sel
+	LANGNAME "par2_table.par2_basic.e2p_fis_wdm_type_sel"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op3_data_table.par_op3_data_basic.e2p_fis_fm_dev_act
+	LANGNAME "par_op3_data_table.par_op3_data_basic.e2p_fis_fm_dev_act"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERTEBLOCK par_op3_data_table.par_op3_data_basic.e2p_fis_tb_fuel_lbd_ctr 64
+	LANGNAME "par_op3_data_table.par_op3_data_basic.e2p_fis_tb_fuel_lbd_ctr"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op3_data_table.par_op3_data_basic.e2p_fis_tb_lbd_cor 64
+	LANGNAME "par_op3_data_table.par_op3_data_basic.e2p_fis_tb_lbd_cor"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_esc_ref_activ_b
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_esc_ref_activ_b"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_fis_fm_lmbd_dev_max_val
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_fm_lmbd_dev_max_val"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_fis_fm_lmbd_dev_min_val
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_fm_lmbd_dev_min_val"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERTEBLOCK e_trim_table.e_trim_basic.e2p_etc_time_nozzle_begin_trim2 8
+	LANGNAME "e_trim_table.e_trim_basic.e2p_etc_time_nozzle_begin_trim2"
+	FUNKTION "E_TRIM"
+	EINHEIT_W "ms"
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_fis_fm_lmbd_dev_tst_val
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_fm_lmbd_dev_tst_val"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_fis_pil1_cor 36
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_pil1_cor"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_fis_pil1_cor_trq_cor_ctr 2
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_pil1_cor_trq_cor_ctr"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_fis_pil1_cor_trq_cor_val 2
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_pil1_cor_trq_cor_val"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.00	0.00	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_fis_post1_cor 36
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_post1_cor"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_fis_post1_cor_ena
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_fis_post1_cor_ena"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_inj_cur_cor_disable
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_inj_cur_cor_disable"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_pil1_cor_bits_mask1
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_pil1_cor_bits_mask1"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_pil1_cor_bits_mask2
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_pil1_cor_bits_mask2"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_post1_cor_bits_mask1
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_post1_cor_bits_mask1"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK e_trim_table.e_trim_basic.e2p_etc_time_nozzle_end_trim 8
+	LANGNAME "e_trim_table.e_trim_basic.e2p_etc_time_nozzle_end_trim"
+	FUNKTION "E_TRIM"
+	EINHEIT_W "ms"
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_post1_cor_bits_mask2
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_post1_cor_bits_mask2"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_rpg_rp_prev_start_time
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_rpg_rp_prev_start_time"
+	FUNKTION "FIS"
+	EINHEIT_W "sec"
+	WERT	0.000	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_rpg_rp_start_count
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_rpg_rp_start_count"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_rpg_rp_start_time
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_rpg_rp_start_time"
+	FUNKTION "FIS"
+	EINHEIT_W "sec"
+	WERT	0.000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_fis_fm_dev_max_val
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_fis_fm_dev_max_val"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_fis_fm_dev_min_val
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_fis_fm_dev_min_val"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_fis_fm_dev_tst_val
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_fis_fm_dev_tst_val"
+	FUNKTION "FIS"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_fis_p_fuel_filter_init
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_fis_p_fuel_filter_init"
+	FUNKTION "FIS"
+	EINHEIT_W "bar"
+	WERT	0.00000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_fan_pwm_ctrl_mode
+	LANGNAME "par2_table.par2_basic.e2p_fan_pwm_ctrl_mode"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_fan_pwm_out_sel
+	LANGNAME "par2_table.par2_basic.e2p_fan_pwm_out_sel"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl1 6
+	LANGNAME "ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl1"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_high_drvn_ratio_1m
+	LANGNAME "par_table.par_basic.e2p_fan_high_drvn_ratio_1m"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	1.000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_low_speed_ratio_1m
+	LANGNAME "par_table.par_basic.e2p_fan_low_speed_ratio_1m"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	1.000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_sys6_t_air_ofs_fan2_deleted
+	LANGNAME "par_table.par_basic.e2p_fan_sys6_t_air_ofs_fan2_deleted"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_sys6_t_fluid_ofs_fan2_deleted
+	LANGNAME "par_table.par_basic.e2p_fan_sys6_t_fluid_ofs_fan2_deleted"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_t_air_ofs_fan1
+	LANGNAME "par_table.par_basic.e2p_fan_t_air_ofs_fan1"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_t_air_ofs_fan2
+	LANGNAME "par_table.par_basic.e2p_fan_t_air_ofs_fan2"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_t_fluid_ofs_fan1
+	LANGNAME "par_table.par_basic.e2p_fan_t_fluid_ofs_fan1"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.e2p_fan_t_fluid_ofs_fan2
+	LANGNAME "par_table.par_basic.e2p_fan_t_fluid_ofs_fan2"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+GRUPPENKENNLINIE par_table.par_basic.eol_fan_var.eol_y 8
+	LANGNAME "par_table.par_basic.eol_fan_var.eol_y"
+	FUNKTION "FAN"
+	EINHEIT_X "1/min"
+	EINHEIT_W "Nm"
+*SSTX "par_table.par_basic.eol_fan_var.eol_x"
+	ST/X	0.00	0.00	0.00	0.00	0.00	0.00	
+	ST/X	0.00	0.00	
+	WERT	0.00	0.00	0.00	0.00	0.00	0.00	
+	WERT	0.00	0.00	
+END
+
+STUETZSTELLENVERTEILUNG par_table.par_basic.eol_fan_var.eol_x 8
+	LANGNAME "par_table.par_basic.eol_fan_var.eol_x"
+	EINHEIT_X "1/min"
+	ST/X	0.00	0.00	0.00	0.00	0.00	0.00	
+	ST/X	0.00	0.00	
+END
+
+FESTWERTEBLOCK ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl2 6
+	LANGNAME "ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl2"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+END
+
+FESTWERT par_table.par_basic.fan_blk.e2p_fan_sys6_t_air_ofs_fan1_deleted
+	LANGNAME "par_table.par_basic.fan_blk.e2p_fan_sys6_t_air_ofs_fan1_deleted"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.fan_blk.e2p_fan_sys6_t_fluid_ofs_fan1_deleted
+	LANGNAME "par_table.par_basic.fan_blk.e2p_fan_sys6_t_fluid_ofs_fan1_deleted"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.fan_blk.e2p_fan_t_air_ofs_basic_fan1
+	LANGNAME "par_table.par_basic.fan_blk.e2p_fan_t_air_ofs_basic_fan1"
+	FUNKTION "FAN"
+	EINHEIT_W "°C"
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.fan_blk.e2p_fan_t_air_ofs_basic_fan2
+	LANGNAME "par_table.par_basic.fan_blk.e2p_fan_t_air_ofs_basic_fan2"
+	FUNKTION "FAN"
+	EINHEIT_W "°C"
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_cha_sub_amb_brake_on
+	LANGNAME "par_table.par_basic.fan_blk.fan_cha_sub_amb_brake_on"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_cha_sub_amb_on
+	LANGNAME "par_table.par_basic.fan_blk.fan_cha_sub_amb_on"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_switch_on_threshold_on_coolant_temp_speed_1_s16
+	LANGNAME "par_table.par_basic.fan_blk.fan_switch_on_threshold_on_coolant_temp_speed_1_s16"
+	FUNKTION "FAN"
+	EINHEIT_W "°C"
+	WERT	103	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_switch_on_threshold_on_coolant_temp_speed_2_s16
+	LANGNAME "par_table.par_basic.fan_blk.fan_switch_on_threshold_on_coolant_temp_speed_2_s16"
+	FUNKTION "FAN"
+	EINHEIT_W "°C"
+	WERT	103	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_1_at_engine_brake_operation_s16
+	LANGNAME "par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_1_at_engine_brake_operation_s16"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	90	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_1_s16
+	LANGNAME "par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_1_s16"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	90	
+END
+
+FESTWERTEBLOCK ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl3 6
+	LANGNAME "ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl3"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_2_at_engine_brake_operation_s16
+	LANGNAME "par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_2_at_engine_brake_operation_s16"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	90	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_2_s16
+	LANGNAME "par_table.par_basic.fan_blk.fan_switch_on_threshold_on_intake_air_temp_speed_2_s16"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	90	
+END
+
+FESTWERT par_table.par_basic.fan_blk.fan_type_uc
+	LANGNAME "par_table.par_basic.fan_blk.fan_type_uc"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_hold_time_dyn_brake_uc
+	LANGNAME "par_table.par_basic.fan_hold_time_dyn_brake_uc"
+	FUNKTION "FAN"
+	EINHEIT_W "s"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_on_time_dyn_brake_uc
+	LANGNAME "par_table.par_basic.fan_on_time_dyn_brake_uc"
+	FUNKTION "FAN"
+	EINHEIT_W "s"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_sys6_par_version
+	LANGNAME "par_table.par_basic.fan_sys6_par_version"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_t_cha_air_dyn_brake_uc
+	LANGNAME "par_table.par_basic.fan_t_cha_air_dyn_brake_uc"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_t_coolant_br_on_sys147fan1
+	LANGNAME "par_table.par_basic.fan_t_coolant_br_on_sys147fan1"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_t_coolant_br_on_sys1fan2
+	LANGNAME "par_table.par_basic.fan_t_coolant_br_on_sys1fan2"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.t_cool_in_on_fan1_s16
+	LANGNAME "par_table.par_basic.t_cool_in_on_fan1_s16"
+	FUNKTION "FAN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl4 6
+	LANGNAME "ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl4"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_fct_05_fan2_pwm_freq
+	LANGNAME "par2_table.par2_basic.e2p_fct_05_fan2_pwm_freq"
+	FUNKTION "PVH"
+	EINHEIT_W "Hz"
+	WERT	10	
+END
+
+FESTWERT par2_table.par2_basic.e2p_fct_17_fan1_pwm_freq
+	LANGNAME "par2_table.par2_basic.e2p_fct_17_fan1_pwm_freq"
+	FUNKTION "PVH"
+	EINHEIT_W "Hz"
+	WERT	200	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_01
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_01"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_02
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_02"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_03
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_03"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_04
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_04"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_05
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_05"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	30	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_06
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_06"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_07
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_07"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	13	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_08
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_08"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	15	
+END
+
+FESTWERTEBLOCK ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl5 6
+	LANGNAME "ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl5"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_09
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_09"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_10
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_10"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_11
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_11"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_12
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_12"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	10	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_13
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_13"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_14
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_14"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_15
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_15"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	20	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_16
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_16"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_17
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_17"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.pv_func_tab.pvh_func_pv_18
+	LANGNAME "par_table.par_basic.pv_func_tab.pvh_func_pv_18"
+	FUNKTION "PVH"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl6 6
+	LANGNAME "ehm3_table.ehm3_basic.e2p_qtpir_qfac_adapt_cyl6"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_fuel_lvl_diag_sel_b
+	LANGNAME "par2_table.par2_basic.e2p_fuel_lvl_diag_sel_b"
+	FUNKTION "OBD"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_obd_dsr_gdc_sna_handling
+	LANGNAME "par2_table.par2_basic.e2p_obd_dsr_gdc_sna_handling"
+	FUNKTION "OBD"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_par_dtna_process_tag
+	LANGNAME "par_table.par_basic.e2p_par_dtna_process_tag"
+	FUNKTION "OBD"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_is1_p_crankcase_active_b
+	LANGNAME "par2_table.par2_basic.e2p_is1_p_crankcase_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.charge_air_temp_after_compressor_b
+	LANGNAME "par_table.par_basic.charge_air_temp_after_compressor_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_pbs_enable
+	LANGNAME "par_table.par_basic.e2p_pbs_enable"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_wif_act_b
+	LANGNAME "par_table.par_basic.e2p_wif_act_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.isp_p_eng_oil_senstyp_u8
+	LANGNAME "par_table.par_basic.isp_p_eng_oil_senstyp_u8"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	2	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.am_acc_enable_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.am_acc_enable_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_diag_slow_on_enable_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_diag_slow_on_enable_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_qtpir_veh_sel_ampl_map
+	LANGNAME "par2_table.par2_basic.e2p_qtpir_veh_sel_ampl_map"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_man_regen_only_enble_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_man_regen_only_enble_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_pto_dosing_en_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_pto_dosing_en_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_shutdown_enable_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.dpf_shutdown_enable_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_epf_shutdown_derate_mode_bf
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_epf_shutdown_derate_mode_bf"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_is2_ccv_dev_avl_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_is2_ccv_dev_avl_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_is4_ews_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_is4_ews_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_isp_p_low_fuel_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_isp_p_low_fuel_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_wif_ews_awas_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.e2p_wif_ews_awas_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.egr_system_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.egr_system_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.fan_enable_dyn_brake_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.fan_enable_dyn_brake_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT e2p_write_par_block_to_eeprom
+	LANGNAME "e2p_write_par_block_to_eeprom"
+	FUNKTION "Default"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op2_data_table.par_op2_data_basic.pir_pre_time_update
+	LANGNAME "par_op2_data_table.par_op2_data_basic.pir_pre_time_update"
+	FUNKTION "PIR"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_dp_egr_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_dp_egr_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_dp_icooler_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_dp_icooler_out_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_l_engine_oil_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_l_engine_oil_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_l_water_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_l_water_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_p_icooler_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_p_icooler_out_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_pos_egr_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_pos_egr_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_coolant_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_coolant_out_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_icooler_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_icooler_out_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd1_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd1_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd2_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd2_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl1 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl1"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd3_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd3_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd4_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_t_tbd4_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_tc_speed_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.isp_tc_speed_active_b"
+	FUNKTION "E2P_SENSORS_2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_is2_eng_srvc_btn_var_bf
+	LANGNAME "par2_table.par2_basic.e2p_is2_eng_srvc_btn_var_bf"
+	FUNKTION "IS2"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_b_pid_ac 16
+	LANGNAME "par2_table.par2_basic.e2p_md_b_pid_ac"
+	FUNKTION "DSL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_b_pid_ad 16
+	LANGNAME "par2_table.par2_basic.e2p_md_b_pid_ad"
+	FUNKTION "DSL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_b_pid_ae 16
+	LANGNAME "par2_table.par2_basic.e2p_md_b_pid_ae"
+	FUNKTION "DSL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_m_pid_af 21
+	LANGNAME "par2_table.par2_basic.e2p_md_m_pid_af"
+	FUNKTION "ASL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_m_pid_b0 21
+	LANGNAME "par2_table.par2_basic.e2p_md_m_pid_b0"
+	FUNKTION "ASL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_m_pid_b1 21
+	LANGNAME "par2_table.par2_basic.e2p_md_m_pid_b1"
+	FUNKTION "ASL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl2 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl2"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_m_pid_b2 21
+	LANGNAME "par2_table.par2_basic.e2p_md_m_pid_b2"
+	FUNKTION "ASL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_m_pid_b3 21
+	LANGNAME "par2_table.par2_basic.e2p_md_m_pid_b3"
+	FUNKTION "ASL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_m_pid_b4 21
+	LANGNAME "par2_table.par2_basic.e2p_md_m_pid_b4"
+	FUNKTION "ASL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_md_m_pid_b5 21
+	LANGNAME "par2_table.par2_basic.e2p_md_m_pid_b5"
+	FUNKTION "ASL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_obd_indc_spd_grdt_rmp_ovrd
+	LANGNAME "par2_table.par2_basic.e2p_obd_indc_spd_grdt_rmp_ovrd"
+	FUNKTION "DRIVER_INDUCEMENT"
+	EINHEIT_W "%/min"
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_obd_indc_stage_v_only
+	LANGNAME "par2_table.par2_basic.e2p_obd_indc_stage_v_only"
+	FUNKTION "DRIVER_INDUCEMENT"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_obd_indc_trq_grdt_rmp_ovrd
+	LANGNAME "par2_table.par2_basic.e2p_obd_indc_trq_grdt_rmp_ovrd"
+	FUNKTION "DRIVER_INDUCEMENT"
+	EINHEIT_W "%/min"
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_opc_ml_re_lrn_allwd
+	LANGNAME "par2_table.par2_basic.e2p_opc_ml_re_lrn_allwd"
+	FUNKTION "OPC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_proto_par1_t_u16
+	LANGNAME "par2_table.par2_basic.e2p_proto_par1_t_u16"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_proto_par1_t_u32
+	LANGNAME "par2_table.par2_basic.e2p_proto_par1_t_u32"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl3 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl3"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_proto_par1_t_u8
+	LANGNAME "par2_table.par2_basic.e2p_proto_par1_t_u8"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_proto_par2_t_u16
+	LANGNAME "par2_table.par2_basic.e2p_proto_par2_t_u16"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_proto_par2_t_u8
+	LANGNAME "par2_table.par2_basic.e2p_proto_par2_t_u8"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op5_data_table.par_op5_data_basic.e2p_proto_accu1_t_u16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_proto_accu1_t_u16"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op5_data_table.par_op5_data_basic.e2p_proto_accu1_t_u32
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_proto_accu1_t_u32"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op5_data_table.par_op5_data_basic.e2p_proto_accu1_t_u8
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_proto_accu1_t_u8"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op5_data_table.par_op5_data_basic.e2p_proto_accu2_t_u16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_proto_accu2_t_u16"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op5_data_table.par_op5_data_basic.e2p_proto_accu2_t_u8
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_proto_accu2_t_u8"
+	FUNKTION "PROTO"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_pto_can_ratio_p_en
+	LANGNAME "par2_table.par2_basic.e2p_pto_can_ratio_p_en"
+	FUNKTION "PTO_CONFIG"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_pto_kd_type4
+	LANGNAME "par_table.par_basic.e2p_pto_kd_type4"
+	FUNKTION "PTO_CONFIG"
+	EINHEIT_W ""
+	WERT	0.00000	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl4 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl4"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	
+END
+
+FESTWERT par_table.par_basic.e2p_pto_ki_type4
+	LANGNAME "par_table.par_basic.e2p_pto_ki_type4"
+	FUNKTION "PTO_CONFIG"
+	EINHEIT_W ""
+	WERT	0.0000	
+END
+
+FESTWERT par_table.par_basic.e2p_pto_kp_type4
+	LANGNAME "par_table.par_basic.e2p_pto_kp_type4"
+	FUNKTION "PTO_CONFIG"
+	EINHEIT_W ""
+	WERT	0.0000	
+END
+
+FESTWERT par_table.par_basic.e2p_pto_type4_valid
+	LANGNAME "par_table.par_basic.e2p_pto_type4_valid"
+	FUNKTION "PTO_CONFIG"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_pto_dev_thr_l_s_type4
+	LANGNAME "par2_table.par2_basic.e2p_pto_dev_thr_l_s_type4"
+	FUNKTION "PTO"
+	EINHEIT_W ""
+	WERT	0.00	
+END
+
+FESTWERT par2_table.par2_basic.e2p_pto_kd_s_type4
+	LANGNAME "par2_table.par2_basic.e2p_pto_kd_s_type4"
+	FUNKTION "PTO"
+	EINHEIT_W ""
+	WERT	0.00000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_pto_ki_s_type4
+	LANGNAME "par2_table.par2_basic.e2p_pto_ki_s_type4"
+	FUNKTION "PTO"
+	EINHEIT_W ""
+	WERT	0.0000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_pto_kp_s_type4
+	LANGNAME "par2_table.par2_basic.e2p_pto_kp_s_type4"
+	FUNKTION "PTO"
+	EINHEIT_W ""
+	WERT	0.0000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_tmw_mth_radiator
+	LANGNAME "par2_table.par2_basic.e2p_tmw_mth_radiator"
+	FUNKTION "tmw"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_tmw_mth_type
+	LANGNAME "par2_table.par2_basic.e2p_tmw_mth_type"
+	FUNKTION "tmw"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_tmw_acc_type
+	LANGNAME "par_table.par_basic.e2p_tmw_acc_type"
+	FUNKTION "tmw"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl5 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl5"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	
+END
+
+FESTWERT par_table.par_basic.e2p_tmw_wp_pto
+	LANGNAME "par_table.par_basic.e2p_tmw_wp_pto"
+	FUNKTION "tmw"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.tmw_types_u8
+	LANGNAME "par_table.par_basic.tmw_types_u8"
+	FUNKTION "tmw"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.tmw_wp_type_bf
+	LANGNAME "par_table.par_basic.tmw_wp_type_bf"
+	FUNKTION "tmw"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_wif_aux_act_b
+	LANGNAME "par2_table.par2_basic.e2p_wif_aux_act_b"
+	FUNKTION "WIF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.eu6_cal_id_par 4
+	LANGNAME "par2_table.par2_basic.eu6_cal_id_par"
+	FUNKTION "CAL_ID"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.par_cal_id_parameter_set 7
+	LANGNAME "par2_table.par2_basic.par_cal_id_parameter_set"
+	FUNKTION "CAL_ID"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op2_data_table.par_op2_data_basic.e2p_esc_speed_test_result_fac 36
+	LANGNAME "par_op2_data_table.par_op2_data_basic.e2p_esc_speed_test_result_fac"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERT par_op2_data_table.par_op2_data_basic.esc_last_update_time
+	LANGNAME "par_op2_data_table.par_op2_data_basic.esc_last_update_time"
+	FUNKTION "ESC"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_op3_data_table.par_op3_data_basic.e2p_esc_rpr_inhibit_b
+	LANGNAME "par_op3_data_table.par_op3_data_basic.e2p_esc_rpr_inhibit_b"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_esc_cor_fac 8
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_cor_fac"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	
+	WERT	1.000000	1.000000	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl6 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_cyl6"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.00000	0.00000	0.00000	0.00000	0.00000	0.00000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_esc_learn_counter
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_learn_counter"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_esc_ref_amp_l3 24
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_ref_amp_l3"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_esc_ref_lrn_ctr_l3 24
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_ref_lrn_ctr_l3"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_esc_ref_pha_l3 24
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_ref_pha_l3"
+	FUNKTION "ESC"
+	EINHEIT_W "rad"
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_esc_test_fac 8
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_test_fac"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_esc_test_fac_max
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_test_fac_max"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_esc_test_fac_min
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_test_fac_min"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_esc_update_rel
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_update_rel"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.esc_adap_cyl_1 24
+	LANGNAME "par_op_data_table.par_op_data_basic.esc_adap_cyl_1"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.esc_adap_cyl_2 24
+	LANGNAME "par_op_data_table.par_op_data_basic.esc_adap_cyl_2"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_offset
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_adapt_offset"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.esc_adap_cyl_3 24
+	LANGNAME "par_op_data_table.par_op_data_basic.esc_adap_cyl_3"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.esc_adap_cyl_4 24
+	LANGNAME "par_op_data_table.par_op_data_basic.esc_adap_cyl_4"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.esc_adap_cyl_5 24
+	LANGNAME "par_op_data_table.par_op_data_basic.esc_adap_cyl_5"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.esc_adap_cyl_6 24
+	LANGNAME "par_op_data_table.par_op_data_basic.esc_adap_cyl_6"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.par_op1.par_op1_bf8.e2p_esc_ecu_init_b
+	LANGNAME "par_op_data_table.par_op_data_basic.par_op1.par_op1_bf8.e2p_esc_ecu_init_b"
+	FUNKTION "ESC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op2_data_table.par_op2_data_basic.e2p_rpr_eng_time_pre_updat2
+	LANGNAME "par_op2_data_table.par_op2_data_basic.e2p_rpr_eng_time_pre_updat2"
+	FUNKTION "RPG"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_op5_data_table.par_op5_data_basic.e2p_rpg_fmu_adapt_adv_lrn_neg
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_rpg_fmu_adapt_adv_lrn_neg"
+	FUNKTION "RPG"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op2_data_table.par_op2_data_basic.e2p_rpr_learn_counter 16
+	LANGNAME "par_op2_data_table.par_op2_data_basic.e2p_rpr_learn_counter"
+	FUNKTION "RPR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERT par_op2_data_table.par_op2_data_basic.rpr_eng_time_pre_update
+	LANGNAME "par_op2_data_table.par_op2_data_basic.rpr_eng_time_pre_update"
+	FUNKTION "RPR"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.par_op1.par_op1_bf8.e2p_rpr_ref_phase_cal_b
+	LANGNAME "par_op_data_table.par_op_data_basic.par_op1.par_op1_bf8.e2p_rpr_ref_phase_cal_b"
+	FUNKTION "RPR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_qtpir_bits_mask1
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_bits_mask1"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.rpr_pre_cal_bit_mask
+	LANGNAME "par_op_data_table.par_op_data_basic.rpr_pre_cal_bit_mask"
+	FUNKTION "RPR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.rpr_ref_phase_line_1 16
+	LANGNAME "par_op_data_table.par_op_data_basic.rpr_ref_phase_line_1"
+	FUNKTION "RPR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.rpr_ref_phase_line_2 16
+	LANGNAME "par_op_data_table.par_op_data_basic.rpr_ref_phase_line_2"
+	FUNKTION "RPR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.rpr_ref_phase_line_3 16
+	LANGNAME "par_op_data_table.par_op_data_basic.rpr_ref_phase_line_3"
+	FUNKTION "RPR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.rpr_update_bit_mask
+	LANGNAME "par_op_data_table.par_op_data_basic.rpr_update_bit_mask"
+	FUNKTION "RPR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op2_data_table.par_op2_data_basic.e2p_scm_fis_i_dur_main
+	LANGNAME "par_op2_data_table.par_op2_data_basic.e2p_scm_fis_i_dur_main"
+	FUNKTION "SCM"
+	EINHEIT_W "ms"
+	WERT	0.0000	
+END
+
+FESTWERT par_op2_data_table.par_op2_data_basic.e2p_scm_fis_inh_cnt
+	LANGNAME "par_op2_data_table.par_op2_data_basic.e2p_scm_fis_inh_cnt"
+	FUNKTION "SCM"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_scm_fis_inh_dur
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_scm_fis_inh_dur"
+	FUNKTION "SCM"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERTEBLOCK par_op2_data_table.par_op2_data_basic.e2p_sp_ama_air_mfr_cfac_3m 72
+	LANGNAME "par_op2_data_table.par_op2_data_basic.e2p_sp_ama_air_mfr_cfac_3m"
+	FUNKTION "SP"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op6_data_table.par_op6_data_basic.e2p_sp_ama_air_mfr_all_cfac_3m 72
+	LANGNAME "par_op6_data_table.par_op6_data_basic.e2p_sp_ama_air_mfr_all_cfac_3m"
+	FUNKTION "SP"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_qtpir_bits_mask2
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_bits_mask2"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op6_data_table.par_op6_data_basic.e2p_sp_ama_air_mfr_fis_cfac_3m 72
+	LANGNAME "par_op6_data_table.par_op6_data_basic.e2p_sp_ama_air_mfr_fis_cfac_3m"
+	FUNKTION "SP"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op6_data_table.par_op6_data_basic.e2p_sp_ama_nr_iter_all_3m 72
+	LANGNAME "par_op6_data_table.par_op6_data_basic.e2p_sp_ama_nr_iter_all_3m"
+	FUNKTION "SP"
+	EINHEIT_W ""
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+END
+
+FESTWERTEBLOCK par_op6_data_table.par_op6_data_basic.e2p_sp_ama_nr_iter_fis_3m 72
+	LANGNAME "par_op6_data_table.par_op6_data_basic.e2p_sp_ama_nr_iter_fis_3m"
+	FUNKTION "SP"
+	EINHEIT_W ""
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.000	0.000	0.000	0.000	0.000	0.000	
+END
+
+FESTWERT par_table.par_basic.e2p_sp_egr_vol_icooler_comp
+	LANGNAME "par_table.par_basic.e2p_sp_egr_vol_icooler_comp"
+	FUNKTION "SP"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_egr_nox_i_control_kl 12
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_egr_nox_i_control_kl"
+	FUNKTION "EGR"
+	EINHEIT_W ""
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+	WERT	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	
+END
+
+FESTWERT par_table.par_basic.e2p_am_egr_frame_enable_b
+	LANGNAME "par_table.par_basic.e2p_am_egr_frame_enable_b"
+	FUNKTION "EGR"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line1 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line1"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line2 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line2"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line3 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line3"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line6 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_ampl_line6"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_rc4_engine_coolant_amount
+	LANGNAME "par2_table.par2_basic.e2p_rc4_engine_coolant_amount"
+	FUNKTION "Default"
+	EINHEIT_W "kg"
+	WERT	16	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl1 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl1"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_learn_counter 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_learn_counter"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line1 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line1"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line2 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line2"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line3 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line3"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line6 16
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_mfd_nol_phase_line6"
+	FUNKTION "NOL"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.fac_lsl_gain_ad 1
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.fac_lsl_gain_ad"
+	FUNKTION "EGCP"
+	EINHEIT_W ""
+	WERT	33423	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.iplsl_mmv_vld_fcut 1
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.iplsl_mmv_vld_fcut"
+	FUNKTION "EGCP"
+	EINHEIT_W ""
+	WERT	-32768	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.iplsl_vari_vld_fcut 1
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.iplsl_vari_vld_fcut"
+	FUNKTION "EGCP"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.lamb_thd_vplsl_lim 1
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.lamb_thd_vplsl_lim"
+	FUNKTION "EGCP"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.lv_lsl_first_gain_ad 1
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_nvmy_egcp.lv_lsl_first_gain_ad"
+	FUNKTION "EGCP"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl2 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl2"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.par_op1.par_op1_bf8.e2p_esa_isc_fcts_disable_b
+	LANGNAME "par_op_data_table.par_op_data_basic.par_op1.par_op1_bf8.e2p_esa_isc_fcts_disable_b"
+	FUNKTION "ISC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.automatic_gearbox_b
+	LANGNAME "par_table.par_basic.automatic_gearbox_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_idle_zone_offset
+	LANGNAME "par_table.par_basic.e2p_idle_zone_offset"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_mixed_mode_type
+	LANGNAME "par_table.par_basic.e2p_mixed_mode_type"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_vehicle_is_bus
+	LANGNAME "par_table.par_basic.e2p_vehicle_is_bus"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_1_blk.par_1_bf.can_single_wire_capability_b
+	LANGNAME "par_table.par_basic.par_1_blk.par_1_bf.can_single_wire_capability_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_1_blk.par_1_bf.dpf_hc_dos_break_disable_b
+	LANGNAME "par_table.par_basic.par_1_blk.par_1_bf.dpf_hc_dos_break_disable_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_1_blk.par_1_bf.e2p_can3_enable_b
+	LANGNAME "par_table.par_basic.par_1_blk.par_1_bf.e2p_can3_enable_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_1_blk.par_1_bf.e2p_dsr_enable_strict_safety_b
+	LANGNAME "par_table.par_basic.par_1_blk.par_1_bf.e2p_dsr_enable_strict_safety_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_1_blk.par_1_bf.e2p_isc_reset_after_start_b
+	LANGNAME "par_table.par_basic.par_1_blk.par_1_bf.e2p_isc_reset_after_start_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl3 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl3"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERT par_table.par_basic.par_1_blk.par_1_bf.e2p_xcp_ccp_enable_b
+	LANGNAME "par_table.par_basic.par_1_blk.par_1_bf.e2p_xcp_ccp_enable_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_1_blk.par_1_bf.sel_can_active_mode_b
+	LANGNAME "par_table.par_basic.par_1_blk.par_1_bf.sel_can_active_mode_b"
+	FUNKTION "VEHICLE_PAR_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.csa_type_uc
+	LANGNAME "par_table.par_basic.csa_type_uc"
+	FUNKTION "CSA"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_dist_interval_regen_flag_b
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_dist_interval_regen_flag_b"
+	FUNKTION "DPF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_exh_pipe_volu_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_exh_pipe_volu_us"
+	FUNKTION "DPF"
+	EINHEIT_W ""
+	WERT	0.0000000	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_fuel_interval_regen_flag_b
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_fuel_interval_regen_flag_b"
+	FUNKTION "DPF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_het_lamp_dpf_to_off
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_het_lamp_dpf_to_off"
+	FUNKTION "DPF"
+	EINHEIT_W "°C"
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_het_lamp_dpf_to_on
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_het_lamp_dpf_to_on"
+	FUNKTION "DPF"
+	EINHEIT_W "°C"
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_het_lamp_min_time
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_het_lamp_min_time"
+	FUNKTION "DPF"
+	EINHEIT_W "s"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_manual_regen_b
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_manual_regen_b"
+	FUNKTION "DPF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl4 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl4"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_dist_delta_3_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_dist_delta_3_us"
+	FUNKTION "DPF"
+	EINHEIT_W "km"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_dist_delta_4_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_dist_delta_4_us"
+	FUNKTION "DPF"
+	EINHEIT_W "km"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_dist_delta_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_dist_delta_us"
+	FUNKTION "DPF"
+	EINHEIT_W "km"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_fuel_delta_3_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_fuel_delta_3_us"
+	FUNKTION "DPF"
+	EINHEIT_W "kg"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_fuel_delta_4_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_fuel_delta_4_us"
+	FUNKTION "DPF"
+	EINHEIT_W "kg"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_fuel_delta_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_fuel_delta_us"
+	FUNKTION "DPF"
+	EINHEIT_W "kg"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_time_delta_2_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_time_delta_2_us"
+	FUNKTION "DPF"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_time_delta_3_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_time_delta_3_us"
+	FUNKTION "DPF"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_time_delta_4_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_time_delta_4_us"
+	FUNKTION "DPF"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_regen_time_delta_us
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_regen_time_delta_us"
+	FUNKTION "DPF"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl5 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl5"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.dpf_time_interval_regen_flag_b
+	LANGNAME "par_table.par_basic.dpf_blk.dpf_time_interval_regen_flag_b"
+	FUNKTION "DPF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.e2p_dpf_regen_dist_delta_2_us
+	LANGNAME "par_table.par_basic.dpf_blk.e2p_dpf_regen_dist_delta_2_us"
+	FUNKTION "DPF"
+	EINHEIT_W "km"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_blk.e2p_dpf_regen_fuel_delta_2_us
+	LANGNAME "par_table.par_basic.dpf_blk.e2p_dpf_regen_fuel_delta_2_us"
+	FUNKTION "DPF"
+	EINHEIT_W "kg"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_can_vehicle_speed_enable_b
+	LANGNAME "par_table.par_basic.dpf_can_vehicle_speed_enable_b"
+	FUNKTION "DPF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_dist_delta_man_reg_us
+	LANGNAME "par_table.par_basic.dpf_dist_delta_man_reg_us"
+	FUNKTION "DPF"
+	EINHEIT_W "km"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_fuel_delta_man_reg_us
+	LANGNAME "par_table.par_basic.dpf_fuel_delta_man_reg_us"
+	FUNKTION "DPF"
+	EINHEIT_W "kg"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_het_lamp_max_speed_hyst
+	LANGNAME "par_table.par_basic.dpf_het_lamp_max_speed_hyst"
+	FUNKTION "DPF"
+	EINHEIT_W "km/h"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_het_lamp_max_speed_thr
+	LANGNAME "par_table.par_basic.dpf_het_lamp_max_speed_thr"
+	FUNKTION "DPF"
+	EINHEIT_W "km/h"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_max_delta_man_reg_us
+	LANGNAME "par_table.par_basic.dpf_max_delta_man_reg_us"
+	FUNKTION "DPF"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_min_veh_speed_hys_uc
+	LANGNAME "par_table.par_basic.dpf_min_veh_speed_hys_uc"
+	FUNKTION "DPF"
+	EINHEIT_W "km/h"
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl6 6
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_counter_cyl6"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERT par_table.par_basic.dpf_min_veh_speed_uc
+	LANGNAME "par_table.par_basic.dpf_min_veh_speed_uc"
+	FUNKTION "DPF"
+	EINHEIT_W "km/h"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_regen_dist_delta_5_us
+	LANGNAME "par_table.par_basic.dpf_regen_dist_delta_5_us"
+	FUNKTION "DPF"
+	EINHEIT_W "km"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_regen_fuel_delta_5_us
+	LANGNAME "par_table.par_basic.dpf_regen_fuel_delta_5_us"
+	FUNKTION "DPF"
+	EINHEIT_W "kg"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.dpf_regen_time_delta_5_us
+	LANGNAME "par_table.par_basic.dpf_regen_time_delta_5_us"
+	FUNKTION "DPF"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.sp_air_mass_c0_select_uc
+	LANGNAME "par_table.par_basic.sp_air_mass_c0_select_uc"
+	FUNKTION "DPF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_am_vcp_frame_enable_b
+	LANGNAME "par_table.par_basic.e2p_am_vcp_frame_enable_b"
+	FUNKTION "AM_VCP"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERTEBLOCK par_table.par_basic.e2p_diag_partner_id 4
+	LANGNAME "par_table.par_basic.e2p_diag_partner_id"
+	FUNKTION "DIAG_PARTNER_ID"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERT par_table.par_basic.e2p_engine_with_pto
+	LANGNAME "par_table.par_basic.e2p_engine_with_pto"
+	FUNKTION "TMC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_tmc_thermo_roll_enable
+	LANGNAME "par_table.par_basic.e2p_tmc_thermo_roll_enable"
+	FUNKTION "TMC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_tmc_thermo_roll_zone_offset
+	LANGNAME "par_table.par_basic.e2p_tmc_thermo_roll_zone_offset"
+	FUNKTION "TMC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_qtpir_dur_init_done
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_dur_init_done"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.fan_blk.e2p_tmc_dpf_fan_mode
+	LANGNAME "par_table.par_basic.fan_blk.e2p_tmc_dpf_fan_mode"
+	FUNKTION "TMC"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_epf_gen_speed_factor
+	LANGNAME "par_table.par_basic.e2p_epf_gen_speed_factor"
+	FUNKTION "EPF"
+	EINHEIT_W ""
+	WERT	1.00	
+END
+
+FESTWERT par_table.par_basic.e2p_fmm_vin_odometer_limit
+	LANGNAME "par_table.par_basic.e2p_fmm_vin_odometer_limit"
+	FUNKTION "VIN"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_ign_variant_evobus_enable
+	LANGNAME "par_table.par_basic.e2p_ign_variant_evobus_enable"
+	FUNKTION "EVOBUS"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_iol_l_oil_refill_type
+	LANGNAME "par_table.par_basic.e2p_iol_l_oil_refill_type"
+	FUNKTION "OIL"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_rc4_egr_cool_fail_thr_fac
+	LANGNAME "par_table.par_basic.e2p_rc4_egr_cool_fail_thr_fac"
+	FUNKTION "RC4"
+	EINHEIT_W ""
+	WERT	1.300	
+END
+
+FESTWERT par_table.par_basic.e2p_scl_par_easy_starter_start
+	LANGNAME "par_table.par_basic.e2p_scl_par_easy_starter_start"
+	FUNKTION "SPI"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+GRUPPENKENNLINIE par_table.par_basic.eol_var.eol_y 4
+	LANGNAME "par_table.par_basic.eol_var.eol_y"
+	FUNKTION "SPI"
+	EINHEIT_X "rpm"
+	EINHEIT_W " "
+*SSTX "par_table.par_basic.eol_var.eol_x"
+	ST/X	1200.00	1800.00	5000.00	5000.00	
+	WERT	1.00000	1.00000	1.00000	1.00000	
+END
+
+STUETZSTELLENVERTEILUNG par_table.par_basic.eol_var.eol_x 4
+	LANGNAME "par_table.par_basic.eol_var.eol_x"
+	EINHEIT_X "rpm"
+	ST/X	1200.00	1800.00	5000.00	5000.00	
+END
+
+FESTWERT par_table.par_basic.scl_starter_type_uc
+	LANGNAME "par_table.par_basic.scl_starter_type_uc"
+	FUNKTION "SPI"
+	EINHEIT_W ""
+	WERT	2	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_qtpir_ecu_init_b
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_ecu_init_b"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.spi_boi_offset_eol
+	LANGNAME "par_table.par_basic.spi_boi_offset_eol"
+	FUNKTION "SPI"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.spi_start_enrichm_factor_s
+	LANGNAME "par_table.par_basic.spi_start_enrichm_factor_s"
+	FUNKTION "SPI"
+	EINHEIT_W ""
+	WERT	1.000000	
+END
+
+FESTWERT par_table.par_basic.e2p_sys_can_flywheel_sel
+	LANGNAME "par_table.par_basic.e2p_sys_can_flywheel_sel"
+	FUNKTION "SYSTEM"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.e2p_sys_engine_brake_variant
+	LANGNAME "par_table.par_basic.e2p_sys_engine_brake_variant"
+	FUNKTION "SYSTEM"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERTEBLOCK par_table.par_basic.engine_id_str 14
+	LANGNAME "par_table.par_basic.engine_id_str"
+	FUNKTION "ENGINE_ID"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	
+END
+
+FESTWERT par_table.par_basic.engine_service_hour_counter_us
+	LANGNAME "par_table.par_basic.engine_service_hour_counter_us"
+	FUNKTION "ENG_SERVICE_INFO"
+	EINHEIT_W "h"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.engine_service_minutes_counter_uc
+	LANGNAME "par_table.par_basic.engine_service_minutes_counter_uc"
+	FUNKTION "ENG_SERVICE_INFO"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.engine_service_sec_uc
+	LANGNAME "par_table.par_basic.engine_service_sec_uc"
+	FUNKTION "ENG_SERVICE_INFO"
+	EINHEIT_W "s"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.sra1_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.sra1_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.sra2_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.sra2_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op4_data_table.par_op4_data_basic.e2p_qtpir_offset_values 10
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_offset_values"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.sra3_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.sra3_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.sra4_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.sra4_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor2_blk.sensor_bf32.sra5_active_b
+	LANGNAME "par_table.par_basic.par_sensor2_blk.sensor_bf32.sra5_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.e2p_isp_t_turb_in_enable
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.e2p_isp_t_turb_in_enable"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.ebm_hyd_ct_inst_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.ebm_hyd_ct_inst_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.ebm_jb1_is_ct_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.ebm_jb1_is_ct_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.ebm_jb2_is_exhaust_br_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.ebm_jb2_is_exhaust_br_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_diesel_fuel_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_diesel_fuel_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_dpf_in_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_dpf_in_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_dpf_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_dpf_out_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op4_data_table.par_op4_data_basic.e2p_qtpir_pre_time_update
+	LANGNAME "par_op4_data_table.par_op4_data_basic.e2p_qtpir_pre_time_update"
+	FUNKTION "PIR"
+	EINHEIT_W "min"
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_eng_oil_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_eng_oil_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_hcd_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_hcd_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_intake_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_intake_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_rail_rpg_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_p_rail_rpg_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_pos_iat_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_pos_iat_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_rh_ambient_air_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_rh_ambient_air_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_ambient_air_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_ambient_air_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_charge_air_post_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_charge_air_post_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_comp_in_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_comp_in_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_comp_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_comp_out_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_esc_last_update_time_deleted
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_esc_last_update_time_deleted"
+	FUNKTION "Default"
+	EINHEIT_W "h"
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl1 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl1"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_coolant_in_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_coolant_in_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_diesel_fuel_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_diesel_fuel_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_doc_in_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_doc_in_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_doc_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_doc_out_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_dpf_out_active_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_dpf_out_active_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_egr_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_egr_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_eng_oil_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_eng_oil_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_intake_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_intake_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_post_cat_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_post_cat_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_pre_cat_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.isp_t_pre_cat_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl2 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl2"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.p_icooler_out_enable_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.p_icooler_out_enable_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par_table.par_basic.par_sensor_blk.sensor_bf32.vtg_turbobrake_allowed_b
+	LANGNAME "par_table.par_basic.par_sensor_blk.sensor_bf32.vtg_turbobrake_allowed_b"
+	FUNKTION "E2P_SENSORS_1"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_table.par_basic.port_closing_tdc_balancing_s
+	LANGNAME "par_table.par_basic.port_closing_tdc_balancing_s"
+	FUNKTION "EOL_TDC"
+	EINHEIT_W ""
+	WERT	0.0000	
+END
+
+FESTWERT par_table.par_basic.tbf_trq_offset_activity
+	LANGNAME "par_table.par_basic.tbf_trq_offset_activity"
+	FUNKTION "TBF"
+	EINHEIT_W ""
+	WERT	0.000	
+END
+
+FESTWERT par_table.par_basic.turbo_type_uc
+	LANGNAME "par_table.par_basic.turbo_type_uc"
+	FUNKTION "VNT"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK swindi_table.can_config 4
+	LANGNAME "swindi_table.can_config"
+	FUNKTION "SWINDI"
+	EINHEIT_W ""
+	WERT	1	3	2	0	
+END
+
+FESTWERTEBLOCK swindi_table.e2p_eeprom_fw_version_string 4
+	LANGNAME "swindi_table.e2p_eeprom_fw_version_string"
+	FUNKTION "E2P_ATTRIB"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK woerth_fac_table.woerth_fac_basic.e2p_woerth_fac_str 103
+	LANGNAME "woerth_fac_table.woerth_fac_basic.e2p_woerth_fac_str"
+	FUNKTION "WFB"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl3 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl3"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl4 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl4"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl5 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl5"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl6 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_adapt_cyl6"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0.0000	0.0000	0.0000	0.0000	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_adapt_offset 8
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_adapt_offset"
+	FUNKTION "PIR"
+	EINHEIT_W "ms"
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_pir_bits_mask
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_bits_mask"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl1 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl1"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl2 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl2"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_pir_pre_time_update_deleted
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_pre_time_update_deleted"
+	FUNKTION "Default"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl3 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl3"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl4 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl4"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl5 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl5"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl6 4
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_counter_cyl6"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	0	0	0	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_pir_dur_init_done
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_dur_init_done"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.e2p_pir_ecu_init_b
+	LANGNAME "par_op_data_table.par_op_data_basic.e2p_pir_ecu_init_b"
+	FUNKTION "PIR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_decl_down_trsh_1m
+	LANGNAME "oil_table.oil_basic.isp_l_oil_decl_down_trsh_1m"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "%"
+	WERT	-50.00	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_decl_up_trsh_1m
+	LANGNAME "oil_table.oil_basic.isp_l_oil_decl_up_trsh_1m"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "%"
+	WERT	50.00	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_en_sump2
+	LANGNAME "oil_table.oil_basic.isp_l_oil_en_sump2"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_minmax_s
+	LANGNAME "oil_table.oil_basic.isp_l_oil_minmax_s"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	4.0000	
+END
+
+FESTWERT par_op_data_table.par_op_data_basic.rpr_time_pre_update_deleted
+	LANGNAME "par_op_data_table.par_op_data_basic.rpr_time_pre_update_deleted"
+	FUNKTION "Default"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_mode_uc
+	LANGNAME "oil_table.oil_basic.isp_l_oil_mode_uc"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W ""
+	WERT	3	
+END
+
+GRUPPENKENNLINIE oil_table.oil_basic.isp_l_oil_norm_eng_off2_ipo_eol_y 5
+	LANGNAME "oil_table.oil_basic.isp_l_oil_norm_eng_off2_ipo_eol_y"
+	FUNKTION "ISP_OIL"
+	EINHEIT_X "%"
+	EINHEIT_W " "
+*SSTX "oil_table.oil_basic.isp_l_oil_norm_eng_off2_ipo_eol_x"
+	ST/X	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+STUETZSTELLENVERTEILUNG oil_table.oil_basic.isp_l_oil_norm_eng_off2_ipo_eol_x 5
+	LANGNAME "oil_table.oil_basic.isp_l_oil_norm_eng_off2_ipo_eol_x"
+	EINHEIT_X "%"
+	ST/X	0.000	0.000	0.000	0.000	0.000	
+END
+
+GRUPPENKENNLINIE oil_table.oil_basic.isp_l_oil_norm_eng_off_ipo_eol_y 5
+	LANGNAME "oil_table.oil_basic.isp_l_oil_norm_eng_off_ipo_eol_y"
+	FUNKTION "ISP_OIL"
+	EINHEIT_X "%"
+	EINHEIT_W " "
+*SSTX "oil_table.oil_basic.isp_l_oil_norm_eng_off_ipo_eol_x"
+	ST/X	0.500	13.400	48.800	59.300	98.300	
+	WERT	8.0000	6.5000	2.0000	0.0000	-7.0000	
+END
+
+STUETZSTELLENVERTEILUNG oil_table.oil_basic.isp_l_oil_norm_eng_off_ipo_eol_x 5
+	LANGNAME "oil_table.oil_basic.isp_l_oil_norm_eng_off_ipo_eol_x"
+	EINHEIT_X "%"
+	ST/X	0.500	13.400	48.800	59.300	98.300	
+END
+
+GRUPPENKENNLINIE oil_table.oil_basic.isp_l_oil_norm_eng_on_ipo_eol_y 5
+	LANGNAME "oil_table.oil_basic.isp_l_oil_norm_eng_on_ipo_eol_y"
+	FUNKTION "ISP_OIL"
+	EINHEIT_X "%"
+	EINHEIT_W " "
+*SSTX "oil_table.oil_basic.isp_l_oil_norm_eng_on_ipo_eol_x"
+	ST/X	0.000	0.000	0.000	0.000	0.000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	
+END
+
+STUETZSTELLENVERTEILUNG oil_table.oil_basic.isp_l_oil_norm_eng_on_ipo_eol_x 5
+	LANGNAME "oil_table.oil_basic.isp_l_oil_norm_eng_on_ipo_eol_x"
+	EINHEIT_X "%"
+	ST/X	0.000	0.000	0.000	0.000	0.000	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_ok_high_trsh_1m
+	LANGNAME "oil_table.oil_basic.isp_l_oil_ok_high_trsh_1m"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	-2.0000	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_ok_low_trsh_1m
+	LANGNAME "oil_table.oil_basic.isp_l_oil_ok_low_trsh_1m"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	3.0000	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_prewarn_trsh_s
+	LANGNAME "oil_table.oil_basic.isp_l_oil_prewarn_trsh_s"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	4.0000	
+END
+
+FESTWERT par_table.par_basic.e2p_tmw_wp_cab_ht_dsbl
+	LANGNAME "par_table.par_basic.e2p_tmw_wp_cab_ht_dsbl"
+	FUNKTION "Default"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_refill_req_trsh_s
+	LANGNAME "oil_table.oil_basic.isp_l_oil_refill_req_trsh_s"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	15.5000	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_uppwrn_trsh_s
+	LANGNAME "oil_table.oil_basic.isp_l_oil_uppwrn_trsh_s"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	-9.0000	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_warn_trsh_s
+	LANGNAME "oil_table.oil_basic.isp_l_oil_warn_trsh_s"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	7.4000	
+END
+
+FESTWERT oil_table.oil_basic.isp_l_oil_warnbuz_trsh_s
+	LANGNAME "oil_table.oil_basic.isp_l_oil_warnbuz_trsh_s"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W "l"
+	WERT	7.4000	
+END
+
+FESTWERT par_table.par_basic.e2p_isp_l_oil_max_level_1m
+	LANGNAME "par_table.par_basic.e2p_isp_l_oil_max_level_1m"
+	FUNKTION "ISP_OIL"
+	EINHEIT_W ""
+	WERT	25.00	
+END
+
+FESTWERT par2_table.par2_basic.e2p_30g_nox_enable
+	LANGNAME "par2_table.par2_basic.e2p_30g_nox_enable"
+	FUNKTION "CCF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_ccf_fbf_dyn_limit_deleted 12
+	LANGNAME "par2_table.par2_basic.e2p_ccf_fbf_dyn_limit_deleted"
+	FUNKTION "CCF"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERTEBLOCK par2_table.par2_basic.e2p_app_code_partnumber 18
+	LANGNAME "par2_table.par2_basic.e2p_app_code_partnumber"
+	FUNKTION "APP_CODE"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_table.par_basic.e2p_app_code_partnumber_deleted 10
+	LANGNAME "par_table.par_basic.e2p_app_code_partnumber_deleted"
+	FUNKTION "APP_CODE"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK par_table.par_basic.e2p_application_code 10
+	LANGNAME "par_table.par_basic.e2p_application_code"
+	FUNKTION "APP_CODE"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERTEBLOCK swindi_table.reserve 16
+	LANGNAME "swindi_table.reserve"
+	FUNKTION "Default"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_bta_sel_trq_adapt_reset
+	LANGNAME "par2_table.par2_basic.e2p_bta_sel_trq_adapt_reset"
+	FUNKTION "PAR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_bus_refuse_act_b
+	LANGNAME "par2_table.par2_basic.e2p_bus_refuse_act_b"
+	FUNKTION "PAR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_is1_p_turb_in_bank1_active_b
+	LANGNAME "par2_table.par2_basic.e2p_is1_p_turb_in_bank1_active_b"
+	FUNKTION "PAR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_is1_p_turb_in_bank2_active_b
+	LANGNAME "par2_table.par2_basic.e2p_is1_p_turb_in_bank2_active_b"
+	FUNKTION "PAR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_lig_hc_acc_eng_spd_mode
+	LANGNAME "par2_table.par2_basic.e2p_lig_hc_acc_eng_spd_mode"
+	FUNKTION "PAR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_opc_enable_b
+	LANGNAME "par2_table.par2_basic.e2p_opc_enable_b"
+	FUNKTION "PAR"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_can_in_t_amb_air_diag_ena_b
+	LANGNAME "par2_table.par2_basic.e2p_can_in_t_amb_air_diag_ena_b"
+	FUNKTION "MU_SNA"
+	EINHEIT_W ""
+	WERT	1	
+END
+
+FESTWERT par2_table.par2_basic.e2p_ccs_ofs_tdc_cor_clas
+	LANGNAME "par2_table.par2_basic.e2p_ccs_ofs_tdc_cor_clas"
+	FUNKTION "CCS"
+	EINHEIT_W "deg"
+	WERT	0.000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_dbg_prescaler
+	LANGNAME "par2_table.par2_basic.e2p_dbg_prescaler"
+	FUNKTION "DBG_E2P"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_diag_rmt_obd_mon_en_mc_b
+	LANGNAME "par2_table.par2_basic.e2p_diag_rmt_obd_mon_en_mc_b"
+	FUNKTION "OBD_EEPROM"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK e_trim_table.e_trim_basic.e2p_etc_time_current_dur_trim 80
+	LANGNAME "e_trim_table.e_trim_basic.e2p_etc_time_current_dur_trim"
+	FUNKTION "E_TRIM"
+	EINHEIT_W "ms"
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	
+	WERT	0.0000	0.0000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_dtctestmodeconfig
+	LANGNAME "par2_table.par2_basic.e2p_dtctestmodeconfig"
+	FUNKTION "DTC_TEST"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_dtctestmodeenable
+	LANGNAME "par2_table.par2_basic.e2p_dtctestmodeenable"
+	FUNKTION "DTC_TEST"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERTEBLOCK par_op5_data_table.par_op5_data_basic.e2p_dtctestmodecontrolarea 17
+	LANGNAME "par_op5_data_table.par_op5_data_basic.e2p_dtctestmodecontrolarea"
+	FUNKTION "DTC_TEST"
+	EINHEIT_W ""
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	0	
+	WERT	0	0	0	0	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_eaf_exg_heat_sys_on_b
+	LANGNAME "par2_table.par2_basic.e2p_eaf_exg_heat_sys_on_b"
+	FUNKTION "EAF"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_ebm_brake_diag_var_ena
+	LANGNAME "par2_table.par2_basic.e2p_ebm_brake_diag_var_ena"
+	FUNKTION "EBM"
+	EINHEIT_W ""
+	WERT	5	
+END
+
+FESTWERT par2_table.par2_basic.e2p_ecm2_gearbox_config
+	LANGNAME "par2_table.par2_basic.e2p_ecm2_gearbox_config"
+	FUNKTION "ECM2"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_ecm2_gearbox_config_cpl
+	LANGNAME "par2_table.par2_basic.e2p_ecm2_gearbox_config_cpl"
+	FUNKTION "ECM2"
+	EINHEIT_W ""
+	WERT	0.000000	
+END
+
+FESTWERT par2_table.par2_basic.e2p_eng_prod_step_req_bf
+	LANGNAME "par2_table.par2_basic.e2p_eng_prod_step_req_bf"
+	FUNKTION "ENGINE_PROD"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_epf_starter_max_prewarn
+	LANGNAME "par2_table.par2_basic.e2p_epf_starter_max_prewarn"
+	FUNKTION "SCL"
+	EINHEIT_W ""
+	WERT	0	
+END
+
+FESTWERT par2_table.par2_basic.e2p_starter_ocp_active_b
+	LANGNAME "par2_table.par2_basic.e2p_starter_ocp_active_b"
+	FUNKTION "SCL"
+	EINHEIT_W ""
+	WERT	0	
+END
+

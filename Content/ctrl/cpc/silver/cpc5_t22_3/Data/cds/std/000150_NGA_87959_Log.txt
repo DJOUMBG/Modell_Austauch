@@ -1,0 +1,99 @@
+CDS Data:
+  Name: 000150_NGA / -;1
+  CDS-ID: 87959
+  Structure version: 000150
+  Part number: A0564481702
+  Part number Index: 001
+  Week: 38
+  Year: 22
+  Patch level: 00
+  Compacted: YES
+
+Check parameters in different vehicle variants:
+  NO
+
+Exported formats:
+  ECU          : TEST
+  Type         : HEX
+  StartAddress : 9500300
+  CheckSum     : CRC32
+  CRC32Polynom : EDB88320
+
+  ECU          : CPC5
+  Type         : S19
+  StartAddress : 9500300
+  CheckSum     : CRC32
+  CRC32Polynom : EDB88320
+
+Vehicle variants:
+  DST : MB-Truck / VX88.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM934, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G71_6S
+  DST : MB-Truck / VX64.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=ECONOMY, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX82.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=OFFROAD, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX76.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=OFFROAD, EmissionYear=Euro6, EngineType=OM934, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G70_6S
+  DST : MB-Truck / VX83.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=OFFROAD, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX85.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=OFFROAD, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX61.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=ECONOMY, EmissionYear=Euro6, EngineType=OM934, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX3351.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : MB-Truck / VX92.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX70.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=FIRE, EmissionYear=Euro6, EngineType=OM934, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX72.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=FIRE, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX75.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=FIRE, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX3349.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_8
+  DST : MB-Truck / VX63.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=ECONOMY, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX62.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=ECONOMY, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX3354.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_6
+  DST : MB-Truck / VX93.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX3302.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM934, Retarder=NoRetarder, TransGearType=GEARS_6
+  DST : MB-Truck / VX67.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=FIRE, EmissionYear=Euro6, EngineType=OM934, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G70_6S
+  DST : MB-Truck / VX81.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=OFFROAD, EmissionYear=Euro6, EngineType=OM934, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX3352.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_6
+  DST : MB-Truck / VX84.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=OFFROAD, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX74.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=FIRE, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX56.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=ECONOMY, EmissionYear=Euro6, EngineType=OM934, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G70_6S
+  DST : MB-Truck / VX95.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX91.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM934, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX3299.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM934, Retarder=YesRetarder, TransGearType=GEARS_6
+  DST : MB-Truck / VX73.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=FIRE, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_8, TransmissionType=G140_8K
+  DST : MB-Truck / VX65.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=ECONOMY, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+  DST : MB-Truck / VX94.ST22_150V3; 1: Class=NGA, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_6, TransmissionType=G90_6S
+
+Calibration Order Numbers:
+  Vx3354.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx3352.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx3299.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx3302.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx3349.ST22_150v3;1 (DST): 157536, 169762, 191948, 203646
+  Vx3351.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx61.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx64.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx56.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx65.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx62.ST22_150v3;1 (DST): 157536, 169762, 191948, 203646
+  Vx63.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx67.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx70.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx74.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx75.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx72.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx73.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx76.ST22_150v3;1 (DST): 167972, 191948, 203646
+  Vx81.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx85.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx84.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx83.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx82.ST22_150v3;1 (DST): 157536, 191948, 203646
+  Vx88.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx91.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx94.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx95.ST22_150v3;1 (DST): 188940, 191948, 203646
+  Vx92.ST22_150v3;1 (DST): 162442, 191948, 203646, 999999
+  Vx93.ST22_150v3;1 (DST): 162442, 191948, 203646, 999999
+
+Exported files:
+  000150_NGA_87959_TEST.txt
+  000150_NGA_87959_TEST_UncompressedOutput.txt
+  000150_NGA_87959_TEST.hex
+  000150_NGA_87959_CPC5.txt
+  000150_NGA_87959_CPC5_UncompressedOutput.txt
+  000150_NGA_87959_CPC5.s19
+

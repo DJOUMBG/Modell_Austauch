@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd" classType="cds" reference="std" name="std" type="cpc5_t22_3" family="silver" species="cpc" context="ctrl" level="type" specificationVersion="1.0.0" dataSetVersion="1" description="">
+    <DataFile name="000150_BUS_BRAZIL_88019.hex" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_BUS_BRAZIL_88019_Log.txt" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_EVOBUS_AMT_87879.hex" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_EVOBUS_AMT_87879_Log.txt" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_EVOBUS_MANUAL_87880.hex" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_EVOBUS_MANUAL_87880_Log.txt" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_MB_BRAZIL_88045.hex" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_MB_BRAZIL_88045_Log.txt" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_NGA_87959.hex" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_NGA_87959_Log.txt" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_SFTP_87954.hex" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="000150_SFTP_87954_Log.txt" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="cpc_cds.m" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="cpc_cds.xlsx" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+</DataSet>

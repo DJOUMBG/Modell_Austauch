@@ -1,0 +1,53 @@
+% -------------------------------------------------------------------
+% Empty variables
+% -------------------------------------------------------------------
+
+
+sMP.ctrl.cpc.dep.axle_config = [];
+sMP.ctrl.cpc.dep.axle_iDiff = [];
+sMP.ctrl.cpc.dep.ret_i = [];
+sMP.ctrl.cpc.dep.rcm_x_ret_GW_rpm = [];
+sMP.ctrl.cpc.dep.rcm_y_ret_M_max = [];
+sMP.ctrl.cpc.dep.tfc_i = [];
+sMP.ctrl.cpc.dep.tfc_stTrfGrBoxHi = [];
+sMP.ctrl.cpc.dep.tfc_torqueDistribution = [];
+sMP.ctrl.cpc.dep.tx_iTxAllBw = [];
+sMP.ctrl.cpc.dep.tx_iTxAllFw = [];
+sMP.ctrl.cpc.dep.mcm_idleSpeed_rpm = [];
+sMP.ctrl.cpc.dep.veh_m_kg = [];
+sMP.ctrl.cpc.dep.mcm_sys_can_performance_class_1m = [];
+sMP.ctrl.cpc.dep.mcm_sys_cylinder_value_1m = [];
+sMP.ctrl.cpc.dep.mcm_sys_motor_type_1m = [];
+sMP.ctrl.cpc.dep.mcm_tbf_trq_max_r0_2m = [];
+sMP.ctrl.cpc.dep.mcm_tbf_trq_max_r0_x_eng_speed = [];
+sMP.ctrl.cpc.dep.mcm_tbf_trq_max_r1_2m = [];
+sMP.ctrl.cpc.dep.mcm_tbf_trq_max_r1_x_eng_speed = [];
+sMP.ctrl.cpc.dep.mcm_tfc_fm_tm_x_eng_speed = [];
+sMP.ctrl.cpc.dep.mcm_tfc_fm_tm_y_trq = [];
+sMP.ctrl.cpc.dep.mcm_tfc_fm_tmh_3m = [];
+sMP.ctrl.cpc.dep.mcm_cac_br_trq_ebs_x_rpm = [];
+sMP.ctrl.cpc.dep.mcm_cac_br_trq_ebs1_min_2m = [];
+sMP.ctrl.cpc.dep.mcm_cac_br_trq_ebs2_min_2m = [];
+sMP.ctrl.cpc.dep.mcm_cac_br_trq_ebs3_min_2m = [];
+sMP.ctrl.cpc.dep.mcm_cac_br_trq_ebs1_max_2m = [];
+sMP.ctrl.cpc.dep.mcm_cac_br_trq_ebs2_max_2m = [];
+sMP.ctrl.cpc.dep.mcm_cac_br_trq_ebs3_max_2m = [];
+sMP.ctrl.cpc.dep.mcm_osg_trq_red_fac_2m = [];
+sMP.ctrl.cpc.dep.mcm_sys_get_eng_brk_performance = [];
+sMP.ctrl.cpc.dep.mcm_osg_trq_red_fac_x_over_speed = [];
+sMP.ctrl.cpc.dep.mcm_sys_can_engine_char_1m = [];
+sMP.ctrl.cpc.dep.mcm_epf_ebm_overspeed_1m = [];
+sMP.ctrl.cpc.dep.mcm_epf_warn_overspeed_1m = [];
+sMP.ctrl.cpc.dep.mcm_ebm_ebs1_temp_speed_cond_on_2m = [];
+sMP.ctrl.cpc.dep.mcm_ebm_ebs1_temp_speed_cond_off_2m = [];
+sMP.ctrl.cpc.dep.mcm_ebm_ebs1_temp_speed_cond_x_speed = [];
+sMP.ctrl.cpc.dep.mcm_ebm_ebs2_temp_speed_cond_on_2m = [];
+sMP.ctrl.cpc.dep.mcm_ebm_ebs2_temp_speed_cond_off_2m = [];
+sMP.ctrl.cpc.dep.mcm_ebm_ebs2_temp_speed_cond_x_speed = [];
+sMP.ctrl.cpc.dep.wheel_r_d = [];
+sMP.ctrl.cpc.dep.wheel_f_R = [];
+sMP.ctrl.cpc.dep.mcm_sys_can_trq_inertia_1m = [];
+sMP.ctrl.cpc.dep.mcm_osg_eng_speed_max_ext_1m = [];
+sMP.ctrl.cpc.dep.mcm_tic_trq_loss_fric_x_eng_speed = [];
+sMP.ctrl.cpc.dep.mcm_tic_trq_loss_fric_y_t_eng_oil = [];
+sMP.ctrl.cpc.dep.mcm_tic_trq_loss_fric_3m = [];

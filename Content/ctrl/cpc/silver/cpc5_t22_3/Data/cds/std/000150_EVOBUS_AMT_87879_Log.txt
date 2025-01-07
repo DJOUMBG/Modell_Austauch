@@ -1,0 +1,55 @@
+CDS Data:
+  Name: 000150_EVOBUS_AMT / -;0
+  CDS-ID: 87879
+  Structure version: 000150
+  Part number: A0304488902
+  Part number Index: 001
+  Week: 32
+  Year: 22
+  Patch level: 00
+  Compacted: YES
+
+Check parameters in different vehicle variants:
+  YES
+
+Exported formats:
+  ECU          : TEST
+  Type         : HEX
+  StartAddress : 9500300
+  CheckSum     : CRC32
+  CRC32Polynom : EDB88320
+
+  ECU          : CPC5
+  Type         : S19
+  StartAddress : 9500300
+  CheckSum     : CRC32
+  CRC32Polynom : EDB88320
+
+Vehicle variants:
+  DST : EVOBUS / VX5222.ST22_150V3; 0: Class=EVOBUS, CustomType=THREEAXLE_SHORT, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM470, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : EVOBUS / VX5226.ST22_150V3; 0: Class=EVOBUS, CustomType=THREEAXLE_SHORT, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM470, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : EVOBUS / VX5228.ST22_150V3; 0: Class=EVOBUS, CustomType=TWOAXLE_SHORT, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM470, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : EVOBUS / VX5375.ST22_150V3; 0: Class=EVOBUS, CustomType=THREEAXLE_SHORT, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM471, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : EVOBUS / VX5469.ST22_150V3; 0: Class=EVOBUS, CustomType=TWOAXLE_SHORT, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : EVOBUS / VX5223.ST22_150V3; 0: Class=EVOBUS, CustomType=TWOAXLE_SHORT, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM470, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : EVOBUS / VX5374.ST22_150V3; 0: Class=EVOBUS, CustomType=THREEAXLE_SHORT, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM471, Retarder=YesRetarder, TransGearType=GEARS_8
+  DST : EVOBUS / VX5466.ST22_150V3; 0: Class=EVOBUS, CustomType=TWOAXLE_SHORT, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_8
+
+Calibration Order Numbers:
+  Vx5222.ST22_150v3;0 (DST): 3A OM470 – AcceldemandPullUp für Gefälle und Ebene reduziert analog 2-Achser, aber etwas höhere Werte , Anpassung AgMaxKickDownGearPos, Anpassung ZugHS, Downshift newAMt HDEP, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM470 mit 2/3-Achsen newAmt, anpassung startgear matrix, sw_134
+  Vx5375.ST22_150v3;0 (DST):  OM471 standard – kleine Anpassungen bei den Acceldemands, gegenüber OM 470 3-Achser plausibilisiert. Bei dem 3 Achser sind in den Gängen 1 -4 bei den RoadCurvAcceldemands +0,3 drauf gegenüber Acceldemand (Leicht erhöhter Fahrwiderstand, da die NLA etwas radiert), 3A OM470 – AcceldemandPullUp für Gefälle und Ebene reduziert analog 2-Achser, aber etwas höhere Werte , 3A OM470 – AcceldemandPullUp für Gefälle und Ebene reduziert analog 2-Achser, aber etwas höhere Werte (das war die Maßnahme, die verhindert dass die kleinen Gänge „hängen bleiben“), Anpassung AgMaxKickDownGearPos, Anpassung ZugHS, Downshift newAMt HDEP, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM471 mit 3-Achsen und OM936 mit 2-Achsen newAmt, anpassung startgear matrix, sw_134
+  Vx5223.ST22_150v3;0 (DST):  OM936 beide – PullUpReleaseOffset +25 U/min gegenüber den HDEPs für Ebene und Steigung, 2A OM470 – Beschleunigungsfähigkeiten große Steigungen hochgesetzt, Anpassung AgMaxKickDownGearPos, Anpassung Start Gear Matrix 2-Achser, Downshift newAMt HDEP, Downshift newAMt MDEG, OM936 standard – AcceldemandPullUp reduziert wegen Ganghängern, für Roadcurve auch beim OM936 +0,03 zur Sicherheit, weil der im Momentenaufbau so klaterig ist, SW_MIGRATION_V134, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM470 mit 2/3-Achsen newAmt, sw_134, sw_135
+  Vx5466.ST22_150v3;0 (DST):  OM936 beide – PullUpReleaseOffset +25 U/min gegenüber den HDEPs für Ebene und Steigung, Anpassung AgMaxKickDownGearPos, Anpassung Start Gear Matrix 2-Achser, Anpassung ZugHS, Downshift newAMt MDEG, OM936 standard – AcceldemandPullUp reduziert wegen Ganghängern, für Roadcurve auch beim OM936 +0,03 zur Sicherheit, weil der im Momentenaufbau so klaterig ist, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM471 mit 3-Achsen und OM936 mit 2-Achsen newAmt, sw_134, sw_135
+  Vx5226.ST22_150v3;0 (DST): 3A OM470 – AcceldemandPullUp für Gefälle und Ebene reduziert analog 2-Achser, aber etwas höhere Werte (das war die Maßnahme, die verhindert dass die kleinen Gänge „hängen bleiben“), AgSpecialMode, Anpassung AgMaxKickDownGearPos, Anpassung ZugHS, Downshift newAMt HDEP, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM470 mit 2/3-Achsen newAmt, anpassung startgear matrix, sw_135
+  Vx5374.ST22_150v3;0 (DST):  Acceldemand für Gefälle und Ebene reduziert, die waren zu hoch, 3A OM470 – AcceldemandPullUp für Gefälle und Ebene reduziert analog 2-Achser, aber etwas höhere Werte (das war die Maßnahme, die verhindert dass die kleinen Gänge „hängen bleiben“), AcceldemandPullUp für Gefälle und Ebene reduziert analog 2-Achser, aber etwas höhere Werte (das war die Maßnahme, die verhindert dass die kleinen Gänge „hängen bleiben“), AgSpecialMode, Anpassung AgMaxKickDownGearPos, Anpassung ZugHS, Downshift newAMt HDEP, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM471 mit 3-Achsen und OM936 mit 2-Achsen newAmt, anpassung startgear matrix, sw_135
+  Vx5228.ST22_150v3;0 (DST):  OM936 Power - Acceldemand PullUp reduziert, 2A OM470 – Beschleunigungsfähigkeiten große Steigungen hochgesetzt, AgSpecialMode, Anpassung AgMaxKickDownGearPos, Anpassung Start Gear Matrix 2-Achser, Downshift newAMt HDEP, Downshift newAMt MDEG, OM936 Power – Achtung: Acceldemand Pulldown reduziert, so muss man echt nicht rumfahren, das war zu extrem. Die Bedatung ist von 2011 ? Bei Roadcurve wieder +0,3 in den Gängen 1-4 bei positiven Steigung einschl. null, SW_Micration_134, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM470 mit 2/3-Achsen newAmt, sw_micration_134
+  Vx5469.ST22_150v3;0 (DST):  OM936 Power - Acceldemand PullUp reduziert, AgSpecialMode, Anpassung AgMaxKickDownGearPos, Anpassung Start Gear Matrix 2-Achser, Anpassung ZugHS, Downshift newAMt MDEG, OM936 Power – Achtung: Acceldemand Pulldown reduziert, so muss man echt nicht rumfahren, das war zu extrem. Die Bedatung ist von 2011 ? Bei Roadcurve wieder +0,3 in den Gängen 1-4 bei positiven Steigung einschl. null, TopTrqGear und LimFelActv für alle newAmt und Handschalter, alt-neu OM471 mit 3-Achsen und OM936 mit 2-Achsen newAmt, sw_micration_134
+
+Exported files:
+  000150_EVOBUS_AMT_87879_TEST.txt
+  000150_EVOBUS_AMT_87879_TEST_UncompressedOutput.txt
+  000150_EVOBUS_AMT_87879_TEST.hex
+  000150_EVOBUS_AMT_87879_CPC5.txt
+  000150_EVOBUS_AMT_87879_CPC5_UncompressedOutput.txt
+  000150_EVOBUS_AMT_87879_CPC5.s19
+

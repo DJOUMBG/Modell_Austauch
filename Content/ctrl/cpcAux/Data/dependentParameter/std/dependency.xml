@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dependency xmlns="http://www.daimler.com/DIVeDependency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeDependency.xsd">
+    <LocalParameter name="tfc_gear" description="Current transfer case gear number: {0=LOW/offroad;1=HIGH/onroad; 3=none}" dimension="1" minimum="0" maximum="3" unit="-" subspecies="" globalName="mec_tfc_stTrfGrBoxHi" optionalRead="1"/>
+    <LocalParameter name="tfc_trqDistribution" description="Transfer case torque distrubution [FrontAxle,RearAxle]" dimension="1,2" minimum="0" maximum="100" unit="-" subspecies="" globalName="mec_tfctorqueDistribution" optionalRead="1"/>
+</Dependency>

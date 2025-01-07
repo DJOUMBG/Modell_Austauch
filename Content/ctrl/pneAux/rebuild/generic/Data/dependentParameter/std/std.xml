@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v090\XMLSchemes\DIVeData.xsd" classType="dependentParameter" reference="std" name="std" type="generic" family="rebuild" species="pneAux" context="ctrl" level="type" specificationVersion="0.9.0" dataSetVersion="1" description="">
+    <DataFile name="dependency.xml" isStandard="0" executeAtInit="0" copyToRunDirectory="0"/>
+</DataSet>

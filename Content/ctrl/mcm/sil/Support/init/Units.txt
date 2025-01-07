@@ -1,0 +1,2419 @@
+INSTELEM Einheit
+    EinhID = 1;
+    EinhName = "m";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 2;
+    EinhName = "mm3/ms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 3;
+    EinhName = "mm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 5;
+    EinhName = "cm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 7;
+    EinhName = "km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 10;
+    EinhName = "n mile";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 11;
+    EinhName = "G.MILE";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 12;
+    EinhName = "mile";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 14;
+    EinhName = "yd";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 18;
+    EinhName = "ft";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 21;
+    EinhName = "in";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 24;
+    EinhName = "mg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 25;
+    EinhName = "t";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 26;
+    EinhName = "lb (av)";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 27;
+    EinhName = "s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 32;
+    EinhName = "ms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 33;
+    EinhName = "min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 39;
+    EinhName = "d";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 40;
+    EinhName = "m2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 41;
+    EinhName = "cm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 42;
+    EinhName = "mm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 43;
+    EinhName = "yd2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 44;
+    EinhName = "ft2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 45;
+    EinhName = "in2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 46;
+    EinhName = "m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 47;
+    EinhName = "cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 50;
+    EinhName = "l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 51;
+    EinhName = "dm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 54;
+    EinhName = "US gallon";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 55;
+    EinhName = "yd3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 56;
+    EinhName = "ft3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 57;
+    EinhName = "in3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 58;
+    EinhName = "N";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 61;
+    EinhName = "kp";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 62;
+    EinhName = "p";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 63;
+    EinhName = "lbf";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 68;
+    EinhName = "Grad";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 70;
+    EinhName = "rad";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 71;
+    EinhName = "gon";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 72;
+    EinhName = "1/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 75;
+    EinhName = "Hz";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 76;
+    EinhName = "1/MIN";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 77;
+    EinhName = "1/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 78;
+    EinhName = "U/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 79;
+    EinhName = "1000/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 80;
+    EinhName = "1/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 81;
+    EinhName = "rad/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 82;
+    EinhName = "1/s2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 83;
+    EinhName = "rad/s2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 85;
+    EinhName = "m/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 87;
+    EinhName = "km/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 88;
+    EinhName = "m/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 90;
+    EinhName = "mile/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 91;
+    EinhName = "kn";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 92;
+    EinhName = "m/s2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 93;
+    EinhName = "kg/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 94;
+    EinhName = "g/cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 96;
+    EinhName = "kg/m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 98;
+    EinhName = "mg/m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 100;
+    EinhName = "kg/m2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 104;
+    EinhName = "mm WS";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 105;
+    EinhName = "m WS";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 106;
+    EinhName = "mm Hg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 108;
+    EinhName = "Torr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 109;
+    EinhName = "kp/cm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 111;
+    EinhName = "at";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 112;
+    EinhName = "atm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 113;
+    EinhName = "kPa";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 114;
+    EinhName = "hPa";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 116;
+    EinhName = "Pa";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 118;
+    EinhName = "N/m2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 119;
+    EinhName = "psi";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 120;
+    EinhName = "lbf/in2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 121;
+    EinhName = "lbf/ft2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 123;
+    EinhName = "J";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 124;
+    EinhName = "kJ";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 125;
+    EinhName = "Nm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 127;
+    EinhName = "kpm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 128;
+    EinhName = "Ws";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 129;
+    EinhName = "kWh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 130;
+    EinhName = "kWs";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 131;
+    EinhName = "PS h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 132;
+    EinhName = "cal";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 133;
+    EinhName = "kcal";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 134;
+    EinhName = "WE";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 135;
+    EinhName = "ft*lbf";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 136;
+    EinhName = "Btu";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 137;
+    EinhName = "W";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 138;
+    EinhName = "KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 139;
+    EinhName = "Nm/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 140;
+    EinhName = "kpm/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 141;
+    EinhName = "J/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 142;
+    EinhName = "kJ/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 143;
+    EinhName = "PS";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 144;
+    EinhName = "kcal/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 145;
+    EinhName = "WE/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 146;
+    EinhName = "hp";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 147;
+    EinhName = "Btu/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 148;
+    EinhName = "A";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 149;
+    EinhName = "mA";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 150;
+    EinhName = "V";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 152;
+    EinhName = "kV";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 153;
+    EinhName = "DM";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 155;
+    EinhName = "Pfennig";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 157;
+    EinhName = "Mark";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 158;
+    EinhName = "0/1";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 159;
+    EinhName = "[1-heit]";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 160;
+    EinhName = "1";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 161;
+    EinhName = "Prozent";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 162;
+    EinhName = "%";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 166;
+    EinhName = "l/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 168;
+    EinhName = "l/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 170;
+    EinhName = "m3/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 172;
+    EinhName = "cm3/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 174;
+    EinhName = "m3/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 177;
+    EinhName = "mm3/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 178;
+    EinhName = "cm3/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 179;
+    EinhName = "m3/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 181;
+    EinhName = "g/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 183;
+    EinhName = "kg/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 184;
+    EinhName = "mg/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 186;
+    EinhName = "g/km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 187;
+    EinhName = "g/mile";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 188;
+    EinhName = "mpg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 189;
+    EinhName = "kg/Test";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 190;
+    EinhName = "g/Test";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 191;
+    EinhName = "mg/Test";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 192;
+    EinhName = "s/m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 193;
+    EinhName = "s/10L";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 195;
+    EinhName = "g/ PS h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 196;
+    EinhName = "J/kg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 197;
+    EinhName = "MJ/kg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 199;
+    EinhName = "J/kg*K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 200;
+    EinhName = "kJ/kg*K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 201;
+    EinhName = "SKT";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 204;
+    EinhName = "0K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 205;
+    EinhName = "Kelvin";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 206;
+    EinhName = "m2/N";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 207;
+    EinhName = "0So..6Sa";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 208;
+    EinhName = "hh.mm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 209;
+    EinhName = "hhmmss";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 210;
+    EinhName = "jmdhms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 211;
+    EinhName = "ttmmjj";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 212;
+    EinhName = "kgm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 213;
+    EinhName = ".";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 214;
+    EinhName = "grd KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 216;
+    EinhName = "sec";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 217;
+    EinhName = "h.min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 218;
+    EinhName = "g/kWh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 219;
+    EinhName = "A1 .. C4";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 220;
+    EinhName = "g";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 221;
+    EinhName = "ppm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 222;
+    EinhName = "yymmdd";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 223;
+    EinhName = "yyyymmdd";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 224;
+    EinhName = "grd";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 225;
+    EinhName = "ymdhms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 226;
+    EinhName = "-";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 227;
+    EinhName = "Upm/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 228;
+    EinhName = "bar/grKW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 229;
+    EinhName = "daN";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 230;
+    EinhName = "0/N  1/J";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 232;
+    EinhName = "kJ/kg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 233;
+    EinhName = "l/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 234;
+    EinhName = "Imp";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 236;
+    EinhName = "kg/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 237;
+    EinhName = "grd C";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 238;
+    EinhName = "kg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 239;
+    EinhName = "kg/100km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 241;
+    EinhName = "bar";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 242;
+    EinhName = "mg/Asp";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 243;
+    EinhName = "mg/Asp/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 244;
+    EinhName = "g/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 245;
+    EinhName = "MG/ASP";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 246;
+    EinhName = "mbar";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 248;
+    EinhName = "h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 249;
+    EinhName = "msec";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 251;
+    EinhName = "kW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 252;
+    EinhName = "mm3/Asp";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 253;
+    EinhName = "mm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 255;
+    EinhName = "g/Asp*l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 257;
+    EinhName = "SZ";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 258;
+    EinhName = "ml";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 259;
+    EinhName = "h:m:sec";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 260;
+    EinhName = "hms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 261;
+    EinhName = "mV";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 262;
+    EinhName = "l/100km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 263;
+    EinhName = "$";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 264;
+    EinhName = "g/kwh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 265;
+    EinhName = "mg/ASP";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 266;
+    EinhName = "grd F";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 267;
+    EinhName = "grd K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 268;
+    EinhName = "g/dm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 278;
+    EinhName = "grdC";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 279;
+    EinhName = "dm3/100km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 280;
+    EinhName = "bar/grdKW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 281;
+    EinhName = "kWl";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 282;
+    EinhName = "g/h*dm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 301;
+    EinhName = "kgL/kgB";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 310;
+    EinhName = "mg/Asp/Z";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 311;
+    EinhName = "g/m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 312;
+    EinhName = "kW/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 313;
+    EinhName = "g/kg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 314;
+    EinhName = "1/m";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 315;
+    EinhName = "mm2/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 316;
+    EinhName = "mm3/AspZ";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 325;
+    EinhName = "grd NW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 326;
+    EinhName = "dBA";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 327;
+    EinhName = "grdKWvOT";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 328;
+    EinhName = "grdKWnOT";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 329;
+    EinhName = "miks";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 330;
+    EinhName = "mm3/grd KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 331;
+    EinhName = "deg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 332;
+    EinhName = "rpm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 337;
+    EinhName = "in Hg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 338;
+    EinhName = "deg F";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 339;
+    EinhName = "gal";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 340;
+    EinhName = "gal/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 341;
+    EinhName = "lb/ft3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 342;
+    EinhName = "ft-lb";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 343;
+    EinhName = "torr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 344;
+    EinhName = "volts";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 345;
+    EinhName = "usec";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 346;
+    EinhName = "lb/hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 347;
+    EinhName = "lb/hp-hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 350;
+    EinhName = "gph";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 351;
+    EinhName = "grains";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 352;
+    EinhName = "steps";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 354;
+    EinhName = "mol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 355;
+    EinhName = "mmol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 356;
+    EinhName = "mHz";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 357;
+    EinhName = "grd C/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 358;
+    EinhName = "ppm/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 359;
+    EinhName = "Ohm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 360;
+    EinhName = "ml/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 361;
+    EinhName = "kJ/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 362;
+    EinhName = "Btu/lb";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 363;
+    EinhName = "in H2O";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 364;
+    EinhName = "mm/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 365;
+    EinhName = "deg C";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 366;
+    EinhName = "mph";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 367;
+    EinhName = "g/hp-hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 368;
+    EinhName = "g/hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 369;
+    EinhName = "1/V";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 370;
+    EinhName = "rpm/sec";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 371;
+    EinhName = "psi/deg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 372;
+    EinhName = "rpm/mph";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 373;
+    EinhName = "g/(s*mm2)";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 374;
+    EinhName = "g/lb";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 375;
+    EinhName = "mmdd";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 376;
+    EinhName = "yyyy";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 377;
+    EinhName = "mg/charge/cyl";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 380;
+    EinhName = "cycle";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 381;
+    EinhName = "scfm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 382;
+    EinhName = "psi-deg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 383;
+    EinhName = "psi2-deg2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 384;
+    EinhName = "kgW/kgL";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 385;
+    EinhName = "Promille";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 386;
+    EinhName = "g/grd C";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 387;
+    EinhName = "mV/g";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 388;
+    EinhName = "W/K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 389;
+    EinhName = "mm3/Hub";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 390;
+    EinhName = "mg/Hub";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 391;
+    EinhName = "g/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 392;
+    EinhName = "ppmc";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 393;
+    EinhName = "mg/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 394;
+    EinhName = "p/ccm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 395;
+    EinhName = "ymd";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 396;
+    EinhName = "K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 397;
+    EinhName = "hm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 398;
+    EinhName = "p/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 399;
+    EinhName = "ug/cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 400;
+    EinhName = "nm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 401;
+    EinhName = "MPa";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 402;
+    EinhName = "J/mm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 403;
+    EinhName = "mrad";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 404;
+    EinhName = "kg/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 405;
+    EinhName = "mm/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 406;
+    EinhName = "mm3/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 407;
+    EinhName = "mm/ms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 408;
+    EinhName = "mm/s2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 409;
+    EinhName = "mm3/U";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 410;
+    EinhName = "Nm/grd";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 411;
+    EinhName = "N/mm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 412;
+    EinhName = "mikrad";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 413;
+    EinhName = "Nm/rad";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 414;
+    EinhName = "grd/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 415;
+    EinhName = "mikm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 416;
+    EinhName = "ppms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 417;
+    EinhName = "1/min/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 500;
+    EinhName = "kW/grd KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 501;
+    EinhName = "g/ASP";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 503;
+    EinhName = "UPM";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 505;
+    EinhName = "FSN";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 506;
+    EinhName = "dm3/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 507;
+    EinhName = "dm3/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 508;
+    EinhName = "g/HPh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 512;
+    EinhName = "1/mm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 513;
+    EinhName = "bar/ms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 514;
+    EinhName = "kJ/kgB";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 516;
+    EinhName = "kg/kmol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 517;
+    EinhName = "g/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 518;
+    EinhName = "grd VH";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 519;
+    EinhName = "hhhh.mm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 520;
+    EinhName = "mg/kg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 521;
+    EinhName = "g/h*l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 522;
+    EinhName = "dm3/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 526;
+    EinhName = "dm³/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 527;
+    EinhName = "g/cm³";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 530;
+    EinhName = "g/Asp";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 532;
+    EinhName = "g/mol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 534;
+    EinhName = "rpm/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 536;
+    EinhName = "upm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 537;
+    EinhName = "%/100h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 538;
+    EinhName = "cm/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 541;
+    EinhName = "hp_hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 542;
+    EinhName = "bhp_hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 543;
+    EinhName = "bhp-hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 544;
+    EinhName = "hp-hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 546;
+    EinhName = "g/bhp_hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 547;
+    EinhName = "g/bhp-hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 549;
+    EinhName = "W/m2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 550;
+    EinhName = "W/cm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 551;
+    EinhName = "W/mm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 552;
+    EinhName = "kW/m2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 553;
+    EinhName = "kW/cm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 554;
+    EinhName = "kW/mm2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 555;
+    EinhName = "W/m2K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 556;
+    EinhName = "W/cm2K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 557;
+    EinhName = "W/mm2K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 558;
+    EinhName = "kW/m2K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 559;
+    EinhName = "kW/cm2K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 560;
+    EinhName = "kW/mm2K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 561;
+    EinhName = "W/mK";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 562;
+    EinhName = "W/cmK";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 563;
+    EinhName = "W/mmK";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 564;
+    EinhName = "kW/mK";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 565;
+    EinhName = "kW/cmK";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 566;
+    EinhName = "kW/mmK";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 567;
+    EinhName = "kg/kgB";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 568;
+    EinhName = "m3/m3B";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 569;
+    EinhName = "kmol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 570;
+    EinhName = "kmol/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 571;
+    EinhName = "#/cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 572;
+    EinhName = "k#/cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 573;
+    EinhName = "#/m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 574;
+    EinhName = "mg/kWh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 576;
+    EinhName = "#*1e11";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 577;
+    EinhName = "us";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 578;
+    EinhName = "1/min*s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 579;
+    EinhName = "1/(min*s)";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 580;
+    EinhName = "bar/grd KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 581;
+    EinhName = "mol/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 582;
+    EinhName = "ppmC3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 583;
+    EinhName = "1000/cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 585;
+    EinhName = "°";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 587;
+    EinhName = "MJ";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 588;
+    EinhName = "kW/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 589;
+    EinhName = "Nmm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 590;
+    EinhName = "ml/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 591;
+    EinhName = "°C";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 592;
+    EinhName = "mm3/°KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 593;
+    EinhName = "1/K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 594;
+    EinhName = "Tic/ml";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 595;
+    EinhName = "umol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 596;
+    EinhName = "°/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 597;
+    EinhName = "mol/hr";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 598;
+    EinhName = "btu";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 599;
+    EinhName = "kJ/dm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 600;
+    EinhName = "J/m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 601;
+    EinhName = "kgf";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 602;
+    EinhName = "lbf/mph";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 603;
+    EinhName = "N/m/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 604;
+    EinhName = "kgf/kph";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 605;
+    EinhName = "kgf/kph2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 606;
+    EinhName = "N/m2/s2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 607;
+    EinhName = "lbf/mph2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 608;
+    EinhName = "grain/lb";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 609;
+    EinhName = "100/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 610;
+    EinhName = "Tic/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 611;
+    EinhName = "10/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 612;
+    EinhName = "dm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 613;
+    EinhName = "km/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 614;
+    EinhName = "mile/gal";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 615;
+    EinhName = "µg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 616;
+    EinhName = "lb";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 617;
+    EinhName = "g/Hub";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 618;
+    EinhName = "g/phase";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 619;
+    EinhName = "lbs";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 620;
+    EinhName = "mg/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 621;
+    EinhName = "mg/ft3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 622;
+    EinhName = "ug/ml";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 623;
+    EinhName = "ug/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 624;
+    EinhName = "kg.m2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 625;
+    EinhName = "mg/mile";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 626;
+    EinhName = "mg/km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 627;
+    EinhName = "g/°C";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 628;
+    EinhName = "J/mol.K";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 629;
+    EinhName = "ug/mol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 630;
+    EinhName = "kg/mol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 631;
+    EinhName = "g/umol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 632;
+    EinhName = "tic_8192";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 633;
+    EinhName = "ticks_16";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 634;
+    EinhName = "[1]";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 635;
+    EinhName = "%o";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 636;
+    EinhName = "Hex";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 637;
+    EinhName = "HSU";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 638;
+    EinhName = "lambda";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 639;
+    EinhName = "mol/mol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 640;
+    EinhName = "mmol/mol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 641;
+    EinhName = "ppmC1";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 642;
+    EinhName = "umol/mol";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 643;
+    EinhName = "lbs/mph";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 644;
+    EinhName = "Vol%";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 645;
+    EinhName = "lbs/mph2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 646;
+    EinhName = "%/mph";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 647;
+    EinhName = "%/mph2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 648;
+    EinhName = "btu/lbs";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 649;
+    EinhName = "#";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 650;
+    EinhName = "p/mile";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 651;
+    EinhName = "p/km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 652;
+    EinhName = "#/km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 653;
+    EinhName = "#/kWh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 654;
+    EinhName = "p/kWh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 655;
+    EinhName = "#/mile";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 656;
+    EinhName = "#/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 657;
+    EinhName = "#/ft3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 658;
+    EinhName = "K#/cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 659;
+    EinhName = "p/cm3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 660;
+    EinhName = "p/ft3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 661;
+    EinhName = "p/l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 662;
+    EinhName = "p/m3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 663;
+    EinhName = "#/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 664;
+    EinhName = "#/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 665;
+    EinhName = "#/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 666;
+    EinhName = "p/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 667;
+    EinhName = "p/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 668;
+    EinhName = "MW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 669;
+    EinhName = "MJ/h";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 670;
+    EinhName = "bar/°";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 671;
+    EinhName = "mm.Hg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 672;
+    EinhName = "kN/m2";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 673;
+    EinhName = "in.Hg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 674;
+    EinhName = "g/MJ";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 675;
+    EinhName = "kJ/Kg";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 676;
+    EinhName = "upm/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 677;
+    EinhName = "°F";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 678;
+    EinhName = "°C/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 679;
+    EinhName = "jjjjmmtt";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 680;
+    EinhName = "jmthms";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 681;
+    EinhName = "ttmmmjj";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 682;
+    EinhName = "ft_lb";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 683;
+    EinhName = "kNm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 684;
+    EinhName = "ml/Tic";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 685;
+    EinhName = "ft3/min";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 686;
+    EinhName = "ml/s";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 687;
+    EinhName = "ft3/100.km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 688;
+    EinhName = "ft3/100.mi";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 689;
+    EinhName = "ft3/km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 690;
+    EinhName = "ft3/mi";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 691;
+    EinhName = "l/100.km";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 692;
+    EinhName = "°KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 693;
+    EinhName = "hh:mm:sec";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 694;
+    EinhName = "bar/°KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 695;
+    EinhName = "kW/°KW";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 699;
+    EinhName = "k#/kWh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 700;
+    EinhName = "mOhm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 701;
+    EinhName = "mg/Asp*l";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 703;
+    EinhName = "Ah";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 704;
+    EinhName = "As";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 705;
+    EinhName = "Wh";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 706;
+    EinhName = "m2/s3";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 707;
+    EinhName = "kOhm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 708;
+    EinhName = "amps";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 709;
+    EinhName = "bar(a)";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 710;
+    EinhName = "bar(g)";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 711;
+    EinhName = "mbar(a)";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 712;
+    EinhName = "mbar(g)";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 713;
+    EinhName = "G";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 714;
+    EinhName = "Days";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 715;
+    EinhName = "Months";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 716;
+    EinhName = "Years";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 717;
+    EinhName = "S/m";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 718;
+    EinhName = "uS/cm";
+ENDINSTELEM;
+
+INSTELEM Einheit
+    EinhID = 719;
+    EinhName = "MOhm";
+ENDINSTELEM;

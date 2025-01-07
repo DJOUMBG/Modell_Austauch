@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dependency xmlns="http://www.daimler.com/DIVeDependency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeDependency.xsd">
+	<GlobalParameter parameter="ret.y_ret_M_max" subspecies="" name="cool_M_ret" description="full-load torque" dimension=":,1" minimum="0" maximum="5000" unit="Nm"/>
+    <GlobalParameter parameter="ret.x_ret_rpm" subspecies="" name="cool_n_ret" description="full-load speed" dimension=":,1" minimum="" maximum="" unit="rpm"/>
+</Dependency>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.daimler.com/DIVeData" type="" specificationVersion="0.9.1" species="mec" reference="sht_dummy" name="noSht" level="family" family="pointmass" description="" dataSetVersion="1.0" context="phys" classType="sht" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v090\XMLSchemes\DIVeData.xsd">
+  <DataFile name="noSht.m" executeAtInit="0" copyToRunDirectory="0" isStandard="1"/>
+</DataSet>

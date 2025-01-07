@@ -1,0 +1,17 @@
+# Table format: 1D
+# table_unit = -
+# axis1_unit = rpm
+#
+# Reibwertcharakteristik für
+# DIWA-Lamellenkupplungen & -bremsen
+# EK, DK, SK, PB, ...
+# 
+# Daten aus Versuchsbericht D5.12.32 
+# (Reibwertuntersuchung an Innenlamelle für EK, DK, SK u. PB)
+#
+# Daten von JBt auf Basis vom Versuchbericht festgelegt
+# 2018-03-14
+# 
+    -2.0000000000000e+003     1.75000000000000e-001 
+    0.00000000000000e+000     1.40000000000000e-001 
+    2.00000000000000e+003     1.75000000000000e-001 

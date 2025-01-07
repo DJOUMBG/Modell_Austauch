@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SupportSet xmlns="http://www.daimler.com/DIVeSupport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeSupport.xsd" name="v00" type="" family="silver" species="cpc" context="ctrl" level="family" specificationVersion="1.0.0" supportSetVersion="1" description="">
+    <SupportFile name="nlxCall_cpc_family.m" executeAtInit="1" copyToRunDirectory="0"/>
+    <SupportFile name="subspecies.m" executeAtInit="0" copyToRunDirectory="0"/>
+</SupportSet>

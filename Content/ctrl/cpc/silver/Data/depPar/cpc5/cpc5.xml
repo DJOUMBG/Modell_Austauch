@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd" classType="depPar" reference="ref" name="cpc5" type="" family="silver" species="cpc" context="ctrl" level="family" specificationVersion="1.0.0" dataSetVersion="1" description="Standard for all simulations. Empty variables">
+    <DataFile name="depPar.m" isStandard="0" executeAtInit="1" copyToRunDirectory="0"/>
+</DataSet>

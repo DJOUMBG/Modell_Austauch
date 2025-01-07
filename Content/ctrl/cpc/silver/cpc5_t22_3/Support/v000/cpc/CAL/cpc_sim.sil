@@ -1,0 +1,17 @@
+<workspace>
+  <major-version>3</major-version>
+  <minor-version>13</minor-version>
+  <modules>
+    <module>
+      <sil-line>CPC5.dll -a cpc_eep.par -b cpc_defaults.txt -d cpc_cds.hex -f cpc_init_def.txt -g cpc_init_val.txt -h cpc_init_debug.csv -i cpc_init_debug.txt -j 10 -W 0 -X 0 -Y 0 -Z 5555</sil-line>
+      <remote-module-cluster>SILVER_32_CLUSTER</remote-module-cluster>
+    </module>
+  </modules>
+  <widgets/>
+  <preferences>
+    <properties>
+      <property name="speedup" value="0.0"/>
+    </properties>
+    <defaultProperties/>
+  </preferences>
+</workspace>

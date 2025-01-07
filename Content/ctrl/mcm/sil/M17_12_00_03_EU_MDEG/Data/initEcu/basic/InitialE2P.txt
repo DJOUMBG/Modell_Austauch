@@ -1,0 +1,3 @@
+par_op_data_table.par_op_data_basic.dpf2_op.e2p_isp_t_doc_in_max_s = 0;
+sil_input_req_eng_idle_trq = 0;
+sil_input_soot_factor = 1;

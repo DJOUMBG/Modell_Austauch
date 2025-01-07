@@ -1,0 +1,7 @@
+Silver CAL Module compiled files needed
+- Module.dll
+- Module.pdb
+but not stored here because of the file size.
+
+These script are just kept as documention
+

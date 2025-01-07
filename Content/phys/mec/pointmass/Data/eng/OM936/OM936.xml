@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="" specificationVersion="0.9.1" species="mec" reference="OM471" name="OM936" level="family" family="pointmass" description="OM936, 160901: iAirCompr from D.Wilke; Parameter skaliert die Startdrehzahl die in die Kennlinie geht" dataSetVersion="1.0" context="phys" classType="eng" xsi:schemaLocation="\\emea.corpdir.net\E019\PRJ\TG\DIVE\100_doc\110_specification\DIVe_v110\XMLSchemes\DIVeData.xsd">
+  <DataFile name="OM936.m" executeAtInit="0" copyToRunDirectory="0" isStandard="1"/>
+</DataSet>

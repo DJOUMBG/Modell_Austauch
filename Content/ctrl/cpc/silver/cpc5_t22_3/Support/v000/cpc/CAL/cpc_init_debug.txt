@@ -1,0 +1,13 @@
+// Structure Version xxxx, used in CPC xx.x
+cal_g_
+cal_o_
+diag_s_ErrAgDatasetNotComp_u1
+
+// Read for global parameter
+ptconf_g_RetSpd_u8
+
+// Used for checks during initialization
+ptconf_g_SysStat_u8
+ptconf_g_ErrPtcEepDatPos_u8
+itpm_m_VehParCheck_u8
+itpm_m_VehParCheckDiag_u16

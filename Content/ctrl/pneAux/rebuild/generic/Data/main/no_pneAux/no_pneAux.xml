@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classType="main" reference="pneAux_dummy" level="type" name="no_pneAux" type="generic" family="rebuild" species="pneAux" context="ctrl" dataSetVersion="1.0" specificationVersion="1.0.0" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd" description="PneAux Prototyp">
+  <DataFile name="no_pneAux.m" isStandard="1" executeAtInit="0" copyToRunDirectory="0"/>
+</DataSet>

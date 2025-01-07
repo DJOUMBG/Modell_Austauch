@@ -1,0 +1,8 @@
+lxml.etree as ET:
+    - snps.posthook.py
+
+    => Verbleibt vorübergehend, bis geklärt ist, wofür xmls gelesen werden müssen
+
+
+
+

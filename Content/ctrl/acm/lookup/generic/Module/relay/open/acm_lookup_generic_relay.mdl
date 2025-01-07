@@ -1,0 +1,1393 @@
+Library {
+  Name			  "acm_lookup_generic_relay"
+  Version		  7.6
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "windows-1252"
+  LibraryType		  "BlockLibrary"
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  MaxMDLFileLineLength	  120
+  Created		  "Wed Feb 24 15:46:17 2016"
+  Creator		  "RAFREY5"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "aoverfe"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Mon Dec 11 08:23:17 2017"
+  RTWModifiedTimeStamp	  434881297
+  ModelVersionFormat	  "1.%<AutoIncrement:11>"
+  ConfigurationManager	  "None"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks on
+  BrowserLookUnderMasks	  on
+  SimulationMode	  "normal"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  RecordCoverage	  off
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      1
+      Version		      "1.10.0"
+      Array {
+	Type			"Handle"
+	Dimension		8
+	Simulink.SolverCC {
+	  $ObjectID		  2
+	  Version		  "1.10.0"
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "SingleTasking"
+	  ConcurrentTasks	  off
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  3
+	  Version		  "1.10.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  4
+	  Version		  "1.10.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  off
+	  BooleanDataType	  off
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  2147483647
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  5
+	  Version		  "1.10.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"none"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "TryResolveAllWithWarning"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "Use local settings"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "Warning"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  6
+	  Version		  "1.10.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  on
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  7
+	  Version		  "1.10.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  8
+	  Version		  "1.10.0"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  9
+	  Version		  "1.10.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    7
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "GenerateSLWebview"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  TemplateMakefile	  "grt_default_tmf"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  GenerateSLWebview	  off
+	  RTWCompilerOptimization "Off"
+	  CheckMdlBeforeBuild	  "Off"
+	  CustomRebuildMode	  "OnUpdate"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      10
+	      Version		      "1.10.0"
+	      Array {
+		Type			"Cell"
+		Dimension		21
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      11
+	      Version		      "1.10.0"
+	      Array {
+		Type			"Cell"
+		Dimension		16
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"MultiInstanceERTCode"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      TargetFunctionLibrary   "ANSI_C"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTCodeCoverageTool     "None"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      IsPILTarget	      off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      PortableWordSizes	      off
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    off
+	      AutosarCompliant	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      GenerateASAP2	      off
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    " [ 520, 285, 1400, 915 ] "
+    }
+    PropName		    "ConfigurationSets"
+  }
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+    }
+  }
+  System {
+    Name		    "acm_lookup_generic_relay"
+    Location		    [543, 76, 2041, 1184]
+    Open		    on
+    ModelBrowserVisibility  on
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "62"
+    Block {
+      BlockType		      SubSystem
+      Name		      "acm_lookup_generic_relay"
+      SID		      "1"
+      Ports		      [7, 30]
+      Position		      [50, 50, 450, 1250]
+      BackgroundColor	      "lightBlue"
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      MaskType		      "DIVeMB lookup"
+      MaskDescription	      "This block relays signals of engine and EATS to allow a correct MCM operation for thermom"
+      "anagent map determination according EATS temperatures and NOx sensor signal without an real ACM.\n\nThe SFI and "
+      "urea dosing values are only constant signals to satisfy special MCM instruemantion blocks (OutputMVA)."
+      MaskPromptString	      "Massflow of secondary fuel injection (before DOC) (constant) [g/s]|Massflow of urea/AdBl"
+      "ue (constant) [g/h]|Constant value of pt_ACM_SglRes_Cval_PT|Constant value of  pt_AshVol_Cval_ACM|Constant value"
+      " of pt_BumpIdle_Stat_ACM|Constant value of pt_CoolDn_Rq_ACM|Constant value of pt_DPF_HC_BurnOff_Stat|Constant va"
+      "lue of pt_DPF_Protct_Rq_PT|Constant value of pt_DPF_Stat_ACM|Constant value of pt_DPF_TrqDerate_Rq_ACM|Constant "
+      "value of pt_DPF_Zone_Stat|Constant value of pt_EngReSt_Stat_PT|Constant value of pt_FuelInjQuant_Cval_PT|Constan"
+      "t value of pt_InhbtManRegen_Stat_PT|Constant value of pt_IntkAirHum_Cval_PT|Constant value of pt_MaxNOxConvRate_"
+      "Cval_PT|Constant value of pt_NOxRawEmiSens_Cval_PT|Constant value of pt_PressPostDPF_Cval_PT|Constant value of p"
+      "t_PressPreDPF_Cval_PT|Constant value of pt_RegenDPF_Stat_PT|Constant value of pt_SCRHighIdle_Rq_SERV|Constant va"
+      "lue of pt_TankHt_Rq_PT|Constant value of pt_ThermoMgt_Rq_ACM|Constant value of pt_ZPC_CstHandl_Rq"
+      MaskStyleString	      "edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit,edit"
+      ",edit,edit,edit,edit,edit,edit"
+      MaskVariables	      "acm_mdot_SFI=@1;acm_mdot_urea_dosing=@2;pt_ACM_SglRes_Cval_PT=@3;pt_AshVol_Cval_ACM=@4;pt_B"
+      "umpIdle_Stat_ACM=@5;pt_CoolDn_Rq_ACM=@6;pt_DPF_HC_BurnOff_Stat=@7;pt_DPF_Protct_Rq_PT=@8;pt_DPF_Stat_ACM=@9;pt_D"
+      "PF_TrqDerate_Rq_ACM=@10;pt_DPF_Zone_Stat=@11;pt_EngReSt_Stat_PT=@12;pt_FuelInjQuant_Cval_PT=@13;pt_InhbtManRegen"
+      "_Stat_PT=@14;pt_IntkAirHum_Cval_PT=@15;pt_MaxNOxConvRate_Cval_PT=@16;pt_NOxRawEmiSens_Cval_PT=@17;pt_PressPostDP"
+      "F_Cval_PT=@18;pt_PressPreDPF_Cval_PT=@19;pt_RegenDPF_Stat_PT=@20;pt_SCRHighIdle_Rq_SERV=@21;pt_TankHt_Rq_PT=@22;"
+      "pt_ThermoMgt_Rq_ACM=@23;pt_ZPC_CstHandl_Rq=@24;"
+      MaskTunableValueString  "on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on"
+      MaskCallbackString      "|||||||||||||||||||||||"
+      MaskEnableString	      "on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on"
+      MaskVisibilityString    "on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on"
+      MaskToolTipString	      "on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on,on"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskPortRotate	      "default"
+      MaskIconUnits	      "autoscale"
+      MaskValueString	      "sMP.ctrl.acm.out.acm_mdot_SFI|sMP.ctrl.acm.out.acm_mdot_urea_dosing|sMP.ctrl.acm.out.pt_A"
+      "CM_SglRes_Cval_PT|sMP.ctrl.acm.out.pt_AshVol_Cval_ACM|sMP.ctrl.acm.out.pt_BumpIdle_Stat_ACM|sMP.ctrl.acm.out.pt_"
+      "CoolDn_Rq_ACM|sMP.ctrl.acm.out.pt_DPF_HC_BurnOff_Stat|sMP.ctrl.acm.out.pt_DPF_Protct_Rq_PT|sMP.ctrl.acm.out.pt_D"
+      "PF_Stat_ACM|sMP.ctrl.acm.out.pt_DPF_TrqDerate_Rq_ACM|sMP.ctrl.acm.out.pt_DPF_Zone_Stat|sMP.ctrl.acm.out.pt_EngRe"
+      "St_Stat_PT|sMP.ctrl.acm.out.pt_FuelInjQuant_Cval_PT|sMP.ctrl.acm.out.pt_InhbtManRegen_Stat_PT|sMP.ctrl.acm.out.p"
+      "t_IntkAirHum_Cval_PT|sMP.ctrl.acm.out.pt_MaxNOxConvRate_Cval_PT|sMP.ctrl.acm.out.pt_NOxRawEmiSens_Cval_PT|sMP.ct"
+      "rl.acm.out.pt_PressPostDPF_Cval_PT|sMP.ctrl.acm.out.pt_PressPreDPF_Cval_PT|sMP.ctrl.acm.out.pt_RegenDPF_Stat_PT|"
+      "sMP.ctrl.acm.out.pt_SCRHighIdle_Rq_SERV|sMP.ctrl.acm.out.pt_TankHt_Rq_PT|sMP.ctrl.acm.out.pt_ThermoMgt_Rq_ACM|sM"
+      "P.ctrl.acm.out.pt_ZPC_CstHandl_Rq"
+      System {
+	Name			"acm_lookup_generic_relay"
+	Location		[864, 83, 1882, 1088]
+	Open			off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	339
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "eng_lambda_exhaust"
+	  SID			  "2"
+	  Position		  [90, 48, 120, 62]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "eats_Temperature_sensor_doc_in"
+	  SID			  "3"
+	  Position		  [90, 248, 120, 262]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "eats_Temperature_sensor_doc_out"
+	  SID			  "4"
+	  Position		  [90, 148, 120, 162]
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "eats_Temperature_sensor_dpf_out"
+	  SID			  "5"
+	  Position		  [90, 98, 120, 112]
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "eats_Temperature_sensor_scr_in"
+	  SID			  "6"
+	  Position		  [90, 298, 120, 312]
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "eats_Temperature_sensor_scr_out"
+	  SID			  "7"
+	  Position		  [90, 198, 120, 212]
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "eats_molfrac_NOx_sensor_in"
+	  SID			  "62"
+	  Position		  [90, 1163, 120, 1177]
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_10_pt_EngReSt_Stat_PT"
+	  SID			  "8"
+	  Position		  [465, 908, 865, 922]
+	  Value			  "pt_EngReSt_Stat_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_11_pt_FuelInjQuant_Cval_PT"
+	  SID			  "9"
+	  Position		  [465, 958, 865, 972]
+	  Value			  "pt_FuelInjQuant_Cval_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_12_pt_InhbtManRegen_Stat_PT"
+	  SID			  "10"
+	  Position		  [465, 1008, 865, 1022]
+	  Value			  "pt_InhbtManRegen_Stat_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_13_pt_IntkAirHum_Cval_PT"
+	  SID			  "11"
+	  Position		  [465, 1058, 865, 1072]
+	  Value			  "pt_IntkAirHum_Cval_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_15_pt_MaxNOxConvRate_Cval_PT"
+	  SID			  "12"
+	  Position		  [465, 1113, 865, 1127]
+	  Value			  "pt_MaxNOxConvRate_Cval_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_17_pt_PressPostDPF_Cval_PT"
+	  SID			  "14"
+	  Position		  [465, 1213, 865, 1227]
+	  Value			  "pt_PressPostDPF_Cval_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_18_pt_PressPreDPF_Cval_PT"
+	  SID			  "15"
+	  Position		  [465, 1263, 865, 1277]
+	  Value			  "pt_PressPreDPF_Cval_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_19_pt_RegenDPF_Stat_PT"
+	  SID			  "16"
+	  Position		  [465, 1313, 865, 1327]
+	  Value			  "pt_RegenDPF_Stat_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_1_pt_ACM_SglRes_Cval_PT"
+	  SID			  "17"
+	  Position		  [465, 458, 865, 472]
+	  Value			  "pt_ACM_SglRes_Cval_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_20_pt_SCRHighIdle_Rq_SERV"
+	  SID			  "18"
+	  Position		  [465, 1363, 865, 1377]
+	  Value			  "pt_SCRHighIdle_Rq_SERV"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_21_pt_TankHt_Rq_PT"
+	  SID			  "19"
+	  Position		  [465, 1413, 865, 1427]
+	  Value			  "pt_TankHt_Rq_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_27_pt_ThermoMgt_Rq_ACM"
+	  SID			  "20"
+	  Position		  [465, 1463, 865, 1477]
+	  Value			  "pt_ThermoMgt_Rq_ACM"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_28_pt_ZPC_CstHandl_Rq"
+	  SID			  "21"
+	  Position		  [465, 1513, 865, 1527]
+	  Value			  "pt_ZPC_CstHandl_Rq"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_2_pt_AshVol_Cval_ACM"
+	  SID			  "22"
+	  Position		  [465, 508, 865, 522]
+	  Value			  "pt_AshVol_Cval_ACM"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_3_pt_BumpIdle_Stat_ACM"
+	  SID			  "23"
+	  Position		  [465, 558, 865, 572]
+	  Value			  "pt_BumpIdle_Stat_ACM"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_4_pt_CoolDn_Rq_ACM"
+	  SID			  "24"
+	  Position		  [465, 608, 865, 622]
+	  Value			  "pt_CoolDn_Rq_ACM"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_5_pt_DPF_HC_BurnOff_Stat"
+	  SID			  "25"
+	  Position		  [465, 658, 865, 672]
+	  Value			  "pt_DPF_HC_BurnOff_Stat"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_6_pt_DPF_Protct_Rq_PT"
+	  SID			  "26"
+	  Position		  [465, 708, 865, 722]
+	  Value			  "pt_DPF_Protct_Rq_PT"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_7_acm_mdot_SFI"
+	  SID			  "27"
+	  Position		  [465, 348, 865, 362]
+	  Value			  "acm_mdot_SFI"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_7_pt_DPF_Stat_ACM"
+	  SID			  "28"
+	  Position		  [465, 758, 865, 772]
+	  Value			  "pt_DPF_Stat_ACM"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_8_acm_mdot_urea_dosing"
+	  SID			  "29"
+	  Position		  [465, 398, 865, 412]
+	  Value			  "acm_mdot_urea_dosing"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_8_pt_DPF_TrqDerate_Rq_ACM"
+	  SID			  "30"
+	  Position		  [465, 808, 865, 822]
+	  Value			  "pt_DPF_TrqDerate_Rq_ACM"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant_9_pt_DPF_Zone_Stat"
+	  SID			  "31"
+	  Position		  [465, 858, 865, 872]
+	  Value			  "pt_DPF_Zone_Stat"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_LmdaIn_FltrCorr_Cval_PT"
+	  SID			  "32"
+	  Position		  [970, 48, 1000, 62]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_TempPreOxi_Cval_PT"
+	  SID			  "33"
+	  Position		  [970, 248, 1000, 262]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_TempPostOxi_Cval_PT"
+	  SID			  "34"
+	  Position		  [970, 148, 1000, 162]
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_TempPostDPF_Cval_PT"
+	  SID			  "35"
+	  Position		  [970, 98, 1000, 112]
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_TempPreSCR_Cval_PT"
+	  SID			  "36"
+	  Position		  [970, 298, 1000, 312]
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_TempPostSCR_Cval_PT"
+	  SID			  "37"
+	  Position		  [970, 198, 1000, 212]
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "acm_mdot_SFI"
+	  SID			  "38"
+	  Position		  [970, 348, 1000, 362]
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "acm_mdot_urea_dosing"
+	  SID			  "39"
+	  Position		  [970, 398, 1000, 412]
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_ACM_SglRes_Cval_PT"
+	  SID			  "40"
+	  Position		  [970, 458, 1000, 472]
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_AshVol_Cval_ACM"
+	  SID			  "41"
+	  Position		  [970, 508, 1000, 522]
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_BumpIdle_Stat_ACM"
+	  SID			  "42"
+	  Position		  [970, 558, 1000, 572]
+	  Port			  "11"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_CoolDn_Rq_ACM"
+	  SID			  "43"
+	  Position		  [970, 608, 1000, 622]
+	  Port			  "12"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_DPF_HC_BurnOff_Stat"
+	  SID			  "44"
+	  Position		  [970, 658, 1000, 672]
+	  Port			  "13"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_DPF_Protct_Rq_PT"
+	  SID			  "45"
+	  Position		  [970, 708, 1000, 722]
+	  Port			  "14"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_DPF_Stat_ACM"
+	  SID			  "46"
+	  Position		  [970, 758, 1000, 772]
+	  Port			  "15"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_DPF_TrqDerate_Rq_ACM"
+	  SID			  "47"
+	  Position		  [970, 808, 1000, 822]
+	  Port			  "16"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_DPF_Zone_Stat"
+	  SID			  "48"
+	  Position		  [970, 858, 1000, 872]
+	  Port			  "17"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_EngReSt_Stat_PT"
+	  SID			  "49"
+	  Position		  [970, 908, 1000, 922]
+	  Port			  "18"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_FuelInjQuant_Cval_PT"
+	  SID			  "50"
+	  Position		  [970, 958, 1000, 972]
+	  Port			  "19"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_InhbtManRegen_Stat_PT"
+	  SID			  "51"
+	  Position		  [970, 1008, 1000, 1022]
+	  Port			  "20"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_IntkAirHum_Cval_PT"
+	  SID			  "52"
+	  Position		  [970, 1058, 1000, 1072]
+	  Port			  "21"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_MaxNOxConvRate_Cval_PT"
+	  SID			  "53"
+	  Position		  [970, 1113, 1000, 1127]
+	  Port			  "22"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_NOxRawEmiSens_Cval_PT"
+	  SID			  "54"
+	  Position		  [970, 1163, 1000, 1177]
+	  Port			  "23"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_PressPostDPF_Cval_PT"
+	  SID			  "55"
+	  Position		  [970, 1213, 1000, 1227]
+	  Port			  "24"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_PressPreDPF_Cval_PT"
+	  SID			  "56"
+	  Position		  [970, 1263, 1000, 1277]
+	  Port			  "25"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_RegenDPF_Stat_PT"
+	  SID			  "57"
+	  Position		  [970, 1313, 1000, 1327]
+	  Port			  "26"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_SCRHighIdle_Rq_SERV"
+	  SID			  "58"
+	  Position		  [970, 1363, 1000, 1377]
+	  Port			  "27"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_TankHt_Rq_PT"
+	  SID			  "59"
+	  Position		  [970, 1413, 1000, 1427]
+	  Port			  "28"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_ThermoMgt_Rq_ACM"
+	  SID			  "60"
+	  Position		  [970, 1463, 1000, 1477]
+	  Port			  "29"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pt_ZPC_CstHandl_Rq"
+	  SID			  "61"
+	  Position		  [970, 1513, 1000, 1527]
+	  Port			  "30"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "eats_Temperature_sensor_doc_in"
+	  SrcPort		  1
+	  DstBlock		  "pt_TempPreOxi_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "eng_lambda_exhaust"
+	  SrcPort		  1
+	  DstBlock		  "pt_LmdaIn_FltrCorr_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "eats_Temperature_sensor_dpf_out"
+	  SrcPort		  1
+	  DstBlock		  "pt_TempPostDPF_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "eats_Temperature_sensor_doc_out"
+	  SrcPort		  1
+	  DstBlock		  "pt_TempPostOxi_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "eats_Temperature_sensor_scr_out"
+	  SrcPort		  1
+	  DstBlock		  "pt_TempPostSCR_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "eats_Temperature_sensor_scr_in"
+	  SrcPort		  1
+	  DstBlock		  "pt_TempPreSCR_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_7_acm_mdot_SFI"
+	  SrcPort		  1
+	  DstBlock		  "acm_mdot_SFI"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_8_acm_mdot_urea_dosing"
+	  SrcPort		  1
+	  DstBlock		  "acm_mdot_urea_dosing"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_1_pt_ACM_SglRes_Cval_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_ACM_SglRes_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_2_pt_AshVol_Cval_ACM"
+	  SrcPort		  1
+	  DstBlock		  "pt_AshVol_Cval_ACM"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_3_pt_BumpIdle_Stat_ACM"
+	  SrcPort		  1
+	  DstBlock		  "pt_BumpIdle_Stat_ACM"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_4_pt_CoolDn_Rq_ACM"
+	  SrcPort		  1
+	  DstBlock		  "pt_CoolDn_Rq_ACM"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_5_pt_DPF_HC_BurnOff_Stat"
+	  SrcPort		  1
+	  DstBlock		  "pt_DPF_HC_BurnOff_Stat"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_6_pt_DPF_Protct_Rq_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_DPF_Protct_Rq_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_7_pt_DPF_Stat_ACM"
+	  SrcPort		  1
+	  DstBlock		  "pt_DPF_Stat_ACM"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_8_pt_DPF_TrqDerate_Rq_ACM"
+	  SrcPort		  1
+	  DstBlock		  "pt_DPF_TrqDerate_Rq_ACM"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_9_pt_DPF_Zone_Stat"
+	  SrcPort		  1
+	  DstBlock		  "pt_DPF_Zone_Stat"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_10_pt_EngReSt_Stat_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_EngReSt_Stat_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_11_pt_FuelInjQuant_Cval_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_FuelInjQuant_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_12_pt_InhbtManRegen_Stat_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_InhbtManRegen_Stat_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_13_pt_IntkAirHum_Cval_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_IntkAirHum_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_15_pt_MaxNOxConvRate_Cval_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_MaxNOxConvRate_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "eats_molfrac_NOx_sensor_in"
+	  SrcPort		  1
+	  DstBlock		  "pt_NOxRawEmiSens_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_17_pt_PressPostDPF_Cval_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_PressPostDPF_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_18_pt_PressPreDPF_Cval_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_PressPreDPF_Cval_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_19_pt_RegenDPF_Stat_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_RegenDPF_Stat_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_20_pt_SCRHighIdle_Rq_SERV"
+	  SrcPort		  1
+	  DstBlock		  "pt_SCRHighIdle_Rq_SERV"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_21_pt_TankHt_Rq_PT"
+	  SrcPort		  1
+	  DstBlock		  "pt_TankHt_Rq_PT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_27_pt_ThermoMgt_Rq_ACM"
+	  SrcPort		  1
+	  DstBlock		  "pt_ThermoMgt_Rq_ACM"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Constant_28_pt_ZPC_CstHandl_Rq"
+	  SrcPort		  1
+	  DstBlock		  "pt_ZPC_CstHandl_Rq"
+	  DstPort		  1
+	}
+      }
+    }
+  }
+}

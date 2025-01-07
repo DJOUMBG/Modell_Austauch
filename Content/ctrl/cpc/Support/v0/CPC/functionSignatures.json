@@ -1,0 +1,44 @@
+{
+  "CreateCANapeParFile": {
+	"inputs": [
+		{"name":"sFile", "type":"filepath"},
+		{"name":"Parameter", "type":"struct"},
+		{"name":"ECU", "type":["char", "choices={'CPC5', 'eCPC', 'IPPC'}"]}
+	]},
+
+  "fcGetCDI": {
+	"inputs": [
+		{"name":"ECU", "type":["char", "choices={'CPC', 'IPPC', 'IPPC'}"]}
+	]},
+
+  "par2mat": {
+	"inputs": [
+		{"name":"sFile", "type":"filepath"}
+	]},
+
+  "read_cpc_engine": {
+	 "inputs": [
+		{"name":"xCPC", "kind":"required", "type":["filepath=*.par"]}
+	]},
+
+  "read_csv_par": {
+	 "inputs": [
+		{"name":"sFile", "type":["filepath=*.csv"]}
+	]},
+
+  "read_drumroll_par_file": {
+	 "inputs": [
+		{"name":"sFile", "type":["filepath=*.par"]}
+	]},
+
+  "read_par_file": {
+	 "inputs": [
+		{"name":"sFile", "kind":"required", "type":["filepath=*.par"]}
+	]},
+
+  "read_silver_par_file": {
+	 "inputs": [
+		{"name":"sFile", "type":["filepath=*.txt"]}
+	]}
+
+}

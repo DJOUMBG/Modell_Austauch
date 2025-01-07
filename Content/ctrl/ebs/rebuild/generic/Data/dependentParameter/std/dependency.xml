@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dependency xmlns="http://www.daimler.com/DIVeDependency" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeDependency.xsd">
+    <GlobalParameter parameter="zSoll_dx_yAxis_nom" subspecies="" name="ebs_zSoll_dx_yAxis_nom" description="Nominal Deceleration Set Value [-]" dimension="1,:" minimum="" maximum="" unit="-"/>
+    <GlobalParameter parameter="zSoll_dx_xAxis_nom" subspecies="" name="ebs_zSoll_dx_xAxis_nom" description="Nominal InputShaft Displacement [-]" dimension="1,:" minimum="" maximum="" unit="-"/>
+	<LocalParameter name="flagTrailerControlActive" description="flagTrailerControlActive" dimension="1,11" minimum="0" maximum="20" unit="" subspecies="veh" globalName="pne_flagTrailerControlActive"/>
+	<LocalParameter name="flagTrailer02ControlActive" description="flagTrailer02ControlActive" dimension="1,11" minimum="0" maximum="20" unit="" subspecies="veh" globalName="pne_flagTrailer02ControlActive" />
+	<LocalParameter name="flagTrailerABS" description="Trailer ABS Config (0 - none, 1- ABS, 2 - EBS (incl. ABS))" dimension="1" minimum="0" maximum="2" unit="" subspecies="veh" globalName="pne_flagTrailerABS"/>
+	<LocalParameter name="rdynTA" description="Dynamic wheel radius" dimension="1" minimum="0" maximum="1000" unit="mm" subspecies="veh" globalName="mec_rWheelTrailer"/>
+    <LocalParameter name="rdynFA" description="Dynamic wheel radius" dimension="1" minimum="0" maximum="1000" unit="mm" subspecies="veh" globalName="mec_rWheelFrontAxle"/>
+    <LocalParameter name="rdynRA" description="Dynamic wheel radius" dimension="1" minimum="0" maximum="1000" unit="mm" subspecies="veh" globalName="mec_rWheelDriven"/>
+    <LocalParameter name="mec_iDiffAxle" description="Axle ratio for electric driven vehicles" dimension="1" minimum="0" maximum="1000" unit="-" subspecies="" globalName="mec_iDiffAxle"/>
+    <LocalParameter name="axleLoadTrailer_kg" description="Trailer mass" dimension="1,3" minimum="0" maximum="260000" unit="kg" subspecies="veh" globalName="mec_veh_axleLoadTrailer_kg"/>
+    <LocalParameter name="axleLoadVehicle_kg" description="Vehicle mass" dimension="1,4" minimum="0" maximum="260000" unit="kg" subspecies="veh" globalName="mec_veh_axleLoadVehicle_kg"/>
+    <LocalParameter name="axleLoadTrailer02_kg" description="Trailer02 mass" dimension="1,6" minimum="0" maximum="260000" unit="kg" subspecies="veh" globalName="mec_veh_axleLoadTrailer02_kg" />
+	<LocalParameter name="rdynTrailer02" description="Vector of Dynamic wheel radius Trailer02 axles" dimension="1,6" minimum="0" maximum="1000" unit="mm" subspecies="veh" globalName="mec3d_tires_rdynTrailer2"/>	
+	<LocalParameter name="speedSensorPosnVeh" description="" dimension="1,4" minimum="0" maximum="1" unit="" subspecies="veh" globalName="pne_circ_speedSensorPosnVeh"/>
+	<LocalParameter name="brkCircuit" description="" dimension="1,4" minimum="0" maximum="3" unit="" subspecies="veh" globalName="pne_brkCircuit"/>
+	<LocalParameter name="pAppCyl_Tractor" description="pAppCyl Tractor Axles [A1, A2, A3, A4]" dimension="1,4" minimum="0" maximum="10" unit="" subspecies="veh" globalName="pne_pAppCyl_Tractor"/>
+	<LocalParameter name="pAppCyl_Trailer" description="pAppCyl_Trailer" dimension="1,3" minimum="0" maximum="10" unit="" subspecies="veh" globalName="pne_pAppCyl_Trailer"/>
+	<LocalParameter name="pAppCyl_Trailer02" description="pAppCyl_Trailer02" dimension="1,6" minimum="0" maximum="10" unit="" subspecies="veh" globalName="pne_pAppCyl_Trailer02" />
+    <LocalParameter name="settings_dt" description="step size of brake modules" dimension="1" minimum="0.001" maximum="0.01" unit="s" subspecies="" globalName="pne_stepSize"/>
+	<LocalParameter name="stepSize" description="step size of brake modules" dimension="1" minimum="0.001" maximum="0.01" unit="" subspecies="veh" globalName="pne_stepSize"/>
+</Dependency>

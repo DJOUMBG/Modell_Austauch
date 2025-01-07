@@ -1,0 +1,17 @@
+// Template for init values (input) for CAL Module
+
+// Run CAL Module for 5s with Silver with this command: "silversim -c -E 5 CAL.sil" 
+// to get cal parameter dependent on this vehicle configuration
+
+sw_p_VehConf.EnAg_u1=1;
+ptconf_g_CombustionClass_u8=52; // 52 = Euro6
+ptconf_g_EngType_u8=5; // 5 = OM471
+ptconf_g_RetType_u8=0; // 0 = No Retarder
+ptconf_g_TransType_u8=0; // 0 = G211
+ag_g_ReqSftPrgNum_u8=100; // 100 = Standard
+ag_p_VehConf.SftPrgAv_u8[0]=0; // 0 = Power
+ag_p_VehConf.SftPrgAv_u8[1]=1; // 1 = Economy
+ag_p_VehConf.SftPrgAv_u8[2]=100; // 100 = Standard
+cal_m_DrivingProgramRng_u8[0]=0;
+cal_m_DrivingProgramRng_u8[1]=1;
+cal_m_DrivingProgramRng_u8[2]=100;

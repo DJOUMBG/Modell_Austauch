@@ -1,0 +1,69 @@
+{
+   "dirPattern":
+   {
+      "inputs":
+      [
+         {"name":"sPath", "type":"folder"},
+         {"name":"cPattern", "type":["cell","char"]},
+         {"name":"sType", "type":["char" ,"choices={'file','folder'}"]},
+         {"name":"bRegExp", "type":"logical"}
+      ]
+   },
+  "dbread":
+  {
+     "inputs":
+     [
+        {"name":"sFile", "type":["filepath" ,"file=*.xls,*.xlsx,*.xlsm,*.mat,*.csv"]},
+        {"name":"nSubset", "type":["integer",">=0"]},
+        {"name":"nStart", "type":"integer"}
+     ]
+  },
+   "head":
+  {
+     "inputs":
+     [
+        {"name":"sLine", "type":["char" , "choices={'-5','-10','-20','-50','-100'}" ] },
+        {"name":"sFile", "type":"filepath"}
+     ]
+  },
+  "strGlue":
+  {
+     "inputs":
+     [
+        {"name":"cString", "type":"cell"},
+        {"name":"sGlue", "type":"char"}
+     ]
+  },
+  "strsplitOwn":
+  {
+     "inputs":
+     [
+        {"name":"str", "type":"char"},
+        {"name":"split", "type":"char"},
+        {"name":"bMultipleDelimsAsOne", "type":"logical"}
+     ]
+  },
+  "tail":
+  {
+     "inputs":
+     [
+        {"name":"sLine", "type":["char" ,"choices={'-5','-10','-20','-50','-100'}"]},
+        {"name":"sFile", "type":"filepath"}
+     ]
+  },
+  "tailShell":
+  {
+     "inputs":
+     [
+        {"name":"sLine", "type":["char" ,"choices={'-5','-10','-20','-50','-100'}"]},
+        {"name":"sFile", "type":"filepath"}
+     ]
+  },
+  "touch":
+  {
+     "inputs":
+     [
+        {"name":"cFile", "type":["filepath","cell"]}
+     ]
+  }
+}

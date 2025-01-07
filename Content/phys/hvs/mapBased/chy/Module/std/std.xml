@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module xmlns="http://www.daimler.com/DIVeModule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeModule.xsd" name="std" type="chy" family="mapBased" species="hvs" context="phys" specificationVersion="1.0.0" moduleVersion="1.0" maxCosimStepsize="0.01" description="">
+    <Implementation>
+        <ModelSet type="open" authoringTool="Simulink_w64_R2016a" executionTool="Simulink_w64_R2016a" executionToolUpwardCompatible="1">
+            <ModelFile name="hvs_mapBased_chy_std.slx" isMain="1" copyToRunDirectory="0"/>
+        </ModelSet>
+        <SupportSet name="hvs_library_Support" level="species"/>
+    </Implementation>
+    <Interface>
+        <DataSet className="initIO" classType="initIO" level="type" isSubspecies="0" reference="ldStd"/>
+        <DataSet className="aux_power_selector" classType="aux_power_selector" level="species" isSubspecies="0" reference="std"/>
+        <DataSet className="drvEmot" classType="drvEmot" level="species" isSubspecies="0" reference="Melko_eMot_SClass_CitaroHybrid"/>
+        <Inport name="hvs_dcLink_electricalEnergyStorage_voltage" type="physics" unit="V" sna="" minPhysicalRange="0" maxPhysicalRange="1000" signalLabel="electric voltage at dc link / system level" manualDescription="electric voltage at dc link / system level" autoDescription="electric voltage at dc link / system level" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="hvs_dcLink_electricalEnergyStorage" connectorType="electricsSimple" connectorOrientation="negativ" quantity="voltage" moduleSpecies="hvs" moduleSubspecies="dcLink" characteristic="electricalEnergyStorage" functionalChain="EPowertrainMainElectrical" chainPosition="50" index="1"/>
+        <Inport name="hvs_drvEmot_Crankshaft_angPos" type="physics" unit="rad" sna="" minPhysicalRange="-1000000" maxPhysicalRange="1000000" signalLabel="Angular position  electric motor at Crankshaft" manualDescription="Angular position  electric motor at Crankshaft" autoDescription="Angular position  electric motor at Crankshaft" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="hvs_drvEmot_Crankshaft" connectorType="rotationalMechanics" connectorOrientation="positiv" quantity="angPos" moduleSpecies="hvs" moduleSubspecies="drvEmot" characteristic="Crankshaft" functionalChain="EPowertrainMainMechanicalCrankshaft" chainPosition="0" index="2"/>
+        <Inport name="hvs_drvEmot_Crankshaft_angVel" type="physics" unit="rad/s" sna="" minPhysicalRange="-10000" maxPhysicalRange="10000" signalLabel="Angular velocity electric motor at Crankshaft" manualDescription="Angular velocity electric motor at Crankshaft" autoDescription="Angular velocity electric motor at Crankshaft" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="hvs_drvEmot_Crankshaft" connectorType="rotationalMechanics" connectorOrientation="positiv" quantity="angVel" moduleSpecies="hvs" moduleSubspecies="drvEmot" characteristic="Crankshaft" functionalChain="EPowertrainMainMechanicalCrankshaft" chainPosition="0" index="3"/>
+        <Inport name="hvs_drvEmot_Crankshaft_angAcc" type="physics" unit="rad/s^2" sna="" minPhysicalRange="-1000" maxPhysicalRange="1000" signalLabel="Angular acceleration electric motor at Crankshaft" manualDescription="Angular acceleration electric motor at Crankshaft" autoDescription="Angular acceleration electric motor at Crankshaft" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="hvs_drvEmot_Crankshaft" connectorType="rotationalMechanics" connectorOrientation="positiv" quantity="angAcc" moduleSpecies="hvs" moduleSubspecies="drvEmot" characteristic="Crankshaft" functionalChain="EPowertrainMainMechanicalCrankshaft" chainPosition="0" index="4"/>
+        <Inport name="chyc_Emot_Trq_Rq" type="actuator" unit="Nm" sna="" minPhysicalRange="-400" maxPhysicalRange="400" signalLabel="Torque request to eMotor" manualDescription="Torque request to eMotor" autoDescription="" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="" connectorType="" connectorOrientation="" quantity="" moduleSpecies="chyc" moduleSubspecies="" characteristic="" functionalChain="" chainPosition="" index="5"/>
+        <Outport name="hvs_EMD1_ACT_DcLinkVoltage" type="sensor" unit="V" sna="" minPhysicalRange="0" maxPhysicalRange="1638.3" signalLabel="" manualDescription="EMD1_ACT_DcLinkVoltage" autoDescription="EMD1_ACT_DcLinkVoltage" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="DO_QUASAR_CANopen_EMD_BRC_Rev008a.dbc" connectorName="" connectorType="" connectorOrientation="" quantity="" moduleSpecies="hvs" moduleSubspecies="" characteristic="" functionalChain="" chainPosition="" index="1"/>
+        <Outport name="hvs_dcLink_electricalEnergyStorage_current" type="physics" unit="A" sna="" minPhysicalRange="-1000" maxPhysicalRange="1000" signalLabel="eletcric current at dc link / system level" manualDescription="eletcric current at dc link / system level" autoDescription="eletcric current at dc link / system level" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="hvs_dcLink_electricalEnergyStorage" connectorType="electricsSimple" connectorOrientation="negativ" quantity="current" moduleSpecies="hvs" moduleSubspecies="dcLink" characteristic="electricalEnergyStorage" functionalChain="EPowertrainMainElectrical" chainPosition="50" index="2"/>
+        <Outport name="hvs_EMD1_ACT_MotorSpeed" type="sensor" unit="rpm" sna="" minPhysicalRange="-32768" maxPhysicalRange="32767" signalLabel="" manualDescription="EMD1_ACT_MotorSpeed" autoDescription="EMD1_ACT_MotorSpeed" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="DO_QUASAR_CANopen_EMD_BRC_Rev008a.dbc" connectorName="" connectorType="" connectorOrientation="" quantity="" moduleSpecies="hvs" moduleSubspecies="" characteristic="" functionalChain="" chainPosition="" index="3"/>
+        <Outport name="hvs_drvEmot_Crankshaft_torque" type="physics" unit="Nm" sna="" minPhysicalRange="-10000" maxPhysicalRange="10000" signalLabel="Torque  electric motor at Crankshaft" manualDescription="Torque  electric motor at Crankshaft" autoDescription="Torque  electric motor at Crankshaft" responsibleTeam="Evobus Simulation Entire Vehicle and Energy Balance" minAbsoluteRange="" maxAbsoluteRange="" factorAbs2Phys="" offsetAbs2Phys="" signalOrigin="" connectorName="hvs_drvEmot_Crankshaft" connectorType="rotationalMechanics" connectorOrientation="positiv" quantity="torque" moduleSpecies="hvs" moduleSubspecies="drvEmot" characteristic="Crankshaft" functionalChain="EPowertrainMainMechanicalCrankshaft" chainPosition="0" index="4"/>
+        <Parameter name="hvs_dcLink_electricalEnergyStorage_voltage" index="" unit="V" size="1" description="electric voltage at dc link / system level" className="initIO"/>
+        <Parameter name="hvs_drvEmot_Crankshaft_angPos" index="" unit="rad" size="1" description="Angular position  electric motor at Crankshaft" className="initIO"/>
+        <Parameter name="hvs_drvEmot_Crankshaft_angVel" index="" unit="rad/s" size="1" description="Angular velocity electric motor at Crankshaft" className="initIO"/>
+        <Parameter name="hvs_drvEmot_Crankshaft_angAcc" index="" unit="rad/s^2" size="1" description="Angular acceleration electric motor at Crankshaft" className="initIO"/>
+        <Parameter name="chyc_Emot_Trq_Rq" index="" unit="Nm" size="1" description="Torque request to eMotor" className="initIO"/>
+        <Parameter name="hvs_EMD1_ACT_DcLinkVoltage" index="" unit="V" size="1" description="EMD1_ACT_DcLinkVoltage" className="initIO"/>
+        <Parameter name="hvs_dcLink_electricalEnergyStorage_current" index="" unit="A" size="1" description="eletcric current at dc link / system level" className="initIO"/>
+        <Parameter name="hvs_EMD1_ACT_MotorSpeed" index="" unit="rpm" size="1" description="EMD1_ACT_MotorSpeed" className="initIO"/>
+        <Parameter name="hvs_drvEmot_Crankshaft_torque" index="" unit="Nm" size="1" description="Torque  electric motor at Crankshaft" className="initIO"/>
+        <Parameter name="aux_power_flag" index="" unit="" size="1" description="" className="aux_power_selector"/>
+        <Parameter name="aux_power_state" index="" unit="" size="1" description="" className="aux_power_selector"/>
+        <Parameter name="emot_aircomp_power" index="" unit="" size="1" description="" className="aux_power_selector"/>
+        <Parameter name="AWR_InvStError" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="CANOE_PANEL_ON" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="CONST_POWER_ERR_MODE" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="InvStEnable" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="InvStError" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="InvStInit" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="InvStReady" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="RefTqED" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="RefTqeMOT" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="SIGVAL_STATUS_ERROR" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Cth_rotor" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Cth_stator" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Ri_Inv" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Rth_rotor_oil" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Rth_stator_oil" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Rth_stator_rotor" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Trotor_init" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_Tstator_init" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_dtrqEmotNeg" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_dtrqEmotPtv" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="emot_inv_pwrLoss" index="" unit="" size="9,41,3" description="" className="drvEmot"/>
+        <Parameter name="emot_mot_pwrLoss" index="" unit="" size="23,45,3" description="" className="drvEmot"/>
+        <Parameter name="emot_nTab_1stD" index="" unit="" size="23,1" description="" className="drvEmot"/>
+        <Parameter name="emot_trqMaxRow" index="" unit="" size="23,3" description="" className="drvEmot"/>
+        <Parameter name="emot_trqMinRow" index="" unit="" size="23,3" description="" className="drvEmot"/>
+        <Parameter name="emot_trqTab_2ndD" index="" unit="" size="1,45" description="" className="drvEmot"/>
+        <Parameter name="emot_vltTab_3rdD" index="" unit="" size="3,1" description="" className="drvEmot"/>
+        <Parameter name="inv_Cth_IGBT" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_Cth_cooling_plate" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_Cth_diode" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_R_th_Diode" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_Rth_IGBT" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_Rth_PS_cooling_plate" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_Rth_cooling_plate_coolant" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_Tplate_init" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_Tpowerstack_init" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_nTab_1stD" index="" unit="" size="9,1" description="" className="drvEmot"/>
+        <Parameter name="inv_n_IGBT_per_Switch" index="" unit="" size="1" description="" className="drvEmot"/>
+        <Parameter name="inv_trqTab_2ndD" index="" unit="" size="1,41" description="" className="drvEmot"/>
+        <Parameter name="inv_vltTab_3rdD" index="" unit="" size="3,1" description="" className="drvEmot"/>
+    </Interface>
+</Module>

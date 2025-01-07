@@ -1,0 +1,15 @@
+dxFSpring_Dim=2; % [-] Dimension of Parking Brake Spring Curve (max 10)
+dxFSpring_xAxis=[0.02,0.044999999999999998]; % [m] dx Values (x-axis) for dx-Spring Brake Force Curve
+dxFSpring_yAxis=[8700.0,6830.0]; % [N] Force Values (y-axis) for dx-Spring Brake Force Curve
+dxVolPB_Dim=2; % [-] Dimension of Parking Brake Chamber Volume Curve (max 10)
+dxVolPB_xAxis=[0.0,0.057000000000000002]; % [m] dx Values (x-axis) for dx-Volume Intake Curve Parking Brake
+dxVolPB_yAxis=[0.0013500000000000001,0.00025000000000000001]; % [m^3] Volume Values (y-axis) for dx-Volume Intake Curve Parking Brake
+dxVolSB_Dim=2; % [-] Dimension of Service Brake Chamber Volume Curve (max 10)
+dxVolSB_xAxis=[0.0,0.057000000000000002]; % [m] dx Values (x-axis) for dx-Volume Intake Curve Service Brake
+dxVolSB_yAxis=[0.00022000000000000001,0.00095]; % [m^3] Volume Values (y-axis) for dx-Volume Intake Curve Service Brake
+FNom=9460.0; % [N] Nominal Force Membrane Cylinder at pNom
+maxStroke=0.057; % [m] Maximum Cylinder Stroke
+pApp=30000.0; % [Pa] Application Pressure Membrane Chamber (relative to pAtm)
+pNom=850000.0; % [Pa] Nominal Pressure (relative to pAtm)
+pR_PB=510000.0; % [Pa] Spring Brake Release Pressure (relative to pAtm)
+xR_PB=0.005; % [m] Spring Brake Release Stroke at pR_PB

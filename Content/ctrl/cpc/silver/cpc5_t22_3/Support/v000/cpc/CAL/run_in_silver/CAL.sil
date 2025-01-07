@@ -1,0 +1,12 @@
+<workspace>
+  <modules>
+    <module>
+      <sil-line>Module.dll -a cds.hex -c init_values.txt -d cal_out_def.txt -e cal_out.txt</sil-line>
+    </module>
+  </modules>
+  <preferences>
+    <properties>
+      <property name="speedup" value="0.0"/>
+    </properties>
+  </preferences>
+</workspace>

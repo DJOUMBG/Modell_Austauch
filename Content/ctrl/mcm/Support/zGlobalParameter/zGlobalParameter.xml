@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SupportSet xmlns="http://www.daimler.com/DIVeSupport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v090\XMLSchemes\DIVeSupport.xsd" name="zGlobalParameter" type="" family="" species="mcm" context="ctrl" level="species" specificationVersion="0.9.0" supportSetVersion="1" description="Calculation of additional parameter, which are transferred as global parameters (temporary).">
+    <SupportFile name="GlobCalc_mcm.m" executeAtInit="1" copyToRunDirectory="0"/>
+</SupportSet>

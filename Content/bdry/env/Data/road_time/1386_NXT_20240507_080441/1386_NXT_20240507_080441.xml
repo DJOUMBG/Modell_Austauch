@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd" classType="road_time" reference="bus_eu_ssm_veltime_altzero" name="1386_NXT_20240507_080441" type="" family="" species="env" context="bdry" level="species" specificationVersion="1.0.0" dataSetVersion="1" description="SORT cycles for Specific Project Testing">
+    <DataFile name="altitude_init.m" isStandard="1" executeAtInit="0" copyToRunDirectory="0"/>
+    <DataFile name="1386_NXT_20240507_080441.mat" isStandard="1" executeAtInit="0" copyToRunDirectory="0"/>
+</DataSet>

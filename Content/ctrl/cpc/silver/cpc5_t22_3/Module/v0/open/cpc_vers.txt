@@ -1,0 +1,64 @@
+********************************************************************************
+Show Version Information
+
+Tool-Version 2.1.0
+********************************************************************************
+Project:                  CPC5 - Common Powertrain Controller
+File:                     C:\Users\PID86ED\Documents\Temp\temp5\CPC5_mainline\01_Build\_bin\CPC5.hex
+Date:                     2022-10-20
+Time:                     05:53 GMT
+CRC32:                    0xE8CAFA90
+********************************************************************************
+Boot Programm
+Software Version:         15.00.00
+Software Date:            22-04-13
+Checksum:                 0x28C51A80
+Description:              CB_930.15.0;0
+********************************************************************************
+Main Programm
+Software Version:         T22.30.00.28.A
+Software Date:            22-10-20
+Checksum:                 0x1CB3B9E4
+Description (Free_Text):  CPC5 - R22.3_Series
+********************************************************************************
+Bosch Feature Version Information
+
+BaseSW                    10.30.00 from 22-08-19
+  fit for CDI             22.35.09 from 22-07-29
+CanBed                    10.30.00 from 22-08-19
+SalSW                     10.30.00 from 22-08-19
+DataSet                   10.30.00 from 22-08-19
+  fit for BaseSW          10.30.00 from 22-08-19
+
+********************************************************************************
+Daimler Feature Version Information
+
+AG                        22.35.27 from 22-10-19
+AP                        22.35.01 from 22-08-03
+App1939                   21.35.04 from 21-09-24
+CAL                       22.35.02 from 22-08-12
+CC                        22.35.10 from 22-08-12
+CDI                       22.35.11 from 22-09-07
+CUST                      20.15.03 from 19-10-14
+DPF                       22.35.05 from 22-09-13
+EPROT                     22.35.01 from 22-03-14
+ESS                       22.35.05 from 22-08-03
+ETP                       22.35.07 from 22-09-14
+FM                        20.35.08 from 22-05-27
+IPPC                      22.35.02 from 22-06-23
+ITPM                      22.35.01 from 22-07-05
+LGR                       22.30.00 from 22-01-17
+LIM                       22.35.19 from 22-07-26
+MLD                       10.00.00 from 22-03-24
+MSP                       22.35.07 from 22-07-19
+PMC                       22.35.01 from 22-07-06
+PTConf                    22.35.03 from 22-06-03
+PTO                       22.35.05 from 22-08-03
+SIC                       22.35.04 from 22-06-14
+THM                       22.35.02 from 22-08-08
+Trans                     22.35.02 from 22-07-11
+VAC                       22.35.00 from 22-06-01
+VSP                       22.35.00 from 22-06-02
+XSS                       22.35.01 from 22-07-13
+********************************************************************************
+End of File

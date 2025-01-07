@@ -1,0 +1,20 @@
+%% Outports:
+drv_AccPdl_pos = 0; % [ -], phys: 0..1, abs: 0..1
+drv_BrkPdl_pos = 0.3; % [ -], phys: 0..1, abs: 0..1
+drv_RetLev_pos = 0; % [ -], phys: 0..1, abs: 0..1
+drv_v_des_kmh = 0; % [kmh]
+drv_cc_sta = 0; % [-]
+drv_cc_setspeed_mps = 0; % [mps]
+drv_cc_hyst_upper_mps = 3; % [mps]
+drv_cc_hyst_lower_mps = 0; % [mps]
+drv_HillHolderSw_Rq = 0; % [-]
+drv_Knl_Rq = 0; % [-]
+drv_DrS_Rq = 0; % [-]
+drv_PkBrk = 0; % [-]
+drv_HaltBrkSw_Rq = 0; % [-]
+drv_init_sta = 0; % [-]
+drv_track_enable_sta = 0; % [-]
+drv_simulationSuccLvl_sta = 0; % [-], phys: 0..1
+drv_simulationEnd_sta = 0; % [-], phys: 0..1
+drv_v_des_max_kmh = 0; % [km/h]
+drv_ign = 0; % [-]

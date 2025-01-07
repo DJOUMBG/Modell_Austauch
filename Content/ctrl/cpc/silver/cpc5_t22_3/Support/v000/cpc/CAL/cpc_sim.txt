@@ -1,0 +1,5 @@
+Model created by DIVe Script dmdModuleTest
+
+Manual Adjustments
+- Fixed-step size changed to 0.01 in Model Configuration Parameters
+- Callbacks InitFcn, StartFcn and PauseFcn removed from Model Properties

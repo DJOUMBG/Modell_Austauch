@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="" specificationVersion="0.9.1" species="mec" reference="wheel_dummy" name="noWheel" level="family" family="pointmass" description="" dataSetVersion="1.0" context="phys" classType="wheel" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v090\XMLSchemes\DIVeData.xsd">
+  <DataFile name="noWheel.m" executeAtInit="0" copyToRunDirectory="0" isStandard="1"/>
+</DataSet>

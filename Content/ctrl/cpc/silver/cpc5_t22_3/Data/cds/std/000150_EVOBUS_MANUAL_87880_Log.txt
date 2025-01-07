@@ -1,0 +1,55 @@
+CDS Data:
+  Name: 000150_EVOBUS_MANUAL / -;0
+  CDS-ID: 87880
+  Structure version: 000150
+  Part number: A0304489002
+  Part number Index: 001
+  Week: 32
+  Year: 22
+  Patch level: 00
+  Compacted: YES
+
+Check parameters in different vehicle variants:
+  YES
+
+Exported formats:
+  ECU          : TEST
+  Type         : HEX
+  StartAddress : 9500300
+  CheckSum     : CRC32
+  CRC32Polynom : EDB88320
+
+  ECU          : CPC5
+  Type         : S19
+  StartAddress : 9500300
+  CheckSum     : CRC32
+  CRC32Polynom : EDB88320
+
+Vehicle variants:
+  DST : EVOBUS / VX5247.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM470, Retarder=NoRetarder, TransGearType=GEARS_6
+  DST : EVOBUS / VX3342.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_6, TransmissionType=GO190_6S
+  DST : EVOBUS / VX5246.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM470, Retarder=NoRetarder, TransGearType=GEARS_6
+  DST : EVOBUS / VX5536.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_6
+  DST : EVOBUS / VX2532.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=STANDARD, EmissionYear=Euro6, EngineType=OM470, Retarder=YesRetarder, TransGearType=GEARS_6
+  DST : EVOBUS / VX53.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM470, Retarder=YesRetarder, TransGearType=GEARS_6
+  DST : EVOBUS / VX5535.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM936, Retarder=YesRetarder, TransGearType=GEARS_6
+  DST : EVOBUS / VX54.ST22_150V3; 0: Class=MANUAL_EVOBUS, CustomType=NONE, DrivingProgram=POWER, EmissionYear=Euro6, EngineType=OM936, Retarder=NoRetarder, TransGearType=GEARS_6
+
+Calibration Order Numbers:
+  Vx3342.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835 behoben, TopTrqGear und LimFelActv für alle newAmt und Handschalter, Update OM936, sw_134, update OM936 Handschalte
+  Vx2532.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835, TopTrqGear und LimFelActv für alle newAmt und Handschalter
+  Vx5247.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835, TopTrqGear und LimFelActv für alle newAmt und Handschalter
+  Vx5536.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835 behoben, TopTrqGear und LimFelActv für alle newAmt und Handschalter, Update OM936, update OM936 Handschalte
+  Vx5246.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835, TopTrqGear und LimFelActv für alle newAmt und Handschalter
+  Vx5535.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835 behoben, TopTrqGear und LimFelActv für alle newAmt und Handschalter, Update OM936, update OM936 Handschalte
+  Vx54.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835 behoben, TopTrqGear und LimFelActv für alle newAmt und Handschalter, Update OM936, update OM936 Handschalte
+  Vx53.ST22_150v3;0 (DST): Anpassung AgMaxKickDownGearPos, Anpassung Ecoroll, Anpassung Start Gear Matrix 2-Achser, Issue 13835, TopTrqGear und LimFelActv für alle newAmt und Handschalter
+
+Exported files:
+  000150_EVOBUS_MANUAL_87880_TEST.txt
+  000150_EVOBUS_MANUAL_87880_TEST_UncompressedOutput.txt
+  000150_EVOBUS_MANUAL_87880_TEST.hex
+  000150_EVOBUS_MANUAL_87880_CPC5.txt
+  000150_EVOBUS_MANUAL_87880_CPC5_UncompressedOutput.txt
+  000150_EVOBUS_MANUAL_87880_CPC5.s19
+

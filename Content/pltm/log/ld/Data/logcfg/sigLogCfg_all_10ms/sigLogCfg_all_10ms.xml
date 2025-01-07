@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v090\XMLSchemes\DIVeData.xsd" classType="logcfg" reference="sigLogCfg_default" name="sigLogCfg_all_10ms" type="" family="ld" species="log" context="pltm" level="family" specificationVersion="0.9.0" dataSetVersion="1" description="All signals with sampletime 10ms">
+    <DataFile name="load_logcfg.m" executeAtInit="0" copyToRunDirectory="0" isStandard="0"/>
+</DataSet>

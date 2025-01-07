@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.daimler.com/DIVeData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="\\emea.corpdir.net\E019\prj\TG\DIVE\100_doc\110_specification\DIVe_v100\XMLSchemes\DIVeData.xsd" classType="axle" reference="axle_dummy" name="RO440_5875_80_1305_notForFE" type="" family="pointmass" species="mec" context="phys" level="family" specificationVersion="1.0.0" dataSetVersion="1" description="losses based on measurement RO440_2p846 ; axle losses ; ; Achs-ID:	35H101D; Testnr.:	5774B_11; Datum:	08.05.2013; Parameter:	rdyn=0,507 m - 11,7 l + 0,5 l BP Energear Hypo DC 80W-90 (HPA 000 989 S004) 80&#176;C - eingerollt ca. 200.000 km Fzg.; ; ">
+    <DataFile name="RO440_5875_80_1305_notForFE.m" isStandard="1" executeAtInit="0" copyToRunDirectory="0"/>
+</DataSet>

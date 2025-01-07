@@ -1,0 +1,242 @@
+<workspace>
+  <major-version>3</major-version>
+  <minor-version>18</minor-version>
+  <modules>
+    <module>
+      <uuid>0c1a6a31-5ca9-450d-a922-dfd1534cafa7</uuid>
+      <sil-line>../../../Module/full/silver_dll_w64/CPC5.dll -a par/963W1528_2010013A_200110_GTTT.par -b ../../../Data/init/std/cpc_defaults.txt -d ../../../Data/cds/std/000150_SFTP_87954.hex</sil-line>
+      <enabled>true</enabled>
+      <parallel>false</parallel>
+    </module>
+    <gui-module/>
+  </modules>
+  <parameters/>
+  <working-dir></working-dir>
+  <gui-tabs>
+    <gui-tab id="bf6d9d5b-dc90-4592-ba2d-34f15dc4e28f" active-tab-index="0" main-gui="true"/>
+  </gui-tabs>
+  <tabs>
+    <group id="f96f8a9d-0033-4f07-8db8-7ac0af9d189a" active-tab-id="c8f7b1d3-3c2e-4a54-808a-6f180e6be1d9">
+      <tab id="c8f7b1d3-3c2e-4a54-808a-6f180e6be1d9" name="Version"/>
+    </group>
+  </tabs>
+  <widgets>
+    <widget-storage-container>
+      <data>
+        <widget-id>c339c63a-2e43-40c6-9572-0b9d899c3af6</widget-id>
+        <internal-bounds>
+          <x>0</x>
+          <y>0</y>
+          <width>640</width>
+          <height>60</height>
+        </internal-bounds>
+        <resizable>true</resizable>
+        <minMaxInternal>0</minMaxInternal>
+        <minMaxExternal>0</minMaxExternal>
+        <outer>false</outer>
+        <hand-sized>true</hand-sized>
+        <z-index>0</z-index>
+        <descriptor>
+          <name>Version</name>
+          <description>Widget with custom drawings</description>
+        </descriptor>
+        <read-variables-list serialization="custom">
+          <unserializable-parents/>
+          <list>
+            <default>
+              <size>19</size>
+            </default>
+            <int>19</int>
+            <widget-variable>
+              <name>kXcpStationId[0]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[1]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[2]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[3]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[4]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[5]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[6]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[7]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[8]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[9]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[10]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[11]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[12]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[13]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[14]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[15]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[16]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[17]</name>
+              <properties/>
+            </widget-variable>
+            <widget-variable>
+              <name>kXcpStationId[18]</name>
+              <properties/>
+            </widget-variable>
+          </list>
+        </read-variables-list>
+        <write-variables-list serialization="custom">
+          <unserializable-parents/>
+          <list>
+            <default>
+              <size>0</size>
+            </default>
+            <int>0</int>
+          </list>
+        </write-variables-list>
+        <tab-id>c8f7b1d3-3c2e-4a54-808a-6f180e6be1d9</tab-id>
+      </data>
+      <widget class="canvas-widget">
+        <config-path>cpc_test.ini</config-path>
+        <resize-policy>noResize</resize-policy>
+      </widget>
+    </widget-storage-container>
+  </widgets>
+  <variables-overwritten>true</variables-overwritten>
+  <exception-variable-names/>
+  <scripts/>
+  <preferences>
+    <properties>
+      <property name="sashSizeWorkspaceConsole" value="100"/>
+      <property name="sashSizeWorkspace" value="167"/>
+      <property name="sashWeightConsole" value="689"/>
+      <property name="mainTreeVariablesParametersFilter" value="allow-all"/>
+      <property name="sashWeightTree" value="410"/>
+      <property name="paramTab.sourceColumn.size" value="100"/>
+      <property name="paramTab.descriptionColumn.size" value="100"/>
+      <property name="paramTab.valueColumn.size" value="314"/>
+      <property name="sashSizeTree" value="410"/>
+      <property name="sashSizeConsole" value="100"/>
+      <property name="sashWeightWorkspaceConsole" value="1121"/>
+      <property name="sashWeightWorkspace" value="167"/>
+      <property name="paramTab.nameColumn.size" value="149"/>
+      <defaults>
+        <property name="speedupRecoveryPolicy" value="RECOVER_BY_SPEEDUP"/>
+        <property name="mainTreeVariablesParametersFilter" value=""/>
+        <property name="sashWeightTree" value=""/>
+        <property name="saveWorkingDir" value="SAVE_RELATIVE"/>
+        <property name="useGrid" value="true"/>
+        <property name="paramTab.sourceColumn.size" value=""/>
+        <property name="treeVariableSeparator" value="[&quot;_&quot;,&quot;:&quot;]"/>
+        <property name="paramsIniConfigPath" value=""/>
+        <property name="paramTab.valueColumn.size" value=""/>
+        <property name="splitVariablesByRegex" value="false"/>
+        <property name="variableShortNameSeparator" value="[&quot;#display name is after last \&quot;__\&quot; separator&quot;,&quot;.*__(.*) -\u003e $1&quot;,&quot;&quot;,&quot;#display name is after last \&quot;::\&quot; separator&quot;,&quot;.*::(.*) -\u003e $1&quot;]"/>
+        <property name="sashSizeTree" value=""/>
+        <property name="pluginPaths" value=""/>
+        <property name="startTime" value="0.0"/>
+        <property name="variableSeparator" value="_:"/>
+        <property name="paramTab.nameColumn.size" value=""/>
+        <property name="restrictRealCan" value="true"/>
+        <property name="sashSizeWorkspaceConsole" value=""/>
+        <property name="sashSizeWorkspace" value=""/>
+        <property name="sashWeightConsole" value=""/>
+        <property name="timeShowHumanFriendly" value="false"/>
+        <property name="speedup" value="1.0"/>
+        <property name="splitVariablesRegex" value=""/>
+        <property name="paramTab.descriptionColumn.size" value=""/>
+        <property name="realTime" value="false"/>
+        <property name="macroStep" value="0.01"/>
+        <property name="gridX" value="5"/>
+        <property name="gridY" value="5"/>
+        <property name="caseSensitiveTreeSorting" value="false"/>
+        <property name="separateVariables" value="false"/>
+        <property name="sashSizeConsole" value=""/>
+        <property name="naturalOrderTreeSorting" value="true"/>
+        <property name="sashWeightWorkspaceConsole" value=""/>
+        <property name="sashWeightWorkspace" value=""/>
+        <property name="verbosity" value="4"/>
+        <property name="dataHistoryEnabled" value="true"/>
+      </defaults>
+    </properties>
+    <defaultProperties>
+      <property name="speedupRecoveryPolicy" value="RECOVER_BY_SPEEDUP"/>
+      <property name="mainTreeVariablesParametersFilter" value=""/>
+      <property name="sashWeightTree" value=""/>
+      <property name="saveWorkingDir" value="SAVE_RELATIVE"/>
+      <property name="useGrid" value="true"/>
+      <property name="paramTab.sourceColumn.size" value=""/>
+      <property name="treeVariableSeparator" value="[&quot;_&quot;,&quot;:&quot;]"/>
+      <property name="paramsIniConfigPath" value=""/>
+      <property name="paramTab.valueColumn.size" value=""/>
+      <property name="splitVariablesByRegex" value="false"/>
+      <property name="variableShortNameSeparator" value="[&quot;#display name is after last \&quot;__\&quot; separator&quot;,&quot;.*__(.*) -\u003e $1&quot;,&quot;&quot;,&quot;#display name is after last \&quot;::\&quot; separator&quot;,&quot;.*::(.*) -\u003e $1&quot;]"/>
+      <property name="sashSizeTree" value=""/>
+      <property name="pluginPaths" value=""/>
+      <property name="startTime" value="0.0"/>
+      <property name="variableSeparator" value="_:"/>
+      <property name="paramTab.nameColumn.size" value=""/>
+      <property name="restrictRealCan" value="true"/>
+      <property name="sashSizeWorkspaceConsole" value=""/>
+      <property name="sashSizeWorkspace" value=""/>
+      <property name="sashWeightConsole" value=""/>
+      <property name="timeShowHumanFriendly" value="false"/>
+      <property name="speedup" value="1.0"/>
+      <property name="splitVariablesRegex" value=""/>
+      <property name="paramTab.descriptionColumn.size" value=""/>
+      <property name="realTime" value="false"/>
+      <property name="macroStep" value="0.01"/>
+      <property name="gridX" value="5"/>
+      <property name="gridY" value="5"/>
+      <property name="caseSensitiveTreeSorting" value="false"/>
+      <property name="separateVariables" value="false"/>
+      <property name="sashSizeConsole" value=""/>
+      <property name="naturalOrderTreeSorting" value="true"/>
+      <property name="sashWeightWorkspaceConsole" value=""/>
+      <property name="sashWeightWorkspace" value=""/>
+      <property name="verbosity" value="4"/>
+      <property name="dataHistoryEnabled" value="true"/>
+    </defaultProperties>
+  </preferences>
+  <auto-fill/>
+</workspace>

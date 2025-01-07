@@ -1,0 +1,23 @@
+%% Inports:
+drv_track_enable_sta = 0; %- minAbsoluteRange:  maxAbsoluteRange: 
+mec_veh_transPos = 0; %m minAbsoluteRange:  maxAbsoluteRange: 
+mec_veh_transVel = 0; %m/s minAbsoluteRange:  maxAbsoluteRange: 
+drv_v_des_kmh = 0; %kmh minAbsoluteRange:  maxAbsoluteRange: 
+drv_cc_setspeed_mps = 0; %mps minAbsoluteRange:  maxAbsoluteRange: 
+drv_cc_sta = 0; %- minAbsoluteRange:  maxAbsoluteRange: 
+env_road_slope_pct = 0; %% minAbsoluteRange:  maxAbsoluteRange: 
+tcm_gearAct = 0; %- minAbsoluteRange: -4 maxAbsoluteRange: 16
+mec_eng_speedCrankshaft = 800; %rpm minAbsoluteRange: 0 maxAbsoluteRange: 10000
+drv_AccPdl_pos = 0; % - minAbsoluteRange: 0 maxAbsoluteRange: 1
+drv_BrkPdl_pos = 0.6; % - minAbsoluteRange: 0 maxAbsoluteRange: 1
+drv_simulationEnd_sta = 0; %- minAbsoluteRange:  maxAbsoluteRange: 
+drv_simulationSuccLvl_sta = 0; %- minAbsoluteRange:  maxAbsoluteRange: 
+mcm_trq_act_eff = 0; %Nm minAbsoluteRange:  maxAbsoluteRange: 
+hvs_EMD1_ACT_MotorSpeed = 0; %rpm minAbsoluteRange:  maxAbsoluteRange: 
+hvs_EMD1_ACT_Torque = 0; %% minAbsoluteRange:  maxAbsoluteRange: 
+hvs_EMD1_ACT_DcLinkVoltage = 0; %V minAbsoluteRange:  maxAbsoluteRange: 
+nrg_HV_Bat_SOC_Cval = 102.3984; %% minAbsoluteRange:  maxAbsoluteRange: 
+pti_ActualDcCurrent_PTI1 = 1676.75; %A minAbsoluteRange:  maxAbsoluteRange: 
+pti_MotorTempReduction_PTI1 = 102; %% minAbsoluteRange:  maxAbsoluteRange: 
+pti_PowerstageTempReduction_PTI1 = 102; %% minAbsoluteRange:  maxAbsoluteRange: 
+pti_CommandTorque_PTI1 = 130.9961; %% minAbsoluteRange:  maxAbsoluteRange: 
